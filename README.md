@@ -1,4 +1,4 @@
-# Effective Communication
+# Effective Communication: XX Specific Ways to Write Clean Code Given Messy Product Requirements
 
 This is a book I'm writing about how to communicate well as a software engineer. Doing so has helped me build clean,
 maintainable software in the midst of ambiguous, fast-changing product requirements.
