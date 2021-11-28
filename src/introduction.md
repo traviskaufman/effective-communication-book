@@ -1,0 +1,47 @@
+# Introduction
+
+This is a book about how to communicate as a software engineer.
+
+In my experience, I've found about 10% of my job to be actually building software to a well-defined specification.
+The other 90% of has been devoted to disambiguating requirements and defining that specification. In other words:
+figuring out what the fuck I'm supposed to be building.
+
+Most books on "clean code" and "software architecture" I've read assume that you have a complete understanding of
+exactly what you need to build. In practice, I've found this is rarely the case. I've never showed up at work and
+heard my boss say, "Hey Travis, could you please build an HTTP server?" Instead I've gotten ideas. Messy, ambiguous,
+wonderful, _human_ ideas. The kicker is that as a
+software engineer, your job is to take those messy ideas and produce that seemingly unattainable "clean code" you
+keep reading about in software architecture books.
+
+This book focuses on how to build great software when you're _not_ told exactly what you should be building. And the
+key to pulling that off is _communication_...ideas come from people, and so in order to bring peoples' ideas to life, you need to be able to communicate with them.
+
+This book is modeled after the "Effective $X" style of software books. Every chapter is a self-contained, bulleted
+piece of advice that will help you build great products quickly without feeling like you're swimming against the
+current. You can jump around and feel free to choose what you wish. However, I've tried to make the book enjoyable while reading it beginning to end.
+
+Part I deals with "requirements gathering", a.k.a. extracting ideas out of people. You will learn techniques and
+methods for easily disambiguating and scoping even the most vague and blue-sky of projects. Many of these techniques
+come from psychology and other fields, and are translated into the context of how we work with others as software
+engineers. At the very least, it will make what's maybe the "not-so-fun" part of the job, feel a little bit more
+like that flow-state you get while heads down in your favorite editor as your fingers flow effortlessly across the
+keys.
+
+Part II deals with structuring your code such that it not only represents the requirements as you best understand
+them, but _teaches engineers who read it about the requirements_. Not only will this radically increase
+productivity and decrease technical debt, but it will make the building process more _predictable_, as things that
+your stakeholders think are easy will be easy to do in software, and things that they think are hard will most likely
+be hard.
+
+Part III covers _maintaining_ software. Requirements change, wildly and unpredictably, and your software must change
+with it. When you're ready to scale the code and your team, you can lean on these tricks to increase the longevity of
+your codebase and decrease burnout.
+
+My goal for this book is to help you achieve that "next level" of software engineering. Whether you're going for that
+senior-level position, looking to uplevel your "non-coding" skills, or just trying to feel less frustrated while
+working, I hope that there are some things in this book that help you. The book is 100% free and open-source, and I
+would very much welcome any and all feedback. I've learned so much from the open-source community, and want to do my
+part in paying that forward, as well as continuing to learn from you all.
+
+With that, let's start by talking about the most important job of any software engineer: not engineering software and instead
+figuring out what software they should be engineering.

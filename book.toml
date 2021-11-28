@@ -1,0 +1,6 @@
+[book]
+authors = ["Travis Kaufman"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Effective Communication"
