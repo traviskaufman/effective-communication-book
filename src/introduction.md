@@ -16,7 +16,7 @@ keep reading about in software architecture books.
 This book focuses on how to build great software when you're _not_ told exactly what you should be building. And the
 key to pulling that off is _communication_...ideas come from people, and so in order to bring peoples' ideas to life, you need to be able to communicate with them.
 
-This book is modeled after the "Effective $X" style of software books. Every chapter is a self-contained, bulleted
+This book is modeled after the Effective Software Development series [link?]. Every chapter is a self-contained, bulleted
 piece of advice that will help you build great products quickly without feeling like you're swimming against the
 current. You can jump around and feel free to choose what you wish. However, I've tried to make the book enjoyable while reading it beginning to end.
 

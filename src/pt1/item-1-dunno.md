@@ -10,8 +10,6 @@ In reality, they had a _vague, abstract_ idea of what they wanted, but were not 
 
 Many of the items in this chapter will cover in detail strategies and tactics for going about doing this. The point of this item is to _shift your mental model of a customer / stakeholder from someone who knows exactly what they want to someone who only has a very vague notion of what they want_.
 
-Anecdotally this makes sense. Think about any decision you make from choosing what to eat for lunch to choosing a life partner. I'd wager that you usually have to see a list of concrete options to help you figure out what you _don't_ want, rather than have a completely concrete picture in your head of what you actually want.
-
-Scientifically, there is evidence to support this as well. Khaneman and Tversky's loss aversion (expand on this but not too much). Also, evolutionary biology: our lizard brains work by _figuring out how to avoid pain (death)_, and by avoiding that thing that we "don't want" we actually get what we want.
+The science behind this is Khaneman and Tversky, behavioral economics. Basically: we're not as smart as we think (BIBLIO: THINKING FAST AND SLOW)
 
 Assuming ignorance is paramount to taking full advantage of the rest of the advice in this part.
