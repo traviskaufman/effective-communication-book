@@ -1,0 +1,9 @@
+# Item 6: Guide Your Users Toward A System
+
+Every piece of software is a system. It has to be: it's built on the foundation of a bit, which itself is a very simple system consisting of two values, where only one value can be present at a certain time. The problem is that customers might not necessarily be thinking about a system when they think about their product. They're just thinking about the product. This is a problem for you, because it means that one day you'll get a seemingly benign feature request that you'll realize won't fit at all into the design of the software system you've built. This "software Black Swan" will require you to tell the customer that their seemingly benign feature will take a quarter to complete. That will lead to an irritated customer.
+
+In order to avoid this scenario, **move your customers in the direction of thinking about their product like a system**. Tell them what you're thinking, in general terms, in terms of how you plan on modeling their idea in software. Help them smooth out the rough edges in their thoughts. Ask, "how might that fit into the larger idea of the product?", or, "I've noticed that this is the first time we're coming across this concept. Is this something in addition or is this concept present somewhere else in your idea and I missed it?" Start to get the customers to _systematically think_ about the idea in their head. _Not to hard_, just nudges, but make them aware of the system (I desparately need to rewrite this part lol)
+
+Science: ???
+
+By ensuring your customers are thinking about things along the lines of how their product's software fundamentally operates, you'll be able to minimize these software black swans, or at least not take the customer by surprise when you give them the estimate of how long it'll take to implement.
