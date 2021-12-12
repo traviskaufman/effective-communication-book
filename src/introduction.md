@@ -1,20 +1,15 @@
 # Introduction
 
-This is a book about how to communicate as a software engineer.
-
-In my experience, I've found about 10% of my job to be actually building software to a well-defined specification.
-The other 90% of has been devoted to disambiguating requirements and defining that specification. In other words:
-figuring out what the fuck I'm supposed to be building.
+The goal of this book is to help you build quality software in the face of ambiguous and changing product requirements.
 
 Most books on "clean code" and "software architecture" I've read assume that you have a complete understanding of
 exactly what you need to build. In practice, I've found this is rarely the case. I've never showed up at work and
 heard my boss say, "Hey Travis, could you please build an HTTP server?" Instead I've gotten ideas. Messy, ambiguous,
 wonderful, _human_ ideas. The kicker is that as a
 software engineer, your job is to take those messy ideas and produce that seemingly unattainable "clean code" you
-keep reading about in software architecture books.
+keep reading about in software architecture books. In my experience that's 90% of the job of a "senior-level" software engineer (aka a SWE who's expected to execute and deliver with minimal oversight); the actual coding part that all those clean code books focus on is only 10%.
 
-This book focuses on how to build great software when you're _not_ told exactly what you should be building. And the
-key to pulling that off is _communication_...ideas come from people, and so in order to bring peoples' ideas to life, you need to be able to communicate with them.
+**The key to taking messy requirements and turning it into clean code is _communicating effectively_.** Software Engineering is about taking an intangible idea that someone comes up with and making it real. The a-ha moment that I had is that ideas come from people, and so in order to bring peoples' ideas to life, you need to be able to understand their ideas as well – if not even better – then they do. That understanding can only come from communicating with them. Once you're in this flow state where you're talking to your customer about the idea as if its your own, you will be amazed at how intuitive it feels to implement all of those "clean code" practices you've read about in the other books, how quickly you'll be able to build, how little "negative surprises" there are from your customers, and most of all, how good you'll feel when you deliver something to your customers that goes beyond anything they could have expected.
 
 This book is modeled after the Effective Software Development series [link?]. Every chapter is a self-contained, bulleted
 piece of advice that will help you build great products quickly without feeling like you're swimming against the
@@ -37,7 +32,7 @@ Part III covers _maintaining_ software. Requirements change, wildly and unpredic
 with it. When you're ready to scale the code and your team, you can lean on these tricks to increase the longevity of
 your codebase and decrease burnout.
 
-My goal for this book is to help you achieve that "next level" of software engineering. Whether you're going for that
+My hope for this book is to help you achieve that "next level" of software engineering. Whether you're going for that
 senior-level position, looking to uplevel your "non-coding" skills, or just trying to feel less frustrated while
 working, I hope that there are some things in this book that help you. The book is 100% free and open-source, and I
 would very much welcome any and all feedback. I've learned so much from the open-source community, and want to do my

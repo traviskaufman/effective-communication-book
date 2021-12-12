@@ -9,4 +9,5 @@
   - [Item 5: Talk About Your Code](./pt1/item-5-codetalk.md)
   - [Item 6: Guide Your Users Toward A System](./pt1/item-6-system.md)
   - [Item 7: Use Customer Journeys](./pt1/item-7-journeys.md)
+  - [Item 8: Read The Mom Test](./pt1/item-8-momtest.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
