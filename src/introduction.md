@@ -1,8 +1,10 @@
 # Introduction
 
-The goal of this book is to help you build quality software in the face of ambiguous and changing product requirements.
+The goal of this book is to help you become a better software engineer.
 
-Most books on "clean code" and "software architecture" I've read assume that you have a complete understanding of
+By "better", I mean that you're able to build better software. By "better software", I mean Martin Fowler's definition of "Cheap to Change" (BIBLIO: REFACTORING). He mentions this in his book "refactoring", which is a highly recommended read. What I especially loved about the book "Refactoring" is that it was different from most Software Engineering books I've read in that it talked about messy requirements.
+
+Most "clean code" and "software architecture" books I've read assume that you have a complete understanding of
 exactly what you need to build. In practice, I've found this is rarely the case. I've never showed up at work and
 heard my boss say, "Hey Travis, could you please build an HTTP server?" Instead I've gotten ideas. Messy, ambiguous,
 wonderful, _human_ ideas. The kicker is that as a
