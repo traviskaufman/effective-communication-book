@@ -16,4 +16,5 @@
   - [Item 12: Keep it Simple](./pt1/item-12-simplicity.md)
   - [Item 13: Paint a Picture](./pt1/item-13-picture.md)
 - [Part II: Compiling Requirements to Code](./pt2/introduction.md)
+  - [Item 14: Treat Software Engineering as an Art, not a Science](./pt2/item-14-art.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
