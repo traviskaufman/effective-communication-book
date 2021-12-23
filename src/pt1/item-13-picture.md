@@ -1,0 +1,9 @@
+# Item 13: Paint a Picture
+
+At the end of the day, requirements gathering really comes down to _observing and explaining_. We observe when we listen to our stakeholders talk about their problems, and our partners talk about the capabilities of what their systems are able to produce. We explain when we work with our stakeholders to solve their problems, and work with our partners to identify how we might integrate with their systems. The problem here is that how we observe and how we explain is fundamentally more "lossy" than what the other person has in their heads, and what we have in our heads, respectively. Speech is a limited form of expression. Words, even more. Throw remote work – and the loss of body language – into the mix, and it's even harder to communicate. How do we overcome these limits so that we get the highest fidelity signal possible when observing and communicating? It turns out that writers figured it out long ago and have been using it for a long time:
+
+**Focus on creating a crystal clear image in people's heads of what you want them to see**. Use techniques from writing in order to do this: metaphors, similes, vivid language, narratives, sensory details. The more the better. The more vivid your image is, the more it will appeal to peoples' emotions / "animal senses", and it will be that much easier to grok.
+
+The science behind this comes from evolutionary biology (BIBLIO: ???). Humans are trained on narratives; that's how our brains work, always has been, always will be. You can exploit that narrative system in order to communicate ideas with a lot more accuracy than you could otherwise. Blah blah blah come up with a concrete example.
+
+As the saying goes, it might take you 1000 words to get to your picture. But those 1000 words will create a sum greater than its parts, and put you well on the way to building software your stakeholders will love and your team will feel proud of.

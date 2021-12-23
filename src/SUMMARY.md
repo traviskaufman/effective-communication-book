@@ -12,4 +12,8 @@
   - [Item 8: Read The Mom Test](./pt1/item-8-momtest.md)
   - [Item 9: Prefer Asking for Feedback to Asking for Advice](./pt1/item-9-feedback-over-advice.md)
   - [Item 10: Prefer Examples to Suggestions](./pt1/item-10-examples-over-suggestions.md)
+  - [Item 11: Prototype Early and Often](./pt1/item-11-prototype.md)
+  - [Item 12: Keep it Simple](./pt1/item-12-simplicity.md)
+  - [Item 13: Paint a Picture](./pt1/item-13-picture.md)
+- [Part II: Compiling Requirements to Code](./pt2/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
