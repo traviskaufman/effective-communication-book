@@ -1,5 +1,9 @@
 # Introduction
 
+> Programming is hard. It's also the easiest part of software development.
+
+– [Jason Gorman](https://twitter.com/jasongorman/status/1472895565872697346)
+
 The goal of this book is to help you become a better software engineer.
 
 By "better", I mean that you're able to build better software. By "better software", I mean Martin Fowler's definition of "Cheap to Change" (BIBLIO: REFACTORING). He mentions this in his book "refactoring", which is a highly recommended read. What I especially loved about the book "Refactoring" is that it was different from most Software Engineering books I've read in that it talked about messy requirements.
