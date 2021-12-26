@@ -18,4 +18,5 @@
 - [Part II: Compiling Requirements to Code](./pt2/introduction.md)
   - [Item 14: Treat Software Engineering as an Art, not a Science](./pt2/item-14-art.md)
   - [Item 15: Treat Code as a Concrete Representation of an Idea](./pt2/item-15-idea.md)
+  - [Item 16: Personify your Code](./pt2/item-16-personify.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
