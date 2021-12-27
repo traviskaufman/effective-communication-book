@@ -1,8 +1,8 @@
-# Part II: Compiling Requirements to Code
+# Part II: Communicating Requirements as Code
 
-> Writing a first draft is very much like watching a Polaroid develop. You can't – and, in fact, you're not supposed to – know exactly what the picture is going to look like until it has finished developing.
+> Implementation does not necessarily proceed from invention
 
-– Anne Lamott Brown (BIBLIO: Bird by Bird)
+– Nassim Nicholas Taleb (BIBLIO: Antifragile)
 
 Focuses on taking the requirements you've gathered and mapping them into the domain of software engineering.
 
