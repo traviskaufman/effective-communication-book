@@ -22,5 +22,6 @@
   - [Item 17: Describe Your System in Two Sentences](./pt2/item-17-2sentences.md)
   - [Item 18: Implement from the Top Down](./pt2/item-18-topdown.md)
   - [Item 19: Code Hyper-Specific Solutions to Problems](./pt2/item-19-hyperspecific.md)
+  - [Item 20: Avoid Trying to Get It Right the First Time](./pt2/item-20-noright-first.md)
 - [Part III: Maintaining a Codebase](./pt3/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
