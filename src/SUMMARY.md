@@ -19,5 +19,8 @@
   - [Item 14: Treat Software Engineering as an Art, not a Science](./pt2/item-14-art.md)
   - [Item 15: Treat Code as a Concrete Representation of an Idea](./pt2/item-15-idea.md)
   - [Item 16: Personify your Code](./pt2/item-16-personify.md)
+  - [Item 17: Describe Your System in Two Sentences](./pt2/item-17-2sentences.md)
+  - [Item 18: Implement from the Top Down](./pt2/item-18-topdown.md)
+  - [Item 19: Code Hyper-Specific Solutions to Problems](./pt2/item-19-hyperspecific.md)
 - [Part III: Maintaining a Codebase](./pt3/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
