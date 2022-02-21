@@ -23,5 +23,6 @@
   - [Item 18: Implement from the Top Down](./pt2/item-18-topdown.md)
   - [Item 19: Code Hyper-Specific Solutions to Problems](./pt2/item-19-hyperspecific.md)
   - [Item 20: Avoid Trying to Get It Right the First Time](./pt2/item-20-noright-first.md)
+  - [Item 21: Write Your Code in the Style of its Programming Language](./pt2/item-21-pl-harmony.md)
 - [Part III: Maintaining a Codebase](./pt3/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
