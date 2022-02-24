@@ -25,5 +25,6 @@
   - [Item 20: Avoid Trying to Get It Right the First Time](./pt2/item-20-noright-first.md)
   - [Item 21: Write Your Code in the Style of its Programming Language](./pt2/item-21-pl-harmony.md)
   - [Item 22: Optimize for Idea Clarity when Naming Variables](./pt2/item-22-variable-naming.md)
+  - [Item 23: Treat Inline Comments like Footnotes](./pt2/item-23-inline-comments.md)
 - [Part III: Maintaining a Codebase](./pt3/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
