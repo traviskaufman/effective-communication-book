@@ -1,5 +1,8 @@
 # Item 24: Design APIs Using the Bookends Method
 
+(Need to rework to state the problem first: you need to design a new API but
+you're not sure where to start).
+
 (Describe what a bookend is). It starts at either side, and uses both sides to
 support a middle. APIs are very much like this. Often, you are motivated by a
 use-case within the calling code. However, once you start designing the API,
