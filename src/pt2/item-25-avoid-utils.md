@@ -29,6 +29,11 @@ figuring out where to place the code instead:
   very clear to them that what the purpose of the methods within this file are.
 - Is the method only being used in one place? Consider inlining it into the
   module in which it is used. This will help you avoid premature optimization.
+- If you're really stuck and you can't figure out why and how a piece of code
+  fits into the bigger picture, but you need to move on for the sake of time,
+  _explicitly mark it as such_ by naming the module something like `wtf` or
+  `something` or `idkYet`. At least then the ambiguous parts of your codebase
+  will be clearly delineated!
 
 By avoiding the "Utils" file, you avoid ambiguous language in your codebase. By
 avoiding ambiguous language, you ensure that you are letting the representation
