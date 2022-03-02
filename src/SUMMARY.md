@@ -28,5 +28,6 @@
   - [Item 23: Treat Inline Comments like Footnotes](./pt2/item-23-inline-comments.md)
   - [Item 24: Design APIs Using the Bookends Method](./pt2/item-24-api-bookends.md)
   - [Item 25: Avoid the "Utils" file](./pt2/item-25-avoid-utils.md)
+  - [Item 26: Use the Same Language in your Code as your Customers](./pt2/item-26-same-language.md)
 - [Part III: Maintaining a Codebase](./pt3/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
