@@ -1,5 +1,7 @@
 # Item 27: Compile Comments Into Code to Get Unstuck
 
+> TODO: Rearrange so this is the last one!
+
 Have you ever felt overwhelmed when trying to implement a piece of code where
 you just can’t get your thoughts straight? Maybe it’s a part of the codebase
 you’ve never worked on. Maybe it’s a brand new approach to a problem that you’re

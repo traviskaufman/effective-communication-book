@@ -30,5 +30,6 @@
   - [Item 25: Avoid the "Utils" file](./pt2/item-25-avoid-utils.md)
   - [Item 26: Use the Same Language in your Code as your Customers](./pt2/item-26-same-language.md)
   - [Item 27: Compile Comments Into Code to Get Unstuck](./pt2/item-27-compile-comments.md)
+  - [Item 28: Treat Line Breaks like Paragraphs](./pt2/item-28-line-breaks-paragraphs.md)
 - [Part III: Maintaining a Codebase](./pt3/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
