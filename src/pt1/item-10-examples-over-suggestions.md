@@ -11,6 +11,6 @@ This accomplishes two things:
 1. It gives the stakeholder/customer the opportunity to decide what to do, which is a signal of mutual respect.
 1. It gives the stakeholder/customer the opportunity to _ask you what to do_, which means that they're soliciting this information out of you and won't be turned off by suggestions.
 
-The science is that complex systems (BIBLIO ??? evolutionary biology?) behave in unpredictable ways. You instead have to give them information and see how they react to that information.
+The science is that complex systems (BIBLIO ??? evolutionary biology?) behave in unpredictable ways. You instead have to give them information and see how they react to that information. Also arrow of knowledge.
 
 p.s. The irony of this book being one big "I think you should do X" is not lost on me.
