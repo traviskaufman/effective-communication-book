@@ -16,15 +16,17 @@ you’ve learned about the problem, and rewrite it to be more general with your
 newfound knowledge.
 
 Coding hyper-specific solutions may feel unnatural (it did to me), but
-hyper-specificity is how we humans learn to do most things in life. You
-(probably) did not learn how to walk by reading about the theory of lateral
-motion in a textbook and then applying it to your feet. You saw (most likely)
-your parents with their outstretched arms beckoning you to come over to them,
-and you figured it out from there. Only after you put one foot in front of the
-other multiple times did you learn that what you did was called “walking” and
-that there is a whole corpus of knowledge behind it. You learned by _starting
-small and concrete and then generalizing by working outwards from what you
-learned from your experience._
+hyper-specificity is how we humans learn most things in life. You (probably) did
+not learn about the color "blue" by looking analyze the frequencies of light
+waves, identifying where on the spectrum it occurred, and then band-pass
+filtering light through a prism in a vacuum to display the pure distillation of
+the color. Instead, you saw the sky, and the water, and the Blue Man Group, and
+listened to that Eifel 65 song (I'm dating myself) and you figured it out from
+there. Only after you saw multiple examples of things that were blue did you
+learn that there is this general concept called "color" and the group of things
+you're looking at belong to the "blue" category. You learned by _starting small
+and concrete and then generalizing by working outwards from what you learned
+from your experience._
 
 Unfortunately, the way most institutions and literature teach coding (and most
 subjects, for that matter) is the polar opposite of how we learn to walk. First,
@@ -48,5 +50,5 @@ behind, let alone having a theory at all.
 So build your own theory instead. Solve the problem any way you can. Once you’ve
 done so, reflect on the solution and gain a better understanding of the problem.
 Then rinse and repeat. Your elegant architecture will emerge organically with
-time and reflection, and even if it doesn’t, that’s okay. You don’t need to be a
-physicist to learn how to walk.
+time and reflection, and even if it doesn’t, that’s okay. You don’t need to
+study light waves to appreciate the beauty of the sky.
