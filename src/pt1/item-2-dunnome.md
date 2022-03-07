@@ -47,8 +47,8 @@ based on my necessary experience having to do so. It goes like this.
 
 1. Before you use that first technical term, _ask_: "Should I explain the term
    `<term>`?"
-2. If yes, continue explaining until you hit probable next unknown term.
-3. If no, determine if there is a **substitution** – different word or way you
+2. If no, continue until you hit probable next unknown term.
+3. If yes, determine if there is a **substitution** – different word or way you
    can phrase it – which will explain it simply and you are at least 95%
    confident the person has heard of the word(s) or phrase(s).
 4. If there is, use that instead and go back to step 2.
