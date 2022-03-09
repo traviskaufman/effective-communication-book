@@ -5,6 +5,7 @@
   - [Item 1: Assume that people don't know what they want](./pt1/item-1-dunno.md)
   - [Item 2: Assume that People Don't Know What You Mean](./pt1/item-2-dunnome.md)
   - [Item 2: Prefer concrete examples to abstract ideas](./pt1/item-2-concrete.md)
+  - [Item 3: Prefer Asking About Problems vs. Asking for Solutions](./pt1/item-3-problems-over-solutions.md)
   - [Item 3: Optimize for empathy](./pt1/item-3-empathy.md)
   - [Item 4: Use Restating to Ensure Alignment](./pt1/item-4-restating.md)
   - [Item 5: Talk About Your Code](./pt1/item-5-codetalk.md)
