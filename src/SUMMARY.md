@@ -12,6 +12,7 @@
   - [Item 6: Guide Your Users Toward A System](./pt1/item-6-system.md)
   - [Item 7: Use Customer Journeys](./pt1/item-7-journeys.md)
   - [Item 8: Read The Mom Test](./pt1/item-8-momtest.md)
+  - [Item 9: Stop for Questions Frequently](./pt1/item-9-frequent-qs.md)
   - [Item 9: Prefer Asking for Feedback to Asking for Advice](./pt1/item-9-feedback-over-advice.md)
   - [Item 10: Treat Debate as a Learning Experience](./pt1/item-10-debate-learning.md)
   - [Item 10: Prefer Examples to Suggestions](./pt1/item-10-examples-over-suggestions.md)
