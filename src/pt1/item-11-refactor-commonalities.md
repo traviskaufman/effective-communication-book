@@ -17,6 +17,6 @@ thing with product ideas.
 
 Once you've found that commonality, you can align customers on that commonality.
 
-Science is philosophy.
+Science here is the scientific method: observations lead to theory.
 
 Solid foundations are as important for problems as they are for solutions.
