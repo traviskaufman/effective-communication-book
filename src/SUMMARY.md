@@ -1,7 +1,7 @@
 # Summary
 
 - [Introduction](./introduction.md)
-- [Part I: Requirements Gathering](./pt1/introduction.md)
+- [Part I: Understanding the Requirements](./pt1/introduction.md)
   - [Item 1: Assume that people don't know what they want](./pt1/item-1-dunno.md)
   - [Item 2: Assume that People Don't Know What You Mean](./pt1/item-2-dunnome.md)
   - [Item 2: Prefer concrete examples to abstract ideas](./pt1/item-2-concrete.md)
@@ -13,6 +13,7 @@
   - [Item 7: Use Customer Journeys](./pt1/item-7-journeys.md)
   - [Item 8: Read The Mom Test](./pt1/item-8-momtest.md)
   - [Item 9: Stop for Questions Frequently](./pt1/item-9-frequent-qs.md)
+  - [Item 9: Use the Pause/Summary/Explanation Model to Answer Questions](./pt1/item-9-psa-ans.md)
   - [Item 9: Prefer Asking for Feedback to Asking for Advice](./pt1/item-9-feedback-over-advice.md)
   - [Item 10: Treat Debate as a Learning Experience](./pt1/item-10-debate-learning.md)
   - [Item 10: Prefer Examples to Suggestions](./pt1/item-10-examples-over-suggestions.md)
@@ -20,7 +21,7 @@
   - [Item 11: Prototype Early and Often](./pt1/item-11-prototype.md)
   - [Item 12: Keep it Simple](./pt1/item-12-simplicity.md)
   - [Item 13: Paint a Picture](./pt1/item-13-picture.md)
-- [Part II: Communicating Requirements as Code](./pt2/introduction.md)
+- [Part II: Building the Software](./pt2/introduction.md)
   - [Item 14: Treat Software Engineering as an Art, not a Science](./pt2/item-14-art.md)
   - [Item 15: Treat Code as a Concrete Representation of an Idea](./pt2/item-15-idea.md)
   - [Item 16: Personify your Code](./pt2/item-16-personify.md)
@@ -36,5 +37,5 @@
   - [Item 26: Use the Same Language in your Code as your Customers](./pt2/item-26-same-language.md)
   - [Item 27: Compile Comments Into Code to Get Unstuck](./pt2/item-27-compile-comments.md)
   - [Item 28: Treat Line Breaks like Paragraphs](./pt2/item-28-line-breaks-paragraphs.md)
-- [Part III: Maintaining a Codebase](./pt3/introduction.md)
+- [Part III: Maintaining the Codebase](./pt3/introduction.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
