@@ -1,4 +1,4 @@
-# Item 8: Read The Mom Test
+# Item 10: Read The Mom Test
 
 This item is admittedly a bit of a cop-out, but I am including it because it has been one of the most helpful things
 I've done when it comes to understanding what potential stakeholders _actually_ want:

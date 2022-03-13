@@ -1,4 +1,4 @@
-# Item 12: Keep it Simple
+# Item 19: Keep it Simple
 
 I've read lots of Product Requirements Documents and explanations of code that use incredibly sophisticated, very technical language. While they sound very impressive, I always walk away feeling like I either:
 

@@ -1,4 +1,4 @@
-# Item 11: Prototype Early and Often
+# Item 18: Prototype Early and Often
 
 When we show sketches, mockups, slide decks, bulleted lists of features, etc, what we're trying to do is get something concrete in front of stakeholders _before_ we have a product to show them. Ideally, we'd like to show them a product, except building a product takes time, and time is money. However, what costs _more_ time and money is when you eventually build the product, and even though you've shown your stakeholder all those sketches, mockups, slide decks, and bulleted lists of features, it turns out that they wanted something completely different. In order to avoid this:
 

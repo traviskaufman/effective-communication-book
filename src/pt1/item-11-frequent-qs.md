@@ -1,4 +1,4 @@
-# Item 9: Stop for Questions Frequently
+# Item 11: Stop for Questions Frequently
 
 The stuff we working on is complex. When you get started explaining something, it's hard not to go off
 on a tangent. However, it's likely that the longer you talk, the less people actually listen. They're trying

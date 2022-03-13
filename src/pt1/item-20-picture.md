@@ -1,4 +1,4 @@
-# Item 13: Paint a Picture
+# Item 20: Paint a Picture
 
 At the end of the day, requirements gathering really comes down to _observing and explaining_. We observe when we listen to our stakeholders talk about their problems, and our partners talk about the capabilities of what their systems are able to produce. We explain when we work with our stakeholders to solve their problems, and work with our partners to identify how we might integrate with their systems. The problem here is that how we observe and how we explain is fundamentally more "lossy" than what the other person has in their heads, and what we have in our heads, respectively. Speech is a limited form of expression. Words, even more. Throw remote work – and the loss of body language – into the mix, and it's even harder to communicate. How do we overcome these limits so that we get the highest fidelity signal possible when observing and communicating? It turns out that writers figured it out long ago and have been using it for a long time:
 

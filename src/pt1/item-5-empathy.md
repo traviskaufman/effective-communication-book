@@ -1,4 +1,4 @@
-# Item 3: Optimize for empathy
+# Item 5: Optimize for empathy
 
 Imagine if you could turn your customer into a programmer who could write out exactly what they wanted. Turns out you can do this..._if_ you can morph into that person.
 

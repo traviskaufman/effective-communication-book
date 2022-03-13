@@ -1,4 +1,4 @@
-# Item 5: Talk About Your Code
+# Item 7: Talk About Your Code
 
 The goal of this item is to solve the problem of the "How long would it take to change $FEATURE*X to do $Y question?" Every time I've gottent that question, it's frustrated me. It's frustrated me because not because of how I have to answer that question, but how inevitably the customers are interested in \_why* you gave the estimate you did. "Don't you just have to add another field to that form?" "Isn't it as simple as adding a new subcommand?" "Can't you just restore it from a backup?" Explaining why this won't work requires, somehow, for you to explain how your software is structured. So, before you get asked that question, try thi:
 

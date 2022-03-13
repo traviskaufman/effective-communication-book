@@ -1,4 +1,4 @@
-# Item 9: Prefer Asking for Feedback vs. Asking for Advice
+# Item 13: Prefer Asking for Feedback vs. Asking for Advice
 
 I've been in a lot of meetings where people ask "how would you like X" or "what could you do with Y?" or "what do you think is the most helpful way we could lay out this table?" If you're like me what you've noticed is that it takes people a while to answer that...it tends to look like a "tough" question to answer. If you read [Item 1](./item-1-dunno.md), you know that this is partly because _people don't know what they want_, and you're trying to help them figure it out. But helping them figure it out by asking them what they want, it turns out, isn't that helpful. Instead, try this:
 

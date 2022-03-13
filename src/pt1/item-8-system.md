@@ -1,4 +1,4 @@
-# Item 6: Guide Your Users Toward A System
+# Item 8: Guide Your Users Toward A System
 
 Every piece of software is a system. It has to be: it's built on the foundation of a bit, which itself is a very simple system consisting of two values, where only one value can be present at a certain time. The problem is that customers might not necessarily be thinking about a system when they think about their product. They're just thinking about the product. This is a problem for you, because it means that one day you'll get a seemingly benign feature request that you'll realize won't fit at all into the design of the software system you've built. This "software Black Swan" will require you to tell the customer that their seemingly benign feature will take a quarter to complete. That will lead to an irritated customer.
 

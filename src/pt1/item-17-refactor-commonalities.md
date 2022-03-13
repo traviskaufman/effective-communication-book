@@ -1,4 +1,4 @@
-# Item 11: Refactor Commonalities to Find General Problems
+# Item 17: Refactor Commonalities to Find General Problems
 
 Say that you've built your MVP for your product for an intial stakeholder, and
 they love it. Now, it's time for the product to expand. Your next customer, or

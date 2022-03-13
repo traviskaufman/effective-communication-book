@@ -1,4 +1,4 @@
-# Item 7: Use Customer Journeys
+# Item 9: Use Customer Journeys
 
 You may have used things like "Critical User Journeys", or "User Stories", or "Happy Paths", or something similar
 in your day to day work. Or, your product manager might have used them. It turns out they're a highly effective way

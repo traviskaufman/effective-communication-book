@@ -1,4 +1,4 @@
-# Item 10: Treat Debate as a Learning Experience
+# Item 15: Treat Debate as a Learning Experience
 
 Problem solving is _hard_. Problem-solving at the level of something like
 Fortune 500 enterprise software, or an app that scales to billions of users, or

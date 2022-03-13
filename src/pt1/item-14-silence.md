@@ -1,4 +1,4 @@
-# Item 10: Allow for Silence
+# Item 14: Allow for Silence
 
 I was in a meeting once, and we were chatting about a particularly complex
 implementation detail within a system. At one point, someone asked a question

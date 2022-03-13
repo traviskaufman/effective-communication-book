@@ -1,4 +1,4 @@
-# Item 2: Prefer concrete examples to abstract ideas
+# Item 3: Prefer concrete examples to abstract ideas
 
 Think back to when you learned how to walk. You probably first read a theoretical treatise on human movement blah blah blah joke. Except you didn't do any of that. You observed other people walking and mimicked their behavior. You saw a _concrete example_ of someone walking, instead of a theoretical concept of learning how to walk.
 

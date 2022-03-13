@@ -1,4 +1,4 @@
-# Item 9: Use the Pause/Summary/Explanation Model to Answer Questions
+# Item 12: Use the Pause/Summary/Explanation Model to Answer Questions
 
 Usually when we get asked a question, we don't have an answer readily prepared.
 Instead, what happens is a _lot_ of information about very complex and broad

@@ -1,4 +1,4 @@
-# Item 10: Prefer Examples to Suggestions
+# Item 16: Prefer Examples to Suggestions
 
 Stop saying "I think you should do X".
 

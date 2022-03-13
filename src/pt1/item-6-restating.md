@@ -1,4 +1,4 @@
-# Use Restating to ensure alignment
+# Item 6: Use Restating to ensure alignment
 
 This is something that I use all the time.
 

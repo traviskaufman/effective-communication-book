@@ -1,4 +1,4 @@
-# Item 3: Prefer Asking About Problems vs. Asking for Solutions
+# Item 4: Prefer Asking About Problems vs. Asking for Solutions
 
 As software engineers, we're trained to build products, aka solutions. When
 learning to code, perhaps even earlier in your career, you were given clear
