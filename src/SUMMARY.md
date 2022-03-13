@@ -15,6 +15,7 @@
   - [Item 9: Stop for Questions Frequently](./pt1/item-9-frequent-qs.md)
   - [Item 9: Use the Pause/Summary/Explanation Model to Answer Questions](./pt1/item-9-psa-ans.md)
   - [Item 9: Prefer Asking for Feedback to Asking for Advice](./pt1/item-9-feedback-over-advice.md)
+  - [Item 10: Allow for Silence](./pt1/item-10-silence.md)
   - [Item 10: Treat Debate as a Learning Experience](./pt1/item-10-debate-learning.md)
   - [Item 10: Prefer Examples to Suggestions](./pt1/item-10-examples-over-suggestions.md)
   - [Item 11: Refactor Commonalities to Find General Problems](./pt1/item-11-refactor-commonalities.md)
