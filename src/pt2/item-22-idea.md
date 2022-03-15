@@ -1,4 +1,4 @@
-# Item 15: Treat Code as a Concrete Representation of an Idea
+# Item 22: Treat Code as a Concrete Representation of an Idea
 
 Think about the best technology product you've ever used. Why did it work so well? What made you love it so much.
 I would guess that there's a high likelihood that it solved some sort of problem you were having, whether that's

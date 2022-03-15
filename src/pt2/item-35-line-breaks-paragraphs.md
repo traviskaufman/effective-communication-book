@@ -1,4 +1,4 @@
-# Item 28: Treat Line Breaks like Paragraphs
+# Item 35: Treat Line Breaks like Paragraphs
 
 A big part of how well an idea is represented in code is the code itself's
 readability. Here's a simple and easy way to enhance it:

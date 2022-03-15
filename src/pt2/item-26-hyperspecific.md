@@ -1,4 +1,4 @@
-# Item 19: Code Hyper-Specific Solutions to Problems
+# Item 26: Code Hyper-Specific Solutions to Problems
 
 Have you ever encountered a programming problem that you couldn’t find an
 elegant general solution for, no matter how hard you tried? I’ve seen this often

@@ -1,4 +1,4 @@
-# Item 18: Implement from the Top Down
+# Item 25: Implement from the Top Down
 
 My absolute favorite feature of the Rust programming language is the `todo!()` macro. It works like this:
 

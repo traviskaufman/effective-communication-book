@@ -1,4 +1,4 @@
-# Item 24: Design APIs Using the Bookends Method
+# Item 31: Design APIs Using the Bookends Method
 
 (Need to rework to state the problem first: you need to design a new API but
 you're not sure where to start).

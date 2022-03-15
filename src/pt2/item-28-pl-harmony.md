@@ -1,4 +1,4 @@
-# Item 21: Write Your Code in the Style of its Programming Language
+# Item 28: Write Your Code in the Style of its Programming Language
 
 An implementation of a problem in Python would look wildly different than its
 implementation in a language like JavaScript, or even moreso Scala or Haskell.

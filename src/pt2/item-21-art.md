@@ -1,4 +1,4 @@
-# Item 14: Treat Software Engineering as an Art, not a Science
+# Item 21: Treat Software Engineering as an Art, not a Science
 
 The term "computer science" is literally the biggest crock of shit I have ever heard in my entire life.
 

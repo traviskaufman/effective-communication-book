@@ -1,4 +1,4 @@
-# Item 20: Avoid Trying to Get It Right the First Time
+# Item 27: Avoid Trying to Get It Right the First Time
 
 There's a reason why people say "Practice makes Perfect". There's also a reason why people say "Perfect is the enemy of good".
 

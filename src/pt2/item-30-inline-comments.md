@@ -1,4 +1,4 @@
-# Item 23: Treat Inline Comments like Footnotes
+# Item 30: Treat Inline Comments like Footnotes
 
 One of the first rules you learn about writing "clean code" is the DRY principle
 **D**on't **R**epeat **Y**ourself. It basically says that if you are duplicating

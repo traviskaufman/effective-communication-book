@@ -1,4 +1,4 @@
-# Item 27: Compile Comments Into Code to Get Unstuck
+# Item 34: Compile Comments Into Code to Get Unstuck
 
 > TODO: Rearrange so this is the last one!
 

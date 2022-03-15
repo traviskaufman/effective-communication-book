@@ -1,4 +1,4 @@
-# Item 25: Avoid the "Utils" file
+# Item 32: Avoid the "Utils" file
 
 Every codebase I've ever worked on has had at least one "Utils" file;
 `StringUtils`, `DateUtils`, `CampaignManagementUtils`,

@@ -1,4 +1,4 @@
-# Item 22: Optimize for Idea Clarity when Naming Variables
+# Item 29: Optimize for Idea Clarity when Naming Variables
 
 They say that naming is one of the hardest problems in computer science. I
 believe that this is because when you name a variable, you're essentially

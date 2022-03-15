@@ -1,4 +1,4 @@
-# Item 17: Describe Your System in Two Sentences
+# Item 24: Describe Your System in Two Sentences
 
 When I was in YCombinator, they would drill into our heads that we needed to be able to describe what our
 company does in two sentences. (BIBLIO: YCombinator...link to blog post or something). Two clear, simple, unambiguous

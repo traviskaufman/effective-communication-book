@@ -1,4 +1,4 @@
-# Item 16: Personify your Code
+# Item 23: Personify your Code
 
 To personify is to give life to otherwise inanimate objects. When thinking about building complex codebases, it can
 be hard to know where to begin, even to know how to get started thinking about the solution you're setting out to ]

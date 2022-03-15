@@ -1,4 +1,4 @@
-# Item 26: Use the Same Language in your Code as your Customers
+# Item 33: Use the Same Language in your Code as your Customers
 
 If you've read the book Domain Driven Design (which I highly recommend), this is
 essentially its theses:
