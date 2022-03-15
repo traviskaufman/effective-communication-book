@@ -18,3 +18,9 @@ code you work on will be in codebases that you originally did not author. Most
 of what you will be doing will consist of reading existing code vs. writing new
 code. Therefore, maintainability is paramount because it will enable others to
 do their jobs effectively.
+
+This section will give you strategies to help _deal with change_, that corrosive
+agent of entropy that affects every product and every codebase. Whether it's
+changing ideas, changing people, changing external dependencies, changing
+company missions, or changing frameworks, these tips will help ensure your
+codebase sees longevity.

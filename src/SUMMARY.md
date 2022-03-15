@@ -39,4 +39,5 @@
   - [Item 34: Compile Comments Into Code to Get Unstuck](./pt2/item-34-compile-comments.md)
   - [Item 35: Treat Line Breaks like Paragraphs](./pt2/item-35-line-breaks-paragraphs.md)
 - [Part III: Maintaining the Codebase](./pt3/introduction.md)
+  - [Item 36: Prioritize Robust End to End Testing](./pt3/item-36-e2e.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
