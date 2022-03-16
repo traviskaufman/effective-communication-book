@@ -41,4 +41,5 @@
 - [Part III: Maintaining the Codebase](./pt3/introduction.md)
   - [Item 36: Prioritize Robust End to End Testing](./pt3/item-36-e2e.md)
   - [Item 37: Abstract External Dependencies](./pt3/item-37-abstract-deps.md)
+  - [Item 38: Prefer Evolutions to Deprecations](./pt3/item-38-evolutions-vs-deprecations.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
