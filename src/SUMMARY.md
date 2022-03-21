@@ -45,4 +45,5 @@
   - [Item 39: Avoid Forcing an Architecture](./pt3/item-39-emergent-architecture.md)
   - [Item 40: Respect Conway's Law](./pt3/item-40-conways-law.md)
   - [Item 41: Invest in Idea Alignment](./pt3/item-41-idea-alignment.md)
+  - [Item 42: Allow for Slack](./pt3/item-42-slack.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
