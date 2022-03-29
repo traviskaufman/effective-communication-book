@@ -49,4 +49,5 @@
   - [Item 43: Have Frequent Retrospectives](./pt3/item-43-retros.md)
   - [Item 44: Assume Your Software Will Fail](./pt3/item-44-assume-failure.md)
   - [Item 45: Invest in Your Onboarding Experience](./pt3/item-45-onboarding.md)
+  - [Item 46: Avoid Siloing Responsibilities](./pt3/item-46-avoid-siloing.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
