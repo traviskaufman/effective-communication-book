@@ -52,4 +52,5 @@
   - [Item 46: Avoid Siloing Responsibilities](./pt3/item-46-avoid-siloing.md)
   - [Item 47: Treat Development as a Loop vs. a Line](./pt3/item-47-loop-vs-line.md)
   - [Item 48: Avoid Over-documenting Implementation Details](./pt3/item-48-avoid-overdocumenting.md)
+  - [Item 49: Check Maintainability with the Readability Test](./pt3/item-49-readability-test.md)
 - [Appendix: Solving the coding interview](./appendix-coding-interview.md)
