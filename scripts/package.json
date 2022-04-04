@@ -1,0 +1,16 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "epub.js",
+  "scripts": {
+    "epub": "node epub.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lesjoursfr/html-to-epub": "^2.0.5",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
