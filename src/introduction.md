@@ -22,23 +22,14 @@ day immediately put what I had read to use. I felt like I had superpowers. This
 feeling was different from how I normally feel when trying to apply software
 engineering practices I learn about at work. Usually, the feeling I feel when
 trying to apply software engineering practices in the real world is a very
-different feeling: one of frustration.
+different feeling: one of frustration. Let me explain.
 
-I have spent a _lot_ of time reading as much as I can about "clean code" and
-"software architecture". I spent months of my life scouring the shelves for
-every software architecture book I could get my hands on, reading through mature
-OSS projects like jQuery and OBS, and attending as many tech talks as possible.
-When I was first starting out, I scraped together what little money I had in
-college to pay for my ticket to a JavaScript conference. Software engineering
-has never been just a job for me; it's been a passion, a creative art, a part of
-who I am. I've always cared about not just writing code to solve a problem, but really
-putting thought and care and _craft_ into the software that I write, so that it is beautiful,
-elegant, and maintainable.
+Before I was a coder, I used to be a musician. What attracted me the most to
+programming was the sense of creative fulfillment it gave me. I used to practice
+coding by copying implementations of modules I found in books and online. It
+reminded me of practicing guitar solos by great players. I used...but I took the "artistic"
+aspect of music making into my coding.
 
-This yearn for artistry I have most likely
-
-- I used to be a musician, and I became a coder, but I took the "artistic"
-  aspect of music making into my coding.
 - I got frustrated because I couldn't figure out how to apply the concepts I was
   reading about to the code I was seeing.
 - It became much worse when I started specializing in "enterprise front-end
