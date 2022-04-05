@@ -24,11 +24,16 @@ engineering practices I learn about at work. Usually, the feeling I feel when
 trying to apply software engineering practices in the real world is a very
 different feeling: one of frustration. Let me explain.
 
-Before I was a coder, I used to be a musician. What attracted me the most to
-programming was the sense of creative fulfillment it gave me. I used to practice
-coding by copying implementations of modules I found in books and online. It
-reminded me of practicing guitar solos by great players. I used...but I took the "artistic"
-aspect of music making into my coding.
+Before I was a coder, I used to be a musician. In fact, I majored in music in
+college. My first semester, I took a course called "computer music synthesis",
+which explored how computers were able to generate audio. That class changed my
+life. I became obsessed with virtual instruments and building synthesizers, and
+that inevitably lead me to programming. I'll never forget compiling and running
+my first C program; it was the coolest thing I had ever done. What attracted me
+the most to programming was the sense of creative fulfillment it gave me. I used
+to practice coding by copying implementations of modules I found in books and
+online. It reminded me of practicing guitar solos by great players. I used...but
+I took the "artistic" aspect of music making into my coding.
 
 - I got frustrated because I couldn't figure out how to apply the concepts I was
   reading about to the code I was seeing.
