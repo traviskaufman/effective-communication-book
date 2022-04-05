@@ -1,5 +1,10 @@
 # Part I: Understanding the Requirements
 
+> If you could see the world the way I see it, you'd understand why I behave the
+> way I do
+
+– Peter Kaufman
+
 This section is devoted to taking abstract, messy, and incomplete ideas for what
 a product should look like, and translating it into a concrete, clean, and
 fully-defined solution that you can then go build.
