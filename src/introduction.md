@@ -4,6 +4,92 @@
 
 – [Jason Gorman](https://twitter.com/jasongorman/status/1472895565872697346)
 
+Clean code.
+
+Ask any software engineer whether or not they prefer clean code, and they will
+most likely say they do. Ask them what they think you _mean_ when you say "clean
+code", and you might get varying answers, but they will most likely revolve
+around the same point: easy to understand. Variables that paint a picture in
+your head as to what they abstract. Functions that are short and sweet and
+clear. Modules with simple APIs and manageable dependencies. Systems that
+operate efficiently and harmoniously with others.
+
+For those of us in software engineering that consider it a craft, clean code is
+what we aim for. We read about data structures, algorithms, and design patterns
+in books and online tutorials. We take classes and enroll in bootcamps where we
+code complex software like compilers, web servers, and social media applications
+so that we can hone these techniques. We'll even sometimes invent hobby projects
+for ourselves just so we can try out a new techinque. We sharpen our skills and
+refine our craft so that when the time comes where we need to write software
+that _matters_ – our jobs – we will be able to execute these techniques and
+deliver a high-quality, maintainable product.
+
+Unfortunately, we rarely if ever get to use our craft at our jobs. In fact, ask
+most software engineers when the last time they saw, let alone wrote, clean code
+at their jobs and you'll usually get something akin to a combination of a laugh
+and a sigh. Much like special forces soldiers who train for intense combat and
+then experience nothing but peacetime in their career, we invest a lot of time
+and energy into a skillset that we often don't often, if ever, get to use.
+
+Why is this? Why is it that we spend so much time practicing and learning about
+this clean code and then never encounter it in reality? Why do we all of a
+sudden forget everything we've learned as soon as we have to start writing code
+that we get paid to write? If all of the literature and academia and education
+systems around software engineering have agreed that clean code is what we
+should be writing, why is it so rare that we actually come across it? The answer
+is simple: writing clean code is hard. It's especially hard when you have
+dealines. It's _especially_ hard when you're trying to just do your job so you
+can get paid and then go on living your life. Besides, if nobody really
+_expects_ you to write clean code anyway, and understands that it's okay to take
+shortcuts and just get the product working, why spend the time and effort?
+Looking at it from that perspective, one could see how an "approximation"
+– however accurate – of clean code is perfectly fine.
+
+But _why is writing clean code so hard?_ What makes it so difficult in the first
+place? I have been thinking about this ever since I started writing code. Before
+I was a software engineer, I was a musician. I have always looked at code not
+only as a craft, but as an _art form_, where there was beauty in the work
+itself. I have always loved coding, not just as a job, but as a passion. As a
+hobby. As a way in which to express my thoughts and feelings. I have always
+hated the fact that I had to sacrifice my craft every time I entered the
+workplace, and I have spent my entire career searching for a way to resolve this
+discord. After over 10 years of searching, what I have discovered is that the
+answer lies at the core of what it means to have clean code in the first place:
+understanding.
+
+What I realized was that every single "clean code" and "software architecture"
+book I've read, every online coding tutorial I completed, every practice
+assignment in every course I took, and every software project I've ever had to
+build that I wasn't getting paid to do, had one thing in common: they provided
+me, up front, with a complete understanding of exactly what I needed to build.
+Never once was there an ambiguous feature request. Never once did one of the
+requirements change underfoot. Never once was there a change in strategic
+direction where I had to retool the project in order to align with the new
+company mission. The software that I was using to learn and practice clean
+coding techniques all had well-defined, well-thought-out, unambiguous
+specifications.
+
+At work, I don't think that's ever been the case. I've never showed up at work
+and heard my boss say, "Hey Travis, could you please build an HTTP server?" I've
+never received a company email saying "Looking ahead" and then have the body say
+that I would need to "make a Twitter clone", and "here are the exact features we
+are looking for", and "hear are the edge cases that you don't need to worry
+about". Instead, what I've gotten are _ideas_. Messy, ambiguous, wonderful,
+_human_ ideas. Ideas don't have specifications. Most of them were undefined and
+it was even harder to articulate them. They had, because most ideas I work on
+at your job are _new_. Untested. Unstudied. Therefore, I understood the ideas given to me
+at work way less well than I did when practicing clean code. That's when I realized that
+the main difference between writing clean code and not writing clean code is just that:
+how well you understand what you need to build. Once you understand, _truly_ understand, what
+you need to build, once you have that specification, writing clean code simply becomes an
+exercise in demonstrating the skills and techniques you've built up over years of practice.
+
+This book teaches you how to take the messy ideas and requirements you get at
+your job and extract a rock-solid software specification out of them. It gives you
+specific tools, techniques, and hacks from fields like behavioral psychology...
+
+---
+
 The goal of this book is to help you become a better software engineer. By
 "better", I mean "able to build higher quality software". By "quality software",
 I mean the definition that Martin Fowler uses in his book, Refactoring: "Cheap
