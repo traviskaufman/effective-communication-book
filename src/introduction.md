@@ -84,10 +84,24 @@ you understand, _truly_ understand, what you need to build, once you have that
 specification, writing clean code simply becomes that thing you've been doing
 over years practice at Universities and in bootcamps with hobby projects.
 
-This book teaches you how to take the messy ideas and requirements you get at
-your job and extract a rock-solid software specification out of them. It gives
-you specific tools, techniques, and hacks from fields like behavioral
-psychology...
+(Needs a paragraph on how the "act of understanding" is communication. And you don't just have to communicate with customers you have to communicate _in code_ with future developers.)
+
+This book contains 50 specific items – techniques, hacks, advice, and strategies
+– that will teach you how to communicate as a software engineer. This book
+teaches you how to take the messy ideas and requirements you get at your job and
+extract a rock-solid software specification out of them. It also provides
+strategies and advice to deal with what happens when the idea changes, something
+we like to call "maintaining a codebase". By the end of it, you will be to
+execute on any software project, regardless of size and scope, and deliver a
+product that will not only blow your stakeholders minds with how well it works,
+but you will be able to onboard engineers onto the and codebase and change it
+seamlessly, with minimal friction. Imagine hearing every single feature request
+and having you and everyone on your team know exactly where the code that runs
+it is and how it needs to change to handle it. Friction between product and
+engineering goes away. Deadlines become trivial to hit. While other codebases
+might be mired in tech debt and constantly collapsing under their own weight,
+yours is thriving. That is what the skills in this book will allow you to build,
+because that is what clean code gives you.
 
 ---
 
