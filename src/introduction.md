@@ -45,17 +45,16 @@ shortcuts and just get the product working, why spend the time and effort?
 Looking at it from that perspective, one could see how an "approximation"
 – however accurate – of clean code is perfectly fine.
 
-But _why is writing clean code so hard?_ What makes it so difficult in the first
-place? I have been thinking about this ever since I started writing code. Before
-I was a software engineer, I was a musician. I have always looked at code not
-only as a craft, but as an _art form_, where there was beauty in the work
-itself. I have always loved coding, not just as a job, but as a passion. As a
-hobby. As a way in which to express my thoughts and feelings. I have always
-hated the fact that I had to sacrifice my craft every time I entered the
-workplace, and I have spent my entire career searching for a way to resolve this
-discord. After over 10 years of searching, what I have discovered is that the
-answer lies at the core of what it means to have clean code in the first place:
-understanding.
+But _what makes writing clean code so hard?_ I have been thinking about this
+ever since I started writing code. Before I was a software engineer, I was a
+musician. I have always looked at code not only as a craft, but as an _art
+form_, where there was beauty in the work itself. I have always loved coding,
+not just as a job, but as a passion. As a hobby. As a way in which to express my
+thoughts and feelings. I have always hated the fact that I had to sacrifice my
+craft every time I entered the workplace, and I have spent my entire career
+searching for a way to resolve this discord. After over 10 years of searching,
+what I have discovered is that the answer lies at the core of what it means to
+have clean code in the first place: understanding.
 
 What I realized was that every single "clean code" and "software architecture"
 book I've read, every online coding tutorial I completed, every practice
@@ -76,17 +75,19 @@ that I would need to "make a Twitter clone", and "here are the exact features we
 are looking for", and "hear are the edge cases that you don't need to worry
 about". Instead, what I've gotten are _ideas_. Messy, ambiguous, wonderful,
 _human_ ideas. Ideas don't have specifications. Most of them were undefined and
-it was even harder to articulate them. They had, because most ideas I work on
-at your job are _new_. Untested. Unstudied. Therefore, I understood the ideas given to me
-at work way less well than I did when practicing clean code. That's when I realized that
-the main difference between writing clean code and not writing clean code is just that:
-how well you understand what you need to build. Once you understand, _truly_ understand, what
-you need to build, once you have that specification, writing clean code simply becomes an
-exercise in demonstrating the skills and techniques you've built up over years of practice.
+it was even harder to articulate them. They had, because most ideas I work on at
+your job are _new_. Untested. Unstudied. Therefore, I understood the ideas given
+to me at work way less well than I did when practicing clean code. That's when I
+realized that the main difference between writing clean code and not writing
+clean code is just that: how well you understand what you need to build. Once
+you understand, _truly_ understand, what you need to build, once you have that
+specification, writing clean code simply becomes that thing you've been doing
+over years practice at Universities and in bootcamps with hobby projects.
 
 This book teaches you how to take the messy ideas and requirements you get at
-your job and extract a rock-solid software specification out of them. It gives you
-specific tools, techniques, and hacks from fields like behavioral psychology...
+your job and extract a rock-solid software specification out of them. It gives
+you specific tools, techniques, and hacks from fields like behavioral
+psychology...
 
 ---
 
