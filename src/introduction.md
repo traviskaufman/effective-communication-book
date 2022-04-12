@@ -84,7 +84,9 @@ you understand, _truly_ understand, what you need to build, once you have that
 specification, writing clean code simply becomes that thing you've been doing
 over years practice at Universities and in bootcamps with hobby projects.
 
-(Needs a paragraph on how the "act of understanding" is communication. And you don't just have to communicate with customers you have to communicate _in code_ with future developers.)
+(Needs a paragraph on how the "act of understanding" is communication. And you
+don't just have to communicate with customers you have to communicate _in code_
+with future developers.)
 
 This book contains 50 specific items – techniques, hacks, advice, and strategies
 – that will teach you how to communicate as a software engineer. This book
