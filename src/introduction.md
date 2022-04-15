@@ -6,13 +6,13 @@
 
 Clean code.
 
-Ask any software engineer whether or not they prefer clean code, and they will
-most likely say they do. Ask them what they think you _mean_ when you say "clean
-code", and you might get varying answers, but they will most likely revolve
-around the same point: easy to understand. Variables that paint a picture in
-your head as to what they abstract. Functions that are short and sweet and
-clear. Modules with simple APIs and manageable dependencies. Systems that
-operate efficiently and harmoniously with others.
+Ask any software engineer whether or not they prefer it, and you'll most likely
+get the same answer. Ask them what clean code _means_, and you might get varying
+answers, but they will most likely revolve around the same point: easy to
+understand. Variables that paint a picture in your head as to what they
+abstract. Functions that are short and sweet and clear. Modules with simple APIs
+and manageable dependencies. Systems that operate efficiently and harmoniously
+with others.
 
 For those of us in software engineering that consider it a craft, clean code is
 what we aim for. We read about data structures, algorithms, and design patterns
@@ -70,23 +70,33 @@ specifications.
 
 At work, I don't think that's ever been the case. I've never showed up at work
 and heard my boss say, "Hey Travis, could you please build an HTTP server?" I've
-never received a company email saying "Looking ahead" and then have the body say
-that I would need to "make a Twitter clone", and "here are the exact features we
-are looking for", and "hear are the edge cases that you don't need to worry
-about". Instead, what I've gotten are _ideas_. Messy, ambiguous, wonderful,
-_human_ ideas. Ideas don't have specifications. Most of them were undefined and
-it was even harder to articulate them. They had, because most ideas I work on at
-your job are _new_. Untested. Unstudied. Therefore, I understood the ideas given
-to me at work way less well than I did when practicing clean code. That's when I
-realized that the main difference between writing clean code and not writing
-clean code is just that: how well you understand what you need to build. Once
-you understand, _truly_ understand, what you need to build, once you have that
-specification, writing clean code simply becomes that thing you've been doing
-over years practice at Universities and in bootcamps with hobby projects.
+never received a company email with the subject "Looking ahead" and then have
+the body say that I would need to "make a Twitter clone", and "here are the
+exact features we are looking for", and "hear are the edge cases that you don't
+need to worry about". Instead, what I've gotten are _ideas_. Messy, ambiguous,
+wonderful, _human_ ideas. Ideas don't have specifications. Most of them were
+undefined and it was even harder to articulate them. They had, because most
+ideas I work on at your job are _new_. Untested. Unstudied. Therefore, I
+understood the ideas given to me at work way less well than I did when
+practicing clean code. That's when I realized that the main difference between
+writing clean code and not writing clean code is just that: how well you
+understand what you need to build. Once you understand, _truly_ understand, what
+you need to build, once you have that specification, writing clean code simply
+becomes that thing you've been doing over years practice at Universities and in
+bootcamps with hobby projects.
 
-(Needs a paragraph on how the "act of understanding" is communication. And you
-don't just have to communicate with customers you have to communicate _in code_
-with future developers.)
+(TODO: Refine) How do you get that clear understanding of the product that you'd
+find in textbooks? By _communicating_. You have to work with
+customers/stakeholders to get information out of them about the product. You
+then have to assemble a mental model, a specification, in your head, and
+translate that into code. In that code, you must _communicate_ the idea to other
+engineers. Source code is not written for computers; all computers see are
+processor instructions. Software is written for other humans who build and
+maintain the system. When you read code, you are putting together a model in
+your head of how the system looks, and you intuit that model from _reading_ the
+code, the communication of the engineers that wrote it. This all has to do with
+communication: how well you are able to understand the ideas of others, and
+translate them to a larger audience (primarily of developers).
 
 This book contains 50 specific items – techniques, hacks, advice, and strategies
 – that will teach you how to communicate as a software engineer. This book
@@ -100,10 +110,12 @@ but you will be able to onboard engineers onto the and codebase and change it
 seamlessly, with minimal friction. Imagine hearing every single feature request
 and having you and everyone on your team know exactly where the code that runs
 it is and how it needs to change to handle it. Friction between product and
-engineering goes away. Deadlines become trivial to hit. While other codebases
-might be mired in tech debt and constantly collapsing under their own weight,
-yours is thriving. That is what the skills in this book will allow you to build,
-because that is what clean code gives you.
+engineering goes away. Things that your stakeholders think are easy, truly
+become easy. Things that are hard, your stakeholders understand take time.
+Deadlines become trivial to hit. While other codebases might be mired in tech
+debt and constantly collapsing under their own weight, yours is thriving. That
+is what the skills in this book will allow you to build, because that is what
+clean code gives you.
 
 ---
 
