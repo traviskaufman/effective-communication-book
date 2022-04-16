@@ -12,17 +12,26 @@ answers, but they will most likely revolve around the same point: easy to
 understand. Variables that paint a picture in your head as to what they
 abstract. Functions that are short and sweet and clear. Modules with simple APIs
 and manageable dependencies. Systems that operate efficiently and harmoniously
-with others.
+with others. In a system that has been designed and implemented with clean code,
+the cost of maintaining that codebase is exponentially lower, and product
+quality is exponentially higher. Clear variable names mean developers know what
+to change, and how it might affect the systems. Short, sweet, clear functions
+mean that less dev time has to be spent deciphering functionality, and more
+confidence is had that making the change won't break something. Simple,
+manageable modules lead to easily parallelizable work streams with minimal
+friction. Efficient, harmonious systems create organizations where all members
+feel empowered to work together to build the best product possible.
 
-For those of us in software engineering that consider it a craft, clean code is
-what we aim for. We read about data structures, algorithms, and design patterns
-in books and online tutorials. We take classes and enroll in bootcamps where we
-code complex software like compilers, web servers, and social media applications
-so that we can hone these techniques. We'll even sometimes invent hobby projects
-for ourselves just so we can try out a new techinque. We sharpen our skills and
-refine our craft so that when the time comes where we need to write software
-that _matters_ – our jobs – we will be able to execute these techniques and
-deliver a high-quality, maintainable product.
+For those of us in software engineering that care about building quality
+products, clean code is our utlimate goal. We read about data structures,
+algorithms, and design patterns in books and online tutorials. We take classes
+and enroll in bootcamps where we code complex software like compilers, web
+servers, and social media applications so that we can hone our techniques. We
+even sometimes invent hobby projects for ourselves just so we can try out a new
+language or paradigm. We sharpen our skills and refine our craft so that when
+the time comes where we need to write software that _matters_ – our jobs – we
+will be able to execute our craft and deliver a high-quality, maintainable
+product.
 
 Unfortunately, we rarely if ever get to use our craft at our jobs. In fact, ask
 most software engineers when the last time they saw, let alone wrote, clean code
@@ -99,106 +108,60 @@ communication: how well you are able to understand the ideas of others, and
 translate them to a larger audience (primarily of developers).
 
 This book contains 50 specific items – techniques, hacks, advice, and strategies
-– that will teach you how to communicate as a software engineer. This book
-teaches you how to take the messy ideas and requirements you get at your job and
-extract a rock-solid software specification out of them. It also provides
-strategies and advice to deal with what happens when the idea changes, something
-we like to call "maintaining a codebase". By the end of it, you will be to
-execute on any software project, regardless of size and scope, and deliver a
-product that will not only blow your stakeholders minds with how well it works,
-but you will be able to onboard engineers onto the and codebase and change it
-seamlessly, with minimal friction. Imagine hearing every single feature request
-and having you and everyone on your team know exactly where the code that runs
-it is and how it needs to change to handle it. Friction between product and
-engineering goes away. Things that your stakeholders think are easy, truly
-become easy. Things that are hard, your stakeholders understand take time.
-Deadlines become trivial to hit. While other codebases might be mired in tech
-debt and constantly collapsing under their own weight, yours is thriving. That
-is what the skills in this book will allow you to build, because that is what
-clean code gives you.
+– that will give you the tools to communicate effectively as a software
+engineer. It shows you how to take real-world requirements, not ones you read
+about in textbooks, and extract a rock-solid software specification out of them.
+It shows you how to accurately translate that specification into working code,
+which any developer that reads will be able to understand. Finally, it gives you
+guidance on how to keep up with the idea as it changes, what we call
+"maintainability", so that you can easily and accurately estimate how much
+effort it will be to make a change to the codebase, and when you give that
+estimate, your stakeholders won't be surprised.
 
----
+If you follow all of the guidelines in this book, you will be to execute on any
+software project, regardless of size and scope, and deliver a product that will
+not only blow your stakeholders' minds with how well it works, but you will be
+able to onboard engineers onto the and codebase and change it seamlessly, with
+minimal friction. Imagine hearing every single feature request and having you
+and everyone on your team know exactly where the code that runs it is and how it
+needs to change to handle it. Friction between product and engineering goes
+away. Things that your stakeholders think are easy, truly become easy. Things
+that are hard, your stakeholders understand take time. Deadlines become trivial
+to hit. While other codebases might be mired in tech debt and constantly
+collapsing under their own weight, yours is thriving. That is what the skills in
+this book will allow you to build, because that is what clean code gives you.
 
-The goal of this book is to help you become a better software engineer. By
-"better", I mean "able to build higher quality software". By "quality software",
-I mean the definition that Martin Fowler uses in his book, Refactoring: "Cheap
-to Change".
+I first discovered these techniques when I thought about how I used to work as a
+musician. Communication is the lifeblood of a musician's job. They take ideas
+and realize pieces of art out of them (elaborate on this).
 
-Refactoring is one of the most useful software engineering books I have ever
-read. Every chapter is a self-contained technique that you can use to improve
-upon existing code. I remember I spent a summer reading one chapter a day, every
-morning before work. To my delight, I would then go into work, see an area where
-I could apply the technique I just read about, and then apply it. I remember
-going into work once after reading a chapter called "Push Down Method", which
-talks about rearranging code into a logical component such that it can be moved
-contiguously. When I got to work, I was told I had to work on porting a very
-old, very archaic app from a legacy framework to a modern framework, and that
-day immediately put what I had read to use. I felt like I had superpowers. This
-feeling was different from how I normally feel when trying to apply software
-engineering practices I learn about at work. Usually, the feeling I feel when
-trying to apply software engineering practices in the real world is a very
-different feeling: one of frustration. Let me explain.
+I now _know_ this works, because I have been applying these techniques daily for the
+latter half of my career. For most of my career, I have been the "front-end
+expert" on primarily backend codebases. Think about UIs you've used like Cloud
+Consoles, Analytics dashboards, operations tools, and the like. These are highly
+advanced interfaces built for expert users which are powered by an extremely
+complex set of technologies. Most of the time, especially for internal tools,
+these lack PM and design resources. The teams are primarily composed of backend
+engineers with little to no front-end expertise, and no interest in learning
+any. As a front-end developer on a team like this, one must learn to navigate
+the complex, intricate requirements of customers, and marry them with the myriad
+of constraints the backend teams have. Over the years, at companies like Google,
+Meta, and as a consultant building UIs for Fortune 500 companies, I have been
+forced to learn these communication tools in order to deliver on my job
+accurately and effectively. I feel uniquely qualified to be discussing these techniques.
 
-Before I was a coder, I used to be a musician. In fact, I majored in music in
-college. My first semester, I took a course called "computer music synthesis",
-which explored how computers were able to generate audio. That class changed my
-life. I became obsessed with virtual instruments and building synthesizers, and
-that inevitably lead me to programming. I'll never forget compiling and running
-my first C program; it was the coolest thing I had ever done. What I found so
-cool about it was the sense of creative fulfillment it gave me. I used to
-practice coding by copying implementations of modules I found in books and
-online. It reminded me of practicing guitar solos by great players. I used...but
-I took the "artistic" aspect of music making into my coding.
+I also know this works because I applied it as a startup founder. When my
+startup got accepted into YCombinator – the Harvard University of startup
+accelerators – one of their first pieces of feedback to us was that we had to
+get out more and talk to customers about the product they wanted us to build.
+Through hundreds of customer interviews and product interations, I learned
+first-hand during this time what it means to really get to the heart of what it
+means to really extract a specification out of messiness. (Elaborate on this as well).
 
-- I got frustrated because I couldn't figure out how to apply the concepts I was
-  reading about to the code I was seeing.
-- It became much worse when I started specializing in "enterprise front-end
-  development", working on very technical back-end products with not a lot of PM
-  and Design resources.
-- Eventually I realized something: _there is no spec. There is never a spec.
-  It's just like music composition. You have to figure it out as you go along_.
-- Once I started doing this, everything started to change. Things that were
-  frustrating now became normal, and things that seemed impossible now seemed
-  like an essential part of the job
-- I saw this work first-hand when I founded a startup and applied these
-  principles.
-- It changed the way I approached coding, and yet I don't see this method being
-  taught anywhere; it's something every software engineer eventually learns but
-  has to find out on their own.
+## How this book is written
 
-Most "clean code" and "software architecture" books I've read assume that you
-have a complete understanding of exactly what you need to build. In practice,
-I've found this is rarely the case. I've never showed up at work and heard my
-boss say, "Hey Travis, could you please build an HTTP server?" Instead I've
-gotten ideas. Messy, ambiguous, wonderful, _human_ ideas. The kicker is that as
-a software engineer, your job is to take those messy ideas and produce that
-seemingly unattainable "clean code" you keep reading about in software
-architecture books. In my experience that's 90% of the job of a "senior-level"
-software engineer (aka a SWE who's expected to execute and deliver with minimal
-oversight); the actual coding part that all those clean code books focus on is
-only 10%.
+(TODO: Rewrite)
 
-- Imagine a gap; a chasm. On one side is the messiness of human ideas. On the
-  other side is a rigorous specification that you need for a computer program.
-- The key is _chrossing that chasm_ (reference the book?)
-- What I've never seen talked about in Software Engineering is _how_ to cross
-  that chasm.
-
-**The key to taking messy requirements and turning it into clean code is
-_communicating effectively_.** Software Engineering is about taking an
-intangible idea that someone comes up with and making it real. The a-ha moment
-that I had is that ideas come from people, and so in order to bring peoples'
-ideas to life, you need to be able to understand their ideas as well – if not
-even better – then they do. That understanding can only come from communicating
-with them. Once you're in this flow state where you're talking to your customer
-about the idea as if its your own, you will be amazed at how intuitive it feels
-to implement all of those "clean code" practices you've read about in the other
-books, how quickly you'll be able to build, how little "negative surprises"
-there are from your customers, and most of all, how good you'll feel when you
-deliver something to your customers that goes beyond anything they could have
-expected.
-
-This book is modeled after the Effective Software Development series [link?].
 Every chapter is a self-contained, bulleted piece of advice that will help you
 build great products quickly without feeling like you're swimming against the
 current. You can jump around and feel free to choose what you wish. However,
@@ -225,21 +188,7 @@ unpredictably, and your software must change with it. When you're ready to scale
 the code and your team, you can lean on these tricks to increase the longevity
 of your codebase and decrease burnout.
 
-- Talk about why I'm the right person to write this
-- 10 years specializing in building complex, enterprise software with little to
-  no PM/Design support
-- Ex-musician that is passionate about coding as an artistic endeavor
-- Startup founder that had trial-by-fire experience on how to understand
-  customer requirements
-- Worked in every domain from startups to hyper-growth cos to big tech
-
-My hope for this book is to help you achieve that "next level" of software
-engineering. Whether you're going for that senior-level position, looking to
-uplevel your "non-coding" skills, or just trying to feel less frustrated while
-working, I hope that there are some things in this book that help you. The book
-is 100% free and open-source, and I would very much welcome any and all
-feedback. I've learned so much from the open-source community, and want to do my
-part in paying that forward, as well as continuing to learn from you all.
+---
 
 With that, let's start by talking about the most important job of any software
 engineer: not engineering software and instead figuring out what software they
