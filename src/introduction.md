@@ -14,10 +14,10 @@ abstract. Functions that are short and sweet and clear. Modules with simple APIs
 and manageable dependencies. Systems that operate efficiently and harmoniously
 with others. In a system that has been designed and implemented with clean code,
 the cost of maintaining that codebase is exponentially lower, and product
-quality is exponentially higher. Clear variable names mean developers know what
-to change, and how it might affect the systems. Short, sweet, clear functions
-mean that less dev time has to be spent deciphering functionality, and more
-confidence is had that making the change won't break something. Simple,
+quality is exponentially higher than the alternative. Clear variable names mean
+developers know what to change, and how it might affect the system. Short,
+sweet, clear functions mean that less time has to be spent deciphering meaning,
+and more confidence is had in making changes that won't break something. Simple,
 manageable modules lead to easily parallelizable work streams with minimal
 friction. Efficient, harmonious systems create organizations where all members
 feel empowered to work together to build the best product possible.
@@ -35,10 +35,10 @@ product.
 
 Unfortunately, we rarely if ever get to use our craft at our jobs. In fact, ask
 most software engineers when the last time they saw, let alone wrote, clean code
-at their jobs and you'll usually get something akin to a combination of a laugh
-and a sigh. Much like special forces soldiers who train for intense combat and
-then experience nothing but peacetime in their career, we invest a lot of time
-and energy into a skillset that we often don't often, if ever, get to use.
+at their jobs was, and you'll usually get something akin to a combination of a
+laugh and a sigh. Much like special forces soldiers who train for intense combat
+and then experience nothing but peacetime in their career, we invest a lot of
+time and energy into a skillset that we often don't often, if ever, get to use.
 
 Why is this? Why is it that we spend so much time practicing and learning about
 this clean code and then never encounter it in reality? Why do we all of a
@@ -81,11 +81,11 @@ At work, I don't think that's ever been the case. I've never showed up at work
 and heard my boss say, "Hey Travis, could you please build an HTTP server?" I've
 never received a company email with the subject "Looking ahead" and then have
 the body say that I would need to "make a Twitter clone", and "here are the
-exact features we are looking for", and "hear are the edge cases that you don't
+exact features we are looking for", and "here are the edge cases that you don't
 need to worry about". Instead, what I've gotten are _ideas_. Messy, ambiguous,
 wonderful, _human_ ideas. Ideas don't have specifications. Most of them were
-undefined and it was even harder to articulate them. They had, because most
-ideas I work on at your job are _new_. Untested. Unstudied. Therefore, I
+undefined and hard to articulate. This makes sense, because most
+ideas I've worked on at my job were _new_. Untested. Unstudied. Therefore, I
 understood the ideas given to me at work way less well than I did when
 practicing clean code. That's when I realized that the main difference between
 writing clean code and not writing clean code is just that: how well you
@@ -94,8 +94,12 @@ you need to build, once you have that specification, writing clean code simply
 becomes that thing you've been doing over years practice at Universities and in
 bootcamps with hobby projects.
 
-(TODO: Refine) How do you get that clear understanding of the product that you'd
-find in textbooks? By _communicating_. You have to work with
+So how do you get that clear understanding of the product that you'd
+find in textbooks? By _communicating_. When you commuh
+
+---
+
+You have to work with
 customers/stakeholders to get information out of them about the product. You
 then have to assemble a mental model, a specification, in your head, and
 translate that into code. In that code, you must _communicate_ the idea to other
@@ -135,8 +139,8 @@ I first discovered these techniques when I thought about how I used to work as a
 musician. Communication is the lifeblood of a musician's job. They take ideas
 and realize pieces of art out of them (elaborate on this).
 
-I now _know_ this works, because I have been applying these techniques daily for the
-latter half of my career. For most of my career, I have been the "front-end
+I now _know_ this works, because I have been applying these techniques daily for
+the latter half of my career. For most of my career, I have been the "front-end
 expert" on primarily backend codebases. Think about UIs you've used like Cloud
 Consoles, Analytics dashboards, operations tools, and the like. These are highly
 advanced interfaces built for expert users which are powered by an extremely
@@ -148,7 +152,8 @@ the complex, intricate requirements of customers, and marry them with the myriad
 of constraints the backend teams have. Over the years, at companies like Google,
 Meta, and as a consultant building UIs for Fortune 500 companies, I have been
 forced to learn these communication tools in order to deliver on my job
-accurately and effectively. I feel uniquely qualified to be discussing these techniques.
+accurately and effectively. I feel uniquely qualified to be discussing these
+techniques.
 
 I also know this works because I applied it as a startup founder. When my
 startup got accepted into YCombinator – the Harvard University of startup
@@ -156,7 +161,8 @@ accelerators – one of their first pieces of feedback to us was that we had to
 get out more and talk to customers about the product they wanted us to build.
 Through hundreds of customer interviews and product interations, I learned
 first-hand during this time what it means to really get to the heart of what it
-means to really extract a specification out of messiness. (Elaborate on this as well).
+means to really extract a specification out of messiness. (Elaborate on this as
+well).
 
 ## How this book is written
 
