@@ -23,47 +23,34 @@ friction. Efficient, harmonious systems create organizations where all members
 feel empowered to work together to build the best product possible.
 
 For those of us in software engineering that care about building quality
-products, clean code is our utlimate goal. We read about data structures,
-algorithms, and design patterns in books and online tutorials. We take classes
-and enroll in bootcamps where we code complex software like compilers, web
-servers, and social media applications so that we can hone our techniques. We
-even sometimes invent hobby projects for ourselves just so we can try out a new
-language or paradigm. We sharpen our skills and refine our craft so that when
-the time comes where we need to write software that _matters_ – our jobs – we
-will be able to execute our craft and deliver a high-quality, maintainable
-product.
+products, clean code is our utlimate goal. We read about clean coding strategies
+in books and online tutorials. We take classes and enroll in bootcamps where we
+code complex software like compilers, web servers, and social media applications
+so that we can hone our craft. We even sometimes invent hobby projects for
+ourselves just so we can try out a new language or paradigm. We sharpen our
+skills so that when the time comes where we need to write software that
+_matters_ – our jobs – we will be able to execute and deliver a high-quality,
+maintainable product.
 
-Unfortunately, we rarely if ever get to use our craft at our jobs. In fact, ask
-most software engineers when the last time they saw, let alone wrote, clean code
-at their jobs was, and you'll usually get something akin to a combination of a
+Unfortunately, this execution of clean code rarely if ever happens. Ask most
+software engineers when the last time they saw – let alone wrote – clean code at
+their jobs was, and you'll usually get something akin to a combination of a
 laugh and a sigh. Much like special forces soldiers who train for intense combat
-and then experience nothing but peacetime in their career, we invest a lot of
-time and energy into a skillset that we often don't often, if ever, get to use.
+and then experience nothing but peacetime in their careers, we invest a lot of
+time and energy into a skillset that we never use outside of a simulated
+environment.
 
-Why is this? Why is it that we spend so much time practicing and learning about
-this clean code and then never encounter it in reality? Why do we all of a
-sudden forget everything we've learned as soon as we have to start writing code
-that we get paid to write? If all of the literature and academia and education
-systems around software engineering have agreed that clean code is what we
-should be writing, why is it so rare that we actually come across it? The answer
-is simple: writing clean code is hard. It's especially hard when you have
-dealines. It's _especially_ hard when you're trying to just do your job so you
-can get paid and then go on living your life. Besides, if nobody really
-_expects_ you to write clean code anyway, and understands that it's okay to take
-shortcuts and just get the product working, why spend the time and effort?
-Looking at it from that perspective, one could see how an "approximation"
-– however accurate – of clean code is perfectly fine.
-
-But _what makes writing clean code so hard?_ I have been thinking about this
-ever since I started writing code. Before I was a software engineer, I was a
-musician. I have always looked at code not only as a craft, but as an _art
-form_, where there was beauty in the work itself. I have always loved coding,
-not just as a job, but as a passion. As a hobby. As a way in which to express my
-thoughts and feelings. I have always hated the fact that I had to sacrifice my
-craft every time I entered the workplace, and I have spent my entire career
-searching for a way to resolve this discord. After over 10 years of searching,
-what I have discovered is that the answer lies at the core of what it means to
-have clean code in the first place: understanding.
+This dichotomy between writing clean code in the classroom and not being able to
+translate it to a work environment has bothered me throughout my career. Before
+I was a software engineer, I was a musician. I have always looked at code not
+only as a craft, but as an _art form_, where there was beauty in the work
+itself. I have always loved coding, not just as a job, but as a passion. As a
+hobby. As a way in which to express my thoughts and feelings. I have always
+hated the fact that I had to sacrifice my craft every time I entered the
+workplace, and I have spent my entire career searching for a way to resolve this
+discord. After over 10 years of searching, what I have discovered is that the
+answer lies at the core of what it means to have clean code in the first place:
+understanding.
 
 What I realized was that every single "clean code" and "software architecture"
 book I've read, every online coding tutorial I completed, every practice
@@ -84,32 +71,31 @@ the body say that I would need to "make a Twitter clone", and "here are the
 exact features we are looking for", and "here are the edge cases that you don't
 need to worry about". Instead, what I've gotten are _ideas_. Messy, ambiguous,
 wonderful, _human_ ideas. Ideas don't have specifications. Most of them were
-undefined and hard to articulate. This makes sense, because most
-ideas I've worked on at my job were _new_. Untested. Unstudied. Therefore, I
-understood the ideas given to me at work way less well than I did when
-practicing clean code. That's when I realized that the main difference between
-writing clean code and not writing clean code is just that: how well you
-understand what you need to build. Once you understand, _truly_ understand, what
-you need to build, once you have that specification, writing clean code simply
-becomes that thing you've been doing over years practice at Universities and in
-bootcamps with hobby projects.
+undefined and hard to articulate. This makes sense, because most ideas I've
+worked on at my job were _new_. Untested. Unstudied. Therefore, I understood the
+ideas given to me at work way less well than I did when practicing clean code.
+That's when I realized that the main difference between writing clean code and
+not writing clean code is just that: how well you understand what you need to
+build. Once you understand, _truly_ understand, what you need to build, once you
+have that specification, writing clean code simply becomes that thing you've
+been doing over years practice at Universities and in bootcamps with hobby
+projects.
 
-So how do you get that clear understanding of the product that you'd
-find in textbooks? By _communicating_. When you commuh
+So how do you get that clear understanding of the product that you'd find in
+textbooks? By _communicating_. When you commuh
 
 ---
 
-You have to work with
-customers/stakeholders to get information out of them about the product. You
-then have to assemble a mental model, a specification, in your head, and
-translate that into code. In that code, you must _communicate_ the idea to other
-engineers. Source code is not written for computers; all computers see are
-processor instructions. Software is written for other humans who build and
-maintain the system. When you read code, you are putting together a model in
-your head of how the system looks, and you intuit that model from _reading_ the
-code, the communication of the engineers that wrote it. This all has to do with
-communication: how well you are able to understand the ideas of others, and
-translate them to a larger audience (primarily of developers).
+You have to work with customers/stakeholders to get information out of them
+about the product. You then have to assemble a mental model, a specification, in
+your head, and translate that into code. In that code, you must _communicate_
+the idea to other engineers. Source code is not written for computers; all
+computers see are processor instructions. Software is written for other humans
+who build and maintain the system. When you read code, you are putting together
+a model in your head of how the system looks, and you intuit that model from
+_reading_ the code, the communication of the engineers that wrote it. This all
+has to do with communication: how well you are able to understand the ideas of
+others, and translate them to a larger audience (primarily of developers).
 
 This book contains 50 specific items – techniques, hacks, advice, and strategies
 – that will give you the tools to communicate effectively as a software
