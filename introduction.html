@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Introduction - Effective Communication</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html" class="active"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="pt1/introduction.html"><strong aria-hidden="true">2.</strong> Part I: Understanding the Requirements</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pt1/item-1-dunno.html"><strong aria-hidden="true">2.1.</strong> Item 1: Assume that people don't know what they want</a></li><li class="chapter-item expanded "><a href="pt1/item-2-dunnome.html"><strong aria-hidden="true">2.2.</strong> Item 2: Assume that People Don't Know What You Mean</a></li><li class="chapter-item expanded "><a href="pt1/item-3-concrete.html"><strong aria-hidden="true">2.3.</strong> Item 3: Prefer concrete examples to abstract ideas</a></li><li class="chapter-item expanded "><a href="pt1/item-4-problems-over-solutions.html"><strong aria-hidden="true">2.4.</strong> Item 4: Prefer Asking About Problems vs. Asking for Solutions</a></li><li class="chapter-item expanded "><a href="pt1/item-5-empathy.html"><strong aria-hidden="true">2.5.</strong> Item 5: Optimize for empathy</a></li><li class="chapter-item expanded "><a href="pt1/item-6-restating.html"><strong aria-hidden="true">2.6.</strong> Item 6: Use Restating to Ensure Alignment</a></li><li class="chapter-item expanded "><a href="pt1/item-7-codetalk.html"><strong aria-hidden="true">2.7.</strong> Item 7: Talk About Your Code</a></li><li class="chapter-item expanded "><a href="pt1/item-8-system.html"><strong aria-hidden="true">2.8.</strong> Item 8: Guide Your Users Toward A System</a></li><li class="chapter-item expanded "><a href="pt1/item-9-journeys.html"><strong aria-hidden="true">2.9.</strong> Item 9: Use Customer Journeys</a></li><li class="chapter-item expanded "><a href="pt1/item-10-momtest.html"><strong aria-hidden="true">2.10.</strong> Item 10: Read The Mom Test</a></li><li class="chapter-item expanded "><a href="pt1/item-11-frequent-qs.html"><strong aria-hidden="true">2.11.</strong> Item 11: Stop for Questions Frequently</a></li><li class="chapter-item expanded "><a href="pt1/item-12-psa-ans.html"><strong aria-hidden="true">2.12.</strong> Item 12: Use the Pause/Summary/Explanation Model to Answer Questions</a></li><li class="chapter-item expanded "><a href="pt1/item-13-feedback-over-advice.html"><strong aria-hidden="true">2.13.</strong> Item 13: Prefer Asking for Feedback to Asking for Advice</a></li><li class="chapter-item expanded "><a href="pt1/item-14-silence.html"><strong aria-hidden="true">2.14.</strong> Item 14: Allow for Silence</a></li><li class="chapter-item expanded "><a href="pt1/item-15-debate-learning.html"><strong aria-hidden="true">2.15.</strong> Item 15: Treat Debate as a Learning Experience</a></li><li class="chapter-item expanded "><a href="pt1/item-16-examples-over-suggestions.html"><strong aria-hidden="true">2.16.</strong> Item 16: Prefer Examples to Suggestions</a></li><li class="chapter-item expanded "><a href="pt1/item-17-refactor-commonalities.html"><strong aria-hidden="true">2.17.</strong> Item 17: Refactor Commonalities to Find General Problems</a></li><li class="chapter-item expanded "><a href="pt1/item-18-prototype.html"><strong aria-hidden="true">2.18.</strong> Item 18: Prototype Early and Often</a></li><li class="chapter-item expanded "><a href="pt1/item-19-simplicity.html"><strong aria-hidden="true">2.19.</strong> Item 19: Keep it Simple</a></li><li class="chapter-item expanded "><a href="pt1/item-20-picture.html"><strong aria-hidden="true">2.20.</strong> Item 20: Paint a Picture</a></li></ol></li><li class="chapter-item expanded "><a href="pt2/introduction.html"><strong aria-hidden="true">3.</strong> Part II: Building the Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pt2/item-21-art.html"><strong aria-hidden="true">3.1.</strong> Item 21: Treat Software Engineering as an Art, not a Science</a></li><li class="chapter-item expanded "><a href="pt2/item-22-idea.html"><strong aria-hidden="true">3.2.</strong> Item 22: Treat Code as a Concrete Representation of an Idea</a></li><li class="chapter-item expanded "><a href="pt2/item-23-personify.html"><strong aria-hidden="true">3.3.</strong> Item 23: Personify your Code</a></li><li class="chapter-item expanded "><a href="pt2/item-24-2sentences.html"><strong aria-hidden="true">3.4.</strong> Item 24: Describe Your System in Two Sentences</a></li><li class="chapter-item expanded "><a href="pt2/item-25-topdown.html"><strong aria-hidden="true">3.5.</strong> Item 25: Implement from the Top Down</a></li><li class="chapter-item expanded "><a href="pt2/item-26-hyperspecific.html"><strong aria-hidden="true">3.6.</strong> Item 26: Code Hyper-Specific Solutions to Problems</a></li><li class="chapter-item expanded "><a href="pt2/item-27-noright-first.html"><strong aria-hidden="true">3.7.</strong> Item 27: Avoid Trying to Get It Right the First Time</a></li><li class="chapter-item expanded "><a href="pt2/item-28-pl-harmony.html"><strong aria-hidden="true">3.8.</strong> Item 28: Write Your Code in the Style of its Programming Language</a></li><li class="chapter-item expanded "><a href="pt2/item-29-variable-naming.html"><strong aria-hidden="true">3.9.</strong> Item 29: Optimize for Idea Clarity when Naming Variables</a></li><li class="chapter-item expanded "><a href="pt2/item-30-inline-comments.html"><strong aria-hidden="true">3.10.</strong> Item 30: Treat Inline Comments like Footnotes</a></li><li class="chapter-item expanded "><a href="pt2/item-31-api-bookends.html"><strong aria-hidden="true">3.11.</strong> Item 31: Design APIs Using the Bookends Method</a></li><li class="chapter-item expanded "><a href="pt2/item-32-avoid-utils.html"><strong aria-hidden="true">3.12.</strong> Item 32: Avoid the &quot;Utils&quot; file</a></li><li class="chapter-item expanded "><a href="pt2/item-33-same-language.html"><strong aria-hidden="true">3.13.</strong> Item 33: Use the Same Language in your Code as your Customers</a></li><li class="chapter-item expanded "><a href="pt2/item-34-compile-comments.html"><strong aria-hidden="true">3.14.</strong> Item 34: Compile Comments Into Code to Get Unstuck</a></li><li class="chapter-item expanded "><a href="pt2/item-35-line-breaks-paragraphs.html"><strong aria-hidden="true">3.15.</strong> Item 35: Treat Line Breaks like Paragraphs</a></li></ol></li><li class="chapter-item expanded "><a href="pt3/introduction.html"><strong aria-hidden="true">4.</strong> Part III: Maintaining the Codebase</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pt3/item-36-e2e.html"><strong aria-hidden="true">4.1.</strong> Item 36: Prioritize Robust End to End Testing</a></li><li class="chapter-item expanded "><a href="pt3/item-37-abstract-deps.html"><strong aria-hidden="true">4.2.</strong> Item 37: Abstract External Dependencies</a></li><li class="chapter-item expanded "><a href="pt3/item-38-evolutions-vs-deprecations.html"><strong aria-hidden="true">4.3.</strong> Item 38: Prefer Evolutions to Deprecations</a></li><li class="chapter-item expanded "><a href="pt3/item-39-emergent-architecture.html"><strong aria-hidden="true">4.4.</strong> Item 39: Avoid Forcing an Architecture</a></li><li class="chapter-item expanded "><a href="pt3/item-40-conways-law.html"><strong aria-hidden="true">4.5.</strong> Item 40: Respect Conway's Law</a></li><li class="chapter-item expanded "><a href="pt3/item-41-idea-alignment.html"><strong aria-hidden="true">4.6.</strong> Item 41: Invest in Idea Alignment</a></li><li class="chapter-item expanded "><a href="pt3/item-42-slack.html"><strong aria-hidden="true">4.7.</strong> Item 42: Allow for Slack</a></li><li class="chapter-item expanded "><a href="pt3/item-43-retros.html"><strong aria-hidden="true">4.8.</strong> Item 43: Have Frequent Retrospectives</a></li><li class="chapter-item expanded "><a href="pt3/item-44-assume-failure.html"><strong aria-hidden="true">4.9.</strong> Item 44: Assume Your Software Will Fail</a></li><li class="chapter-item expanded "><a href="pt3/item-45-onboarding.html"><strong aria-hidden="true">4.10.</strong> Item 45: Invest in Your Onboarding Experience</a></li><li class="chapter-item expanded "><a href="pt3/item-46-avoid-siloing.html"><strong aria-hidden="true">4.11.</strong> Item 46: Avoid Siloing Responsibilities</a></li><li class="chapter-item expanded "><a href="pt3/item-47-loop-vs-line.html"><strong aria-hidden="true">4.12.</strong> Item 47: Treat Development as a Loop vs. a Line</a></li><li class="chapter-item expanded "><a href="pt3/item-48-avoid-overdocumenting.html"><strong aria-hidden="true">4.13.</strong> Item 48: Avoid Over-documenting Implementation Details</a></li><li class="chapter-item expanded "><a href="pt3/item-49-readability-test.html"><strong aria-hidden="true">4.14.</strong> Item 49: Check Maintainability with the Readability Test</a></li><li class="chapter-item expanded "><a href="pt3/item-50-embrace-chaos.html"><strong aria-hidden="true">4.15.</strong> Item 50: Embrace the Chaos</a></li></ol></li><li class="chapter-item expanded "><a href="appendix-coding-interview.html"><strong aria-hidden="true">5.</strong> Appendix: Solving the coding interview</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Effective Communication</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<blockquote>
+<p>Programming is hard. It's also the easiest part of software development.</p>
+</blockquote>
+<p>– <a href="https://twitter.com/jasongorman/status/1472895565872697346">Jason Gorman</a></p>
+<p>Clean code.</p>
+<p>Ask any software engineer whether or not they prefer it, and you'll most likely
+get the same answer. Ask them what clean code <em>means</em>, and you might get varying
+answers, but they will most likely revolve around the same point: easy to
+understand. Variables that paint a picture in your head as to what they
+abstract. Functions that are short and sweet and clear. Modules with simple APIs
+and manageable dependencies. Systems that operate efficiently and harmoniously
+with others. In a system that has been designed and implemented with clean code,
+the cost of maintaining that codebase is exponentially lower, and product
+quality is exponentially higher than the alternative. Clear variable names mean
+developers know what to change, and how it might affect the system. Short,
+sweet, clear functions mean that less time has to be spent deciphering meaning,
+and more confidence is had in making changes that won't break something. Simple,
+manageable modules lead to easily parallelizable work streams with minimal
+friction. Efficient, harmonious systems create organizations where all members
+feel empowered to work together to build the best product possible.</p>
+<p>For those of us in software engineering that care about building quality
+products, clean code is our utlimate goal. We read about clean coding strategies
+in books and online tutorials. We take classes and enroll in bootcamps where we
+code complex software like compilers, web servers, and social media applications
+so that we can hone our craft. We even sometimes invent hobby projects for
+ourselves just so we can try out a new language or paradigm. We sharpen our
+skills so that when the time comes where we need to write software that
+<em>matters</em> – our jobs – we will be able to execute and deliver a high-quality,
+maintainable product.</p>
+<p>Unfortunately, this execution of clean code rarely if ever happens. Ask most
+software engineers when the last time they saw – let alone wrote – clean code at
+their jobs was, and you'll usually get something akin to a combination of a
+laugh and a sigh. Much like special forces soldiers who train for intense combat
+and then experience nothing but peacetime in their careers, we invest a lot of
+time and energy into a skillset that we never use outside of a simulated
+environment.</p>
+<p>This dichotomy between writing clean code in the classroom and not being able to
+translate it to a work environment has bothered me throughout my career. Before
+I was a software engineer, I was a musician. I have always looked at code not
+only as a craft, but as an <em>art form</em>, where there was beauty in the work
+itself. I have always loved coding, not just as a job, but as a passion. As a
+hobby. As a way in which to express my thoughts and feelings. I have always
+hated the fact that I had to sacrifice my craft every time I entered the
+workplace, and I have spent my entire career searching for a way to resolve this
+discord. After over 10 years of searching, what I have discovered is that the
+answer lies at the core of what it means to have clean code in the first place:
+understanding.</p>
+<p>What I realized was that every single &quot;clean code&quot; and &quot;software architecture&quot;
+book I've read, every online coding tutorial I completed, every practice
+assignment in every course I took, and every software project I've ever had to
+build that I wasn't getting paid to do, had one thing in common: they provided
+me, up front, with a complete understanding of exactly what I needed to build.
+Never once was there an ambiguous feature request. Never once did one of the
+requirements change underfoot. Never once was there a change in strategic
+direction where I had to retool the project in order to align with the new
+company mission. The software that I was using to learn and practice clean
+coding techniques all had well-defined, well-thought-out, unambiguous
+specifications.</p>
+<p>At work, I don't think that's ever been the case. I've never showed up at work
+and heard my boss say, &quot;Hey Travis, could you please build an HTTP server?&quot; I've
+never received a company email with the subject &quot;Looking ahead&quot; and then have
+the body say that I would need to &quot;make a Twitter clone&quot;, and &quot;here are the
+exact features we are looking for&quot;, and &quot;here are the edge cases that you don't
+need to worry about&quot;. Instead, what I've gotten are <em>ideas</em>. Messy, ambiguous,
+wonderful, <em>human</em> ideas. Ideas don't have specifications. Most of them were
+undefined and hard to articulate. This makes sense, because most ideas I've
+worked on at my job were <em>new</em>. Untested. Unstudied. Therefore, I understood the
+ideas given to me at work way less well than I did when practicing clean code.
+That's when I realized that the main difference between writing clean code and
+not writing clean code is just that: how well you understand what you need to
+build. Once you understand, <em>truly</em> understand, what you need to build, once you
+have that specification, writing clean code simply becomes that thing you've
+been doing over years practice at Universities and in bootcamps with hobby
+projects.</p>
+<p>So how do you get that clear understanding of the product that you'd find in
+textbooks? By <em>communicating</em>. When you commuh</p>
+<hr />
+<p>You have to work with customers/stakeholders to get information out of them
+about the product. You then have to assemble a mental model, a specification, in
+your head, and translate that into code. In that code, you must <em>communicate</em>
+the idea to other engineers. Source code is not written for computers; all
+computers see are processor instructions. Software is written for other humans
+who build and maintain the system. When you read code, you are putting together
+a model in your head of how the system looks, and you intuit that model from
+<em>reading</em> the code, the communication of the engineers that wrote it. This all
+has to do with communication: how well you are able to understand the ideas of
+others, and translate them to a larger audience (primarily of developers).</p>
+<p>This book contains 50 specific items – techniques, hacks, advice, and strategies
+– that will give you the tools to communicate effectively as a software
+engineer. It shows you how to take real-world requirements, not ones you read
+about in textbooks, and extract a rock-solid software specification out of them.
+It shows you how to accurately translate that specification into working code,
+which any developer that reads will be able to understand. Finally, it gives you
+guidance on how to keep up with the idea as it changes, what we call
+&quot;maintainability&quot;, so that you can easily and accurately estimate how much
+effort it will be to make a change to the codebase, and when you give that
+estimate, your stakeholders won't be surprised.</p>
+<p>If you follow all of the guidelines in this book, you will be to execute on any
+software project, regardless of size and scope, and deliver a product that will
+not only blow your stakeholders' minds with how well it works, but you will be
+able to onboard engineers onto the and codebase and change it seamlessly, with
+minimal friction. Imagine hearing every single feature request and having you
+and everyone on your team know exactly where the code that runs it is and how it
+needs to change to handle it. Friction between product and engineering goes
+away. Things that your stakeholders think are easy, truly become easy. Things
+that are hard, your stakeholders understand take time. Deadlines become trivial
+to hit. While other codebases might be mired in tech debt and constantly
+collapsing under their own weight, yours is thriving. That is what the skills in
+this book will allow you to build, because that is what clean code gives you.</p>
+<p>I first discovered these techniques when I thought about how I used to work as a
+musician. Communication is the lifeblood of a musician's job. They take ideas
+and realize pieces of art out of them (elaborate on this).</p>
+<p>I now <em>know</em> this works, because I have been applying these techniques daily for
+the latter half of my career. For most of my career, I have been the &quot;front-end
+expert&quot; on primarily backend codebases. Think about UIs you've used like Cloud
+Consoles, Analytics dashboards, operations tools, and the like. These are highly
+advanced interfaces built for expert users which are powered by an extremely
+complex set of technologies. Most of the time, especially for internal tools,
+these lack PM and design resources. The teams are primarily composed of backend
+engineers with little to no front-end expertise, and no interest in learning
+any. As a front-end developer on a team like this, one must learn to navigate
+the complex, intricate requirements of customers, and marry them with the myriad
+of constraints the backend teams have. Over the years, at companies like Google,
+Meta, and as a consultant building UIs for Fortune 500 companies, I have been
+forced to learn these communication tools in order to deliver on my job
+accurately and effectively. I feel uniquely qualified to be discussing these
+techniques.</p>
+<p>I also know this works because I applied it as a startup founder. When my
+startup got accepted into YCombinator – the Harvard University of startup
+accelerators – one of their first pieces of feedback to us was that we had to
+get out more and talk to customers about the product they wanted us to build.
+Through hundreds of customer interviews and product interations, I learned
+first-hand during this time what it means to really get to the heart of what it
+means to really extract a specification out of messiness. (Elaborate on this as
+well).</p>
+<h2 id="how-this-book-is-written"><a class="header" href="#how-this-book-is-written">How this book is written</a></h2>
+<p>(TODO: Rewrite)</p>
+<p>Every chapter is a self-contained, bulleted piece of advice that will help you
+build great products quickly without feeling like you're swimming against the
+current. You can jump around and feel free to choose what you wish. However,
+I've tried to make the book enjoyable while reading it beginning to end.</p>
+<p>Part I deals with &quot;requirements gathering&quot;, a.k.a. extracting ideas out of
+people. You will learn techniques and methods for easily disambiguating and
+scoping even the most vague and blue-sky of projects. Many of these techniques
+come from psychology and other fields, and are translated into the context of
+how we work with others as software engineers. At the very least, it will make
+what's maybe the &quot;not-so-fun&quot; part of the job, feel a little bit more like that
+flow-state you get while heads down in your favorite editor as your fingers flow
+effortlessly across the keys.</p>
+<p>Part II deals with structuring your code such that it not only represents the
+requirements as you best understand them, but <em>teaches engineers who read it
+about the requirements</em>. Not only will this radically increase productivity and
+decrease technical debt, but it will make the building process more
+<em>predictable</em>, as things that your stakeholders think are easy will be easy to
+do in software, and things that they think are hard will most likely be hard.</p>
+<p>Part III covers <em>maintaining</em> software. Requirements change, wildly and
+unpredictably, and your software must change with it. When you're ready to scale
+the code and your team, you can lean on these tricks to increase the longevity
+of your codebase and decrease burnout.</p>
+<hr />
+<p>With that, let's start by talking about the most important job of any software
+engineer: not engineering software and instead figuring out what software they
+should be engineering.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="next" href="pt1/introduction.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="next" href="pt1/introduction.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

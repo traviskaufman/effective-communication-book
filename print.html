@@ -1,0 +1,2039 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Effective Communication</title>
+        <meta name="robots" content="noindex" />
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="pt1/introduction.html"><strong aria-hidden="true">2.</strong> Part I: Understanding the Requirements</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pt1/item-1-dunno.html"><strong aria-hidden="true">2.1.</strong> Item 1: Assume that people don't know what they want</a></li><li class="chapter-item expanded "><a href="pt1/item-2-dunnome.html"><strong aria-hidden="true">2.2.</strong> Item 2: Assume that People Don't Know What You Mean</a></li><li class="chapter-item expanded "><a href="pt1/item-3-concrete.html"><strong aria-hidden="true">2.3.</strong> Item 3: Prefer concrete examples to abstract ideas</a></li><li class="chapter-item expanded "><a href="pt1/item-4-problems-over-solutions.html"><strong aria-hidden="true">2.4.</strong> Item 4: Prefer Asking About Problems vs. Asking for Solutions</a></li><li class="chapter-item expanded "><a href="pt1/item-5-empathy.html"><strong aria-hidden="true">2.5.</strong> Item 5: Optimize for empathy</a></li><li class="chapter-item expanded "><a href="pt1/item-6-restating.html"><strong aria-hidden="true">2.6.</strong> Item 6: Use Restating to Ensure Alignment</a></li><li class="chapter-item expanded "><a href="pt1/item-7-codetalk.html"><strong aria-hidden="true">2.7.</strong> Item 7: Talk About Your Code</a></li><li class="chapter-item expanded "><a href="pt1/item-8-system.html"><strong aria-hidden="true">2.8.</strong> Item 8: Guide Your Users Toward A System</a></li><li class="chapter-item expanded "><a href="pt1/item-9-journeys.html"><strong aria-hidden="true">2.9.</strong> Item 9: Use Customer Journeys</a></li><li class="chapter-item expanded "><a href="pt1/item-10-momtest.html"><strong aria-hidden="true">2.10.</strong> Item 10: Read The Mom Test</a></li><li class="chapter-item expanded "><a href="pt1/item-11-frequent-qs.html"><strong aria-hidden="true">2.11.</strong> Item 11: Stop for Questions Frequently</a></li><li class="chapter-item expanded "><a href="pt1/item-12-psa-ans.html"><strong aria-hidden="true">2.12.</strong> Item 12: Use the Pause/Summary/Explanation Model to Answer Questions</a></li><li class="chapter-item expanded "><a href="pt1/item-13-feedback-over-advice.html"><strong aria-hidden="true">2.13.</strong> Item 13: Prefer Asking for Feedback to Asking for Advice</a></li><li class="chapter-item expanded "><a href="pt1/item-14-silence.html"><strong aria-hidden="true">2.14.</strong> Item 14: Allow for Silence</a></li><li class="chapter-item expanded "><a href="pt1/item-15-debate-learning.html"><strong aria-hidden="true">2.15.</strong> Item 15: Treat Debate as a Learning Experience</a></li><li class="chapter-item expanded "><a href="pt1/item-16-examples-over-suggestions.html"><strong aria-hidden="true">2.16.</strong> Item 16: Prefer Examples to Suggestions</a></li><li class="chapter-item expanded "><a href="pt1/item-17-refactor-commonalities.html"><strong aria-hidden="true">2.17.</strong> Item 17: Refactor Commonalities to Find General Problems</a></li><li class="chapter-item expanded "><a href="pt1/item-18-prototype.html"><strong aria-hidden="true">2.18.</strong> Item 18: Prototype Early and Often</a></li><li class="chapter-item expanded "><a href="pt1/item-19-simplicity.html"><strong aria-hidden="true">2.19.</strong> Item 19: Keep it Simple</a></li><li class="chapter-item expanded "><a href="pt1/item-20-picture.html"><strong aria-hidden="true">2.20.</strong> Item 20: Paint a Picture</a></li></ol></li><li class="chapter-item expanded "><a href="pt2/introduction.html"><strong aria-hidden="true">3.</strong> Part II: Building the Software</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pt2/item-21-art.html"><strong aria-hidden="true">3.1.</strong> Item 21: Treat Software Engineering as an Art, not a Science</a></li><li class="chapter-item expanded "><a href="pt2/item-22-idea.html"><strong aria-hidden="true">3.2.</strong> Item 22: Treat Code as a Concrete Representation of an Idea</a></li><li class="chapter-item expanded "><a href="pt2/item-23-personify.html"><strong aria-hidden="true">3.3.</strong> Item 23: Personify your Code</a></li><li class="chapter-item expanded "><a href="pt2/item-24-2sentences.html"><strong aria-hidden="true">3.4.</strong> Item 24: Describe Your System in Two Sentences</a></li><li class="chapter-item expanded "><a href="pt2/item-25-topdown.html"><strong aria-hidden="true">3.5.</strong> Item 25: Implement from the Top Down</a></li><li class="chapter-item expanded "><a href="pt2/item-26-hyperspecific.html"><strong aria-hidden="true">3.6.</strong> Item 26: Code Hyper-Specific Solutions to Problems</a></li><li class="chapter-item expanded "><a href="pt2/item-27-noright-first.html"><strong aria-hidden="true">3.7.</strong> Item 27: Avoid Trying to Get It Right the First Time</a></li><li class="chapter-item expanded "><a href="pt2/item-28-pl-harmony.html"><strong aria-hidden="true">3.8.</strong> Item 28: Write Your Code in the Style of its Programming Language</a></li><li class="chapter-item expanded "><a href="pt2/item-29-variable-naming.html"><strong aria-hidden="true">3.9.</strong> Item 29: Optimize for Idea Clarity when Naming Variables</a></li><li class="chapter-item expanded "><a href="pt2/item-30-inline-comments.html"><strong aria-hidden="true">3.10.</strong> Item 30: Treat Inline Comments like Footnotes</a></li><li class="chapter-item expanded "><a href="pt2/item-31-api-bookends.html"><strong aria-hidden="true">3.11.</strong> Item 31: Design APIs Using the Bookends Method</a></li><li class="chapter-item expanded "><a href="pt2/item-32-avoid-utils.html"><strong aria-hidden="true">3.12.</strong> Item 32: Avoid the &quot;Utils&quot; file</a></li><li class="chapter-item expanded "><a href="pt2/item-33-same-language.html"><strong aria-hidden="true">3.13.</strong> Item 33: Use the Same Language in your Code as your Customers</a></li><li class="chapter-item expanded "><a href="pt2/item-34-compile-comments.html"><strong aria-hidden="true">3.14.</strong> Item 34: Compile Comments Into Code to Get Unstuck</a></li><li class="chapter-item expanded "><a href="pt2/item-35-line-breaks-paragraphs.html"><strong aria-hidden="true">3.15.</strong> Item 35: Treat Line Breaks like Paragraphs</a></li></ol></li><li class="chapter-item expanded "><a href="pt3/introduction.html"><strong aria-hidden="true">4.</strong> Part III: Maintaining the Codebase</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pt3/item-36-e2e.html"><strong aria-hidden="true">4.1.</strong> Item 36: Prioritize Robust End to End Testing</a></li><li class="chapter-item expanded "><a href="pt3/item-37-abstract-deps.html"><strong aria-hidden="true">4.2.</strong> Item 37: Abstract External Dependencies</a></li><li class="chapter-item expanded "><a href="pt3/item-38-evolutions-vs-deprecations.html"><strong aria-hidden="true">4.3.</strong> Item 38: Prefer Evolutions to Deprecations</a></li><li class="chapter-item expanded "><a href="pt3/item-39-emergent-architecture.html"><strong aria-hidden="true">4.4.</strong> Item 39: Avoid Forcing an Architecture</a></li><li class="chapter-item expanded "><a href="pt3/item-40-conways-law.html"><strong aria-hidden="true">4.5.</strong> Item 40: Respect Conway's Law</a></li><li class="chapter-item expanded "><a href="pt3/item-41-idea-alignment.html"><strong aria-hidden="true">4.6.</strong> Item 41: Invest in Idea Alignment</a></li><li class="chapter-item expanded "><a href="pt3/item-42-slack.html"><strong aria-hidden="true">4.7.</strong> Item 42: Allow for Slack</a></li><li class="chapter-item expanded "><a href="pt3/item-43-retros.html"><strong aria-hidden="true">4.8.</strong> Item 43: Have Frequent Retrospectives</a></li><li class="chapter-item expanded "><a href="pt3/item-44-assume-failure.html"><strong aria-hidden="true">4.9.</strong> Item 44: Assume Your Software Will Fail</a></li><li class="chapter-item expanded "><a href="pt3/item-45-onboarding.html"><strong aria-hidden="true">4.10.</strong> Item 45: Invest in Your Onboarding Experience</a></li><li class="chapter-item expanded "><a href="pt3/item-46-avoid-siloing.html"><strong aria-hidden="true">4.11.</strong> Item 46: Avoid Siloing Responsibilities</a></li><li class="chapter-item expanded "><a href="pt3/item-47-loop-vs-line.html"><strong aria-hidden="true">4.12.</strong> Item 47: Treat Development as a Loop vs. a Line</a></li><li class="chapter-item expanded "><a href="pt3/item-48-avoid-overdocumenting.html"><strong aria-hidden="true">4.13.</strong> Item 48: Avoid Over-documenting Implementation Details</a></li><li class="chapter-item expanded "><a href="pt3/item-49-readability-test.html"><strong aria-hidden="true">4.14.</strong> Item 49: Check Maintainability with the Readability Test</a></li><li class="chapter-item expanded "><a href="pt3/item-50-embrace-chaos.html"><strong aria-hidden="true">4.15.</strong> Item 50: Embrace the Chaos</a></li></ol></li><li class="chapter-item expanded "><a href="appendix-coding-interview.html"><strong aria-hidden="true">5.</strong> Appendix: Solving the coding interview</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Effective Communication</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<blockquote>
+<p>Programming is hard. It's also the easiest part of software development.</p>
+</blockquote>
+<p>– <a href="https://twitter.com/jasongorman/status/1472895565872697346">Jason Gorman</a></p>
+<p>Clean code.</p>
+<p>Ask any software engineer whether or not they prefer it, and you'll most likely
+get the same answer. Ask them what clean code <em>means</em>, and you might get varying
+answers, but they will most likely revolve around the same point: easy to
+understand. Variables that paint a picture in your head as to what they
+abstract. Functions that are short and sweet and clear. Modules with simple APIs
+and manageable dependencies. Systems that operate efficiently and harmoniously
+with others. In a system that has been designed and implemented with clean code,
+the cost of maintaining that codebase is exponentially lower, and product
+quality is exponentially higher than the alternative. Clear variable names mean
+developers know what to change, and how it might affect the system. Short,
+sweet, clear functions mean that less time has to be spent deciphering meaning,
+and more confidence is had in making changes that won't break something. Simple,
+manageable modules lead to easily parallelizable work streams with minimal
+friction. Efficient, harmonious systems create organizations where all members
+feel empowered to work together to build the best product possible.</p>
+<p>For those of us in software engineering that care about building quality
+products, clean code is our utlimate goal. We read about clean coding strategies
+in books and online tutorials. We take classes and enroll in bootcamps where we
+code complex software like compilers, web servers, and social media applications
+so that we can hone our craft. We even sometimes invent hobby projects for
+ourselves just so we can try out a new language or paradigm. We sharpen our
+skills so that when the time comes where we need to write software that
+<em>matters</em> – our jobs – we will be able to execute and deliver a high-quality,
+maintainable product.</p>
+<p>Unfortunately, this execution of clean code rarely if ever happens. Ask most
+software engineers when the last time they saw – let alone wrote – clean code at
+their jobs was, and you'll usually get something akin to a combination of a
+laugh and a sigh. Much like special forces soldiers who train for intense combat
+and then experience nothing but peacetime in their careers, we invest a lot of
+time and energy into a skillset that we never use outside of a simulated
+environment.</p>
+<p>This dichotomy between writing clean code in the classroom and not being able to
+translate it to a work environment has bothered me throughout my career. Before
+I was a software engineer, I was a musician. I have always looked at code not
+only as a craft, but as an <em>art form</em>, where there was beauty in the work
+itself. I have always loved coding, not just as a job, but as a passion. As a
+hobby. As a way in which to express my thoughts and feelings. I have always
+hated the fact that I had to sacrifice my craft every time I entered the
+workplace, and I have spent my entire career searching for a way to resolve this
+discord. After over 10 years of searching, what I have discovered is that the
+answer lies at the core of what it means to have clean code in the first place:
+understanding.</p>
+<p>What I realized was that every single &quot;clean code&quot; and &quot;software architecture&quot;
+book I've read, every online coding tutorial I completed, every practice
+assignment in every course I took, and every software project I've ever had to
+build that I wasn't getting paid to do, had one thing in common: they provided
+me, up front, with a complete understanding of exactly what I needed to build.
+Never once was there an ambiguous feature request. Never once did one of the
+requirements change underfoot. Never once was there a change in strategic
+direction where I had to retool the project in order to align with the new
+company mission. The software that I was using to learn and practice clean
+coding techniques all had well-defined, well-thought-out, unambiguous
+specifications.</p>
+<p>At work, I don't think that's ever been the case. I've never showed up at work
+and heard my boss say, &quot;Hey Travis, could you please build an HTTP server?&quot; I've
+never received a company email with the subject &quot;Looking ahead&quot; and then have
+the body say that I would need to &quot;make a Twitter clone&quot;, and &quot;here are the
+exact features we are looking for&quot;, and &quot;here are the edge cases that you don't
+need to worry about&quot;. Instead, what I've gotten are <em>ideas</em>. Messy, ambiguous,
+wonderful, <em>human</em> ideas. Ideas don't have specifications. Most of them were
+undefined and hard to articulate. This makes sense, because most ideas I've
+worked on at my job were <em>new</em>. Untested. Unstudied. Therefore, I understood the
+ideas given to me at work way less well than I did when practicing clean code.
+That's when I realized that the main difference between writing clean code and
+not writing clean code is just that: how well you understand what you need to
+build. Once you understand, <em>truly</em> understand, what you need to build, once you
+have that specification, writing clean code simply becomes that thing you've
+been doing over years practice at Universities and in bootcamps with hobby
+projects.</p>
+<p>So how do you get that clear understanding of the product that you'd find in
+textbooks? By <em>communicating</em>. When you commuh</p>
+<hr />
+<p>You have to work with customers/stakeholders to get information out of them
+about the product. You then have to assemble a mental model, a specification, in
+your head, and translate that into code. In that code, you must <em>communicate</em>
+the idea to other engineers. Source code is not written for computers; all
+computers see are processor instructions. Software is written for other humans
+who build and maintain the system. When you read code, you are putting together
+a model in your head of how the system looks, and you intuit that model from
+<em>reading</em> the code, the communication of the engineers that wrote it. This all
+has to do with communication: how well you are able to understand the ideas of
+others, and translate them to a larger audience (primarily of developers).</p>
+<p>This book contains 50 specific items – techniques, hacks, advice, and strategies
+– that will give you the tools to communicate effectively as a software
+engineer. It shows you how to take real-world requirements, not ones you read
+about in textbooks, and extract a rock-solid software specification out of them.
+It shows you how to accurately translate that specification into working code,
+which any developer that reads will be able to understand. Finally, it gives you
+guidance on how to keep up with the idea as it changes, what we call
+&quot;maintainability&quot;, so that you can easily and accurately estimate how much
+effort it will be to make a change to the codebase, and when you give that
+estimate, your stakeholders won't be surprised.</p>
+<p>If you follow all of the guidelines in this book, you will be to execute on any
+software project, regardless of size and scope, and deliver a product that will
+not only blow your stakeholders' minds with how well it works, but you will be
+able to onboard engineers onto the and codebase and change it seamlessly, with
+minimal friction. Imagine hearing every single feature request and having you
+and everyone on your team know exactly where the code that runs it is and how it
+needs to change to handle it. Friction between product and engineering goes
+away. Things that your stakeholders think are easy, truly become easy. Things
+that are hard, your stakeholders understand take time. Deadlines become trivial
+to hit. While other codebases might be mired in tech debt and constantly
+collapsing under their own weight, yours is thriving. That is what the skills in
+this book will allow you to build, because that is what clean code gives you.</p>
+<p>I first discovered these techniques when I thought about how I used to work as a
+musician. Communication is the lifeblood of a musician's job. They take ideas
+and realize pieces of art out of them (elaborate on this).</p>
+<p>I now <em>know</em> this works, because I have been applying these techniques daily for
+the latter half of my career. For most of my career, I have been the &quot;front-end
+expert&quot; on primarily backend codebases. Think about UIs you've used like Cloud
+Consoles, Analytics dashboards, operations tools, and the like. These are highly
+advanced interfaces built for expert users which are powered by an extremely
+complex set of technologies. Most of the time, especially for internal tools,
+these lack PM and design resources. The teams are primarily composed of backend
+engineers with little to no front-end expertise, and no interest in learning
+any. As a front-end developer on a team like this, one must learn to navigate
+the complex, intricate requirements of customers, and marry them with the myriad
+of constraints the backend teams have. Over the years, at companies like Google,
+Meta, and as a consultant building UIs for Fortune 500 companies, I have been
+forced to learn these communication tools in order to deliver on my job
+accurately and effectively. I feel uniquely qualified to be discussing these
+techniques.</p>
+<p>I also know this works because I applied it as a startup founder. When my
+startup got accepted into YCombinator – the Harvard University of startup
+accelerators – one of their first pieces of feedback to us was that we had to
+get out more and talk to customers about the product they wanted us to build.
+Through hundreds of customer interviews and product interations, I learned
+first-hand during this time what it means to really get to the heart of what it
+means to really extract a specification out of messiness. (Elaborate on this as
+well).</p>
+<h2 id="how-this-book-is-written"><a class="header" href="#how-this-book-is-written">How this book is written</a></h2>
+<p>(TODO: Rewrite)</p>
+<p>Every chapter is a self-contained, bulleted piece of advice that will help you
+build great products quickly without feeling like you're swimming against the
+current. You can jump around and feel free to choose what you wish. However,
+I've tried to make the book enjoyable while reading it beginning to end.</p>
+<p>Part I deals with &quot;requirements gathering&quot;, a.k.a. extracting ideas out of
+people. You will learn techniques and methods for easily disambiguating and
+scoping even the most vague and blue-sky of projects. Many of these techniques
+come from psychology and other fields, and are translated into the context of
+how we work with others as software engineers. At the very least, it will make
+what's maybe the &quot;not-so-fun&quot; part of the job, feel a little bit more like that
+flow-state you get while heads down in your favorite editor as your fingers flow
+effortlessly across the keys.</p>
+<p>Part II deals with structuring your code such that it not only represents the
+requirements as you best understand them, but <em>teaches engineers who read it
+about the requirements</em>. Not only will this radically increase productivity and
+decrease technical debt, but it will make the building process more
+<em>predictable</em>, as things that your stakeholders think are easy will be easy to
+do in software, and things that they think are hard will most likely be hard.</p>
+<p>Part III covers <em>maintaining</em> software. Requirements change, wildly and
+unpredictably, and your software must change with it. When you're ready to scale
+the code and your team, you can lean on these tricks to increase the longevity
+of your codebase and decrease burnout.</p>
+<hr />
+<p>With that, let's start by talking about the most important job of any software
+engineer: not engineering software and instead figuring out what software they
+should be engineering.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="part-i-understanding-the-requirements"><a class="header" href="#part-i-understanding-the-requirements">Part I: Understanding the Requirements</a></h1>
+<blockquote>
+<p>If you could see the world the way I see it, you'd understand why I behave the
+way I do</p>
+</blockquote>
+<p>– Peter Kaufman</p>
+<p>This section is devoted to taking abstract, messy, and incomplete ideas for what
+a product should look like, and translating it into a concrete, clean, and
+fully-defined solution that you can then go build.</p>
+<p>When you read that above section, the phrase &quot;requirements gathering&quot; might come
+to mind. And you might be thinking, &quot;that's not my job&quot;. Hopefully, you're
+right. Hopefully, you have a PM, TPM[1], UX Researcher, or <em>someone</em> that can go
+out and help you talk to customers, stakeholders, etc., take what they're
+saying, and synthesize it into a set of use-cases, bulleted list of success
+criteria, tasks around what needs to be done, etc. What I've found, especially
+on internal/infra teams, is that this is rarely the case. Often, you get a very
+vague direction of where your team/org wants you to go, and you have to run with
+it.</p>
+<p>However, even if you do have a PM/TPM/etc, even if you have all of the
+requirements gathered in front of you, there's still one more, crucial,
+imperative step, the most important thing in the software development lifecycle:
+have to <em>understand</em> the requirements.</p>
+<p><strong>The act of &quot;gathering&quot; requirements is just that: taking a bunch of things
+people want a coalescing them into one place. That is not enough for you to
+build a product. To truly build a product, you have to <em>understand</em> all of the
+requirements laid out in front of you.</strong> This is your primary job as the SWE or
+TL: the requirements must be reflected in the implementation, and you own the
+implementation, therefore <em>you must understand the requirements</em>, deeply,
+broadly, as if you had come up with them yourself.</p>
+<p>It's not your PMs job: they can give you a high-level visiona and clarity, but
+cannot translate it into code. They can give you the blueprint, but it's up to
+you to go build the actual house.</p>
+<p>It's not your designer's job: they can show you how the product should <em>look and
+feel</em> to end users, but do not have the skills to tell the computer what to do
+to achieve that look and feel.</p>
+<p>And most of all <strong>it is not your customer's job</strong>. Your customer only knows that
+they need a problem solved, and are looking for you to come up with a way to
+make a computer solve it.</p>
+<p>It turns out that this is an extremely, <em>extremely</em> difficult task. Ideas are
+messy, and multiple ideas exponentially compound in breadth and complexity. It
+also almost always requires you to communicate with others about it: asking
+follow up questions, having discussions, ensuring you're on the right track with
+where you want to go. Unfortunately, it is a skill that is not taught often in
+CS curriculums because they focus on code, and most of the time, when you are
+ready to write code, it is assumed that you already understand the requirements.</p>
+<p>This section will provide you with an arsenal of tools, tips, and strategies to
+create order out of the chaos of requirements, allowing you to move forward with
+a clear vision of how you want to turn those into a functional product.</p>
+<p>[1] For those of you that don't work at big tech companies, TPM stands for
+<em>technical program manager</em>. For all intents and purposes, you can think of them
+like the PMs you work with at your job (apologies to the TPMs reading this for
+oversimplifying your roles).</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-1-assume-people-have-no-idea-what-they-want"><a class="header" href="#item-1-assume-people-have-no-idea-what-they-want">Item 1: Assume people have no idea what they want</a></h1>
+<p>This is pretty much always the case. When I started out in Software, I was used to building things according to a well-defined specification. This is what I did when I was programming open-source software for myself. It's also what I did in all my computer science classes. It's also how every single coding architecture book presented problems: you're given something wholly concrete, and then asked to implement it.</p>
+<p>The most frustrating meetings I've experienced are ones where either myself or someone else who's a software engineer is trying to get this information from somebody else: I can't speak for others, but reflecting back on my own experience, I realized that was I was <em>expecting</em> was for someone to hand me a fully-formed, unambiguous product spec, and then leave it up to me how to decide how to implement the software for that spec.</p>
+<p>In reality, they had a <em>vague, abstract</em> idea of what they wanted, but were not trained (and could not possibly be trained) to get it to the level of detail in order to build it into software. Once I realized this, I shifted my perspective from trying to get them to tell me exactly what they wanted, to <em>helping them figure out what they want</em>.</p>
+<p><strong>When talking to stakeholders and customers, view your job as helping them figure out what they want, vs. assuming they know what they want and extracting the requirements out of them</strong>.</p>
+<p>Many of the items in this chapter will cover in detail strategies and tactics for going about doing this. The point of this item is to <em>shift your mental model of a customer / stakeholder from someone who knows exactly what they want to someone who only has a very vague notion of what they want</em>.</p>
+<p>The science behind this is Khaneman and Tversky, behavioral economics. Basically: we're not as smart as we think (BIBLIO: THINKING FAST AND SLOW)</p>
+<p>Assuming ignorance is paramount to taking full advantage of the rest of the advice in this part.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-2-assume-that-people-dont-know-what-you-mean"><a class="header" href="#item-2-assume-that-people-dont-know-what-you-mean">Item 2: Assume that People Don't Know What You Mean</a></h1>
+<p>I once worked on the UI of an extremely complex internal tool at a very large
+technology company. One of our larger org's UX designers at the time was working
+on mockups for a new feature we were launching. During a design review, the
+Senior-most engineer – one whom might be called the &quot;principal architect&quot; – on
+the team gave feedback that an aspect about it should change. When the designer
+inquired as to find out more information about this change, the principal
+architect explained it to them. During the explanation, another engineer on the
+team questioned an assumption that the architect had made. This lead to a
+nuanced technical discussion on the internal implementation of the tool's
+backend which lasted for the rest of the meeting. The UX designer said nothing
+during that entire time. I wound up meeting with the UX designer again,
+separately (I was the UI person) and worked out the mocks. I then took it back
+to my team to verify. What happened there? Is there anything that we could've
+done better? If you ask me, there is:</p>
+<p><strong>When talking to people not directly involved in the day-to-day development of
+your product, assume that they have little to no idea about what it is or how it
+works</strong>. (Explain more about this)</p>
+<p>So what do you do if you can't assume that others know what you're talking
+about? You have to explain it. This may be an uncomfortable thing to do at
+first; you may feel that this is a cynical attitude. You may not want to be
+perceived as a know-it-all or an overexplainer. You may not want to spend the
+time and energy trying to fill in the correct background knowledge. But, it is
+very necessary, and what you'll find is that you can do it in an informative,
+respectful, and engaging way. Furthermore, you will find that meetings will go
+much, much, <em>much</em> more smoothly when you do. This goes double for any sort of
+&quot;cross-functional&quot; work you will have to do with others outside of the
+engineering discipline.</p>
+<p>You can identify when an explanation might be needed using a very simple
+heuristic: if you're in a meeting and you're about to say a word that the other
+person has a &gt;50% of hearing from you for the first time, you probably need an
+explanation. For example in that design review section, when the principal
+architect said that the mock needed to change, they began to explain using a
+bunch of domain-specific terms and technical jargon related to internal
+engineering tools and our codebase, something that is out of the wheelhouse of
+most non-expert engineers, let alone UX who are part-time doing mockups for us.
+What I believe they <em>should</em> have done is provided some background. But again,
+for reaasons I said above, it might not be clear how to do that without sounding
+cynical, condescending, or loquatious. I am very lucky to have a partner that's
+an engineering manager and a stellar communicator, and she has helped me develop
+an &quot;algorithm&quot; if you will, for explaining concepts that tries to avoid this,
+based on my necessary experience having to do so. It goes like this.</p>
+<ol>
+<li>Before you use that first technical term, <em>ask</em>: &quot;Should I explain the term
+<code>&lt;term&gt;</code>?&quot;</li>
+<li>If no, continue until you hit probable next unknown term.</li>
+<li>If yes, determine if there is a <strong>substitution</strong> – different word or way you
+can phrase it – which will explain it simply and you are at least 95%
+confident the person has heard of the word(s) or phrase(s).</li>
+<li>If there is, use that instead and go back to step 2.</li>
+<li>If there is not, say: &quot;let me briefly explain <code>&lt;term&gt;</code>, because I think it it
+is necessary to for the discussion&quot;. And then briefly – <em>briefly</em> – explain
+the term.</li>
+</ol>
+<p>That &quot;briefly&quot; part might sound complicated, but there is a secret ninja hack
+that simplifies it: <em>use a concrete example of where it is used vs. try and
+explain the general underlying concept</em>. For example: ...TODO give an example 😂
+It turns out people learn better this way (more on this in <a href="pt1/./item-10-examples-over-suggestions.html">Item
+10</a> and <a href="pt1/../pt2/item-19-hyperspecific.html">Item
+19</a>).</p>
+<p>This algorithm has a few key benefits, namely:</p>
+<ul>
+<li>It <em>gives the other person the opportunity</em> as to whether or not an
+explanation is needed. This avoids over-explaining or being outright
+condescending (FOOTNOTE: There is a risk that the person can get offended by
+you <em>asking</em> if they know of the term, but you can justify that by saying that
+you asked for the <em>sole purpose</em> of aiding in the discussion. Hard to argue
+with IMO).</li>
+<li>It uses a multi-tiered efficiency method: first, substituting the term (the
+&quot;fast path&quot;), and then, falling back on the more expensive explanation
+operation if substitution doesn't work.</li>
+<li>It grounds the explanation with a <em>clear goal</em>: explaining the unfamiliar
+term. This keeps the explanation focused, and (hopefully) expedient.</li>
+</ul>
+<p>(CITATIONS NEEDED FOR THIS WHOLE PART) The science behind this is actually quite
+fascinating: repitition patterns. Again, evolutionary biology and cognitive
+science. Our brains are lazy af (BIBLIO: Khaneman), and got really, <em>really</em>
+good at learning patterns. When you use patterns a lot, you can think
+<em>intuitively</em> (I'm sure this is nowhere near how it actually works) of what the
+brain does as essentially load those patterns into an L1/L2 cache so that
+they're quick and easy to access. It turns out communication is one of those
+patterns. The problem is that, especially when you communicate with others
+outside of your immediate circle, you've learned different patterns, but you
+haven't realized that you've learned different patterns, because, again, your
+brain is lazy and you just think &quot;oh yeah this is work let me keep using these
+patterns&quot;.</p>
+<p>If and when you employ these methods, you will be amazed – <em>amazed</em> – at not
+only how much more productive you are in working with others, but also how many
+assumptions people make when they talk to one another! It takes time and
+practice, but the payoff is massive.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-3-prefer-concrete-examples-to-abstract-ideas"><a class="header" href="#item-3-prefer-concrete-examples-to-abstract-ideas">Item 3: Prefer concrete examples to abstract ideas</a></h1>
+<p>Think back to when you learned how to walk. You probably first read a theoretical treatise on human movement blah blah blah joke. Except you didn't do any of that. You observed other people walking and mimicked their behavior. You saw a <em>concrete example</em> of someone walking, instead of a theoretical concept of learning how to walk.</p>
+<p><strong>When trying to understand a product idea, or convey a concept to a customer, use direct, narrow, &quot;un-scalable&quot; narratives and examples to build up your understanding.</strong> Avoid speaking to customers as if they have all of the accumulated experience that you have. And vice versa instead of asking customers about abstract theoretical concepts just ask for concrete examples.</p>
+<p>Basically people are bad at imagining. The science behind this is ??. We are really bad at reimagining accurate depictions. That's because our mind is constantly distorting things all around you. (BIBLIO: KHANEMAN)</p>
+<p>Also what pitch anything said about painting a picture?? (BIBLIO: PITCH ANYTHING)</p>
+<p>You will of course miss subtleties and edge cases by doing this. <em>That is okay</em>. Consider that:</p>
+<ul>
+<li>You would have likely missed or misinterpreted at least one of those subtleties and edge cases</li>
+<li>You may have been so wrapped up in the details that you missed the more important fundamental idea.</li>
+</ul>
+<p>Your code also won't be perfect. Also don't worry about this; it turns out your code will never be perfect (more on that later). Trust in that you'll reach a point where you'll have enough insight to evolve it from the narrow into the general.</p>
+<p>When understanding products or explaining concepts, follow YCombinator's advice about pitching products: <em>80% accurate, 100% clear</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-4-prefer-asking-about-problems-vs-asking-for-solutions"><a class="header" href="#item-4-prefer-asking-about-problems-vs-asking-for-solutions">Item 4: Prefer Asking About Problems vs. Asking for Solutions</a></h1>
+<p>As software engineers, we're trained to build products, aka solutions. When
+learning to code, perhaps even earlier in your career, you were given clear
+problems that you've had to come up with solutions for. Perhaps your tech lead
+asked you to rearchitect part of a system to solve a particular scaling issue.
+Perhaps a designer has asked you to implement a mock. As you've progressed in
+your career, you may have noticed something: the problems aren't so clear. Your
+PM might give you some vague description of a pie-in-the-sky vision where you
+it's hard to nail down concrete requirements. Other engineers you talk to might
+give hyper-specific examples of things they need to do where it's not apparent
+how, or why, to generalize it. Designers might bring you mocks that don't really
+make any sense when you understand the product. And, worst of all, when you talk
+to customers, as we've established in <a href="pt1/./item-1-dunno.html">Item 1</a>, <em>they have no
+idea what they want</em>. Almost every single meeting I've sat in with Software
+Engineers talking directly to customers (and, honestly, a lot of PMs), they've
+asked some variation of: &quot;what do you want?&quot;. &quot;What would you like to see?&quot; &quot;How
+would you use this?&quot; And my personal favorite: &quot;Does this look good to you?&quot; We
+do this because, as software engineers, we are (desperately) searching for that
+solution – that elusive &quot;spec&quot; – that we can then build against. However, it
+almost never works out, and that's because, if customers have no idea what they
+want, then they'll have even <em>less</em> of an idea of how to articulate a solution.</p>
+<p><strong>Instead of probing others for solutions, probe them about their <em>problems</em>,
+and try and understand their problems as deeply as possible, as if you were
+them. Then, think deeply about that problem, and <em>tell them</em> the solution to
+it.</strong> I submit to you that <em>this</em> is the real job of a Software Engineer.</p>
+<p>Now, you might be thinking to yourself, &quot;this sounds like the job of a PM&quot;. To
+which my answer is: &quot;yes and no&quot;. If you're lucky enough to <em>have</em> a PM that is
+tactically involved in the day to day work of your product, they will have
+(hopefully) done this exercise, or their own method, with stakeholders, and from
+that determined what needs to be built. But in order for you to take the PM's
+&quot;what needs to be built&quot; and turn it into working software, <em>you need to
+understand the interpretation of the PM's problem deeply enough that you can
+create a solution that solves the problem correctly</em>. It's that &quot;correctly&quot; part
+where the issue lies. A PM can say &quot;it needs to support tens of thousands of
+rows&quot;, but it's <em>your</em> job to figure out how to do that if each row is very
+complicated and very expensive to render. Often, the beauty of an implementation
+comes down to how it chooses to solve a problem given the constraints of its
+environment. A deep problem understanding will inevitably help with this.</p>
+<p>If you <em>don't</em> have a tactical PM – which may be the case if you work on an
+internal team, a smaller startup where one of the founders is also the PM (and
+is spending 150% of their time fundraising), or a very technical company where
+the PMs are pretty much just engineers that &quot;enjoy product stuff&quot; – this skill
+of problem understanding becomes essential if you want to build anything
+meaningful. It's the difference between your product becoming a hodgepodge
+control plain spaghetti mess of functionality, and something beautiful and
+usable and scalable, whether that's a backend system, a UI, or an entire
+deployment fleet.</p>
+<p>As the saying goes, &quot;necessity is the mother of all invention&quot;. Understanding
+the necessity, deeply and thoroughly, will help maximize the probability that
+you build the right invention.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-5-optimize-for-empathy"><a class="header" href="#item-5-optimize-for-empathy">Item 5: Optimize for empathy</a></h1>
+<p>Imagine if you could turn your customer into a programmer who could write out exactly what they wanted. Turns out you can do this...<em>if</em> you can morph into that person.</p>
+<p>How to do this? Empathy. Imagining you're the person will help you program the way they think. This means less surprises for you and them.</p>
+<ul>
+<li>The hero test</li>
+<li>You need to understand their world to truly understand what they want</li>
+</ul>
+<p>The science: people will trust you more and think you're easier to work with if you're like them (CITE!!)</p>
+<p>Here's an example: blah where I was able to use this to achieve something (R! With Contacts Ranking! IoT with UI).</p>
+<p>If you can step into the shoes of your stakeholder, then they can build their dream product.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-6-use-restating-to-ensure-alignment"><a class="header" href="#item-6-use-restating-to-ensure-alignment">Item 6: Use Restating to ensure alignment</a></h1>
+<p>This is something that I use all the time.</p>
+<p>When someone explains something to you, how well do you really understand it? Do you understand it well enough to turn
+it into a functional implementation? Does everybody else who heard the explanation understand it? How can you be sure?</p>
+<p>It turns out that there's a really simple way: <strong>restating</strong>.</p>
+<p>Restating is the <a href="https://www.guru99.com/tcp-3-way-handshake.html">TCP Three-Way Handshake</a>, but for humans. It works like this:</p>
+<p>Until such time that the response to the final question is positive:</p>
+<ol>
+<li>Ask a clarifying question</li>
+<li>Await the explanation</li>
+<li>Say: &quot;okay, let me restate that to make sure I understand&quot;</li>
+<li><em>Restate exactly what they told you, in your own words</em></li>
+<li>Say: &quot;how well does that align with what you were thinking?&quot;</li>
+<li>Await their response</li>
+</ol>
+<p>Example, acking right away:</p>
+<ul>
+<li>&quot;Have we decided on an API protocol yet? I saw REST for this endpoint but it looks like a lot of the codebase uses GraphQL.&quot; [Ask a clarifying question]</li>
+<li>&quot;Ah yeah Jenae wrote that endpoint a couple of months ago when she was on rotation for our team. We hadn't really decided to go with GraphQL but then we saw David's presentation at the Summit and Ramona who worked with him at her last job pinged him about our architecture discussion and he submitted a pull request converting the checkout queries over to GraphQL and that was like pretty much what set this whole thing off. What endpoint was that again anyway? Where in the codebase is that used? Oh that might be part of a v1 feature that we forgot to clean up after we launched v2 fully to prod&quot; [Await the explanation]</li>
+<li>&quot;Okay, let me restate that to make sure I understand: the API protocol <em>is</em> GraphQL, but this endpoint was written before that was fully decided, and we're not even sure if that endpoint is in use anymore. How well does align with your thinking?&quot; [Say okay and restate]</li>
+<li>&quot;Yeah I think that sounds about right&quot; [Await their response]</li>
+</ul>
+<p>Example, needing multiple tries:</p>
+<ul>
+<li>&quot;Where do you see the biggest area of opportunity to improve our test coverage?&quot;</li>
+<li>&quot;Honestly it's crazy I got paged in the middle of the night...(narrative about network latency but can't detect properly)&quot;</li>
+<li>&quot;Okay, let me restate that to make sure I understand: whenever you look at the graphs, the UI gets in the way of you making sense of it. H-&quot;</li>
+<li>&quot;The UI is actually fine. The problem is the way that we ingest samples [etc etc etc]&quot;</li>
+<li>&quot;Ah, okay, let me see if I get it now: Because the UI has limited flexibility over how the data is structured, it's hard to slice and dice the data to get the right signal out of it to display?&quot;</li>
+<li>&quot;Yeah exactly&quot;</li>
+</ul>
+<p>Science: Chris Voss Mirroring. Renee Girar Mimetic Behavior (maybe)</p>
+<p>I use this technique pretty much every day. It has an incredible side effect: it builds trust with who you're speaking to. They get that you're buying what they're selling, and they're excited about it. Who wouldn't be?</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-7-talk-about-your-code"><a class="header" href="#item-7-talk-about-your-code">Item 7: Talk About Your Code</a></h1>
+<p>The goal of this item is to solve the problem of the &quot;How long would it take to change $FEATURE<em>X to do $Y question?&quot; Every time I've gottent that question, it's frustrated me. It's frustrated me because not because of how I have to answer that question, but how inevitably the customers are interested in _why</em> you gave the estimate you did. &quot;Don't you just have to add another field to that form?&quot; &quot;Isn't it as simple as adding a new subcommand?&quot; &quot;Can't you just restore it from a backup?&quot; Explaining why this won't work requires, somehow, for you to explain how your software is structured. So, before you get asked that question, try thi:</p>
+<p><strong>Explain to your customers, at a very, <em>very</em> high level, how your software is built.</strong>. Do <em>NOT</em> use the terms &quot;data structure&quot;, &quot;algorithm&quot;, &quot;function&quot;, &quot;method&quot;, &quot;microservice&quot;, or any other jargon that only another software engineer would know. Instead, <em>translate those terms into ideas that normal human beings can understand</em>.</p>
+<p>Need to explain a data structure? &quot;Here's the <em>code's mental model</em>, if you will, that is has for <code>$entity</code>&quot;</p>
+<p>Class/Service? &quot;So there's this <em>thing</em> in the code. It knows about <code>$members/$classes</code> and it can do things like <code>$relevant_methods/$protocol_endpoints</code></p>
+<p>Algorithm? &quot;So here's how the code goes about doing <code>$function</code>. Basically it takes in <code>$args</code>, and from that produces
+<code>$retval</code>&quot;</p>
+<p>Protocol? &quot;So the way that <code>$thing1</code> and <code>$thing2</code> talk to each other is <code>$description</code></p>
+<p>This has two advantages:</p>
+<ul>
+<li>It validates that the code is doing what the customer expects it to be doing: aka the right thing for the product.</li>
+<li>It <em>makes your customers feel involved in the process</em></li>
+</ul>
+<p>Science: Domain Driven Design (BIBLIO: DDD) But in reverse! E.g.:</p>
+<p>A lot of this idea comes from Domain Driven Design. I read it still early on in my career, and it made so much sense to me that the software itself should use the same terminology as the products that it powers. Shouldn't it also be the other way around? At the end of the day, your customers' idea – the product – is being powered by this software. Shouldn't the customer know that software's current capabilities? I imagine you'd want to know at least what kind of gas the engine takes if you bought a car (or some analogy akin to knowing at a very high level how something's designed gives you a better understanding of it).</p>
+<p>My caveat is that I would wait for the right time to say this. Usually, as alluded to above, the customer is talking about capabilities of a system or feature estimates. It's a great education moment, and they'll better be able to understand what it takes to do different things in a system.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-8-guide-your-users-toward-a-system"><a class="header" href="#item-8-guide-your-users-toward-a-system">Item 8: Guide Your Users Toward A System</a></h1>
+<p>Every piece of software is a system. It has to be: it's built on the foundation of a bit, which itself is a very simple system consisting of two values, where only one value can be present at a certain time. The problem is that customers might not necessarily be thinking about a system when they think about their product. They're just thinking about the product. This is a problem for you, because it means that one day you'll get a seemingly benign feature request that you'll realize won't fit at all into the design of the software system you've built. This &quot;software Black Swan&quot; will require you to tell the customer that their seemingly benign feature will take a quarter to complete. That will lead to an irritated customer.</p>
+<p>In order to avoid this scenario, <strong>move your customers in the direction of thinking about their product like a system</strong>. Tell them what you're thinking, in general terms, in terms of how you plan on modeling their idea in software. Help them smooth out the rough edges in their thoughts. Ask, &quot;how might that fit into the larger idea of the product?&quot;, or, &quot;I've noticed that this is the first time we're coming across this concept. Is this something in addition or is this concept present somewhere else in your idea and I missed it?&quot; Start to get the customers to <em>systematically think</em> about the idea in their head. <em>Not to hard</em>, just nudges, but make them aware of the system (I desparately need to rewrite this part lol)</p>
+<p>Science: ???</p>
+<p>By ensuring your customers are thinking about things along the lines of how their product's software fundamentally operates, you'll be able to minimize these software black swans, or at least not take the customer by surprise when you give them the estimate of how long it'll take to implement.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-9-use-customer-journeys"><a class="header" href="#item-9-use-customer-journeys">Item 9: Use Customer Journeys</a></h1>
+<p>You may have used things like &quot;Critical User Journeys&quot;, or &quot;User Stories&quot;, or &quot;Happy Paths&quot;, or something similar
+in your day to day work. Or, your product manager might have used them. It turns out they're a highly effective way
+to gather and validate requirements. But, you don't need it to conform to any buzzword-y methodology for it to be useful. All you have to do is this:</p>
+<p><strong>Image the ideal scenario in which someone uses your software for the intended purposes. Write that down in the form of a fictional short story. Use this to drive all feature requirements</strong></p>
+<p>E.g. [PROVIDE EXAMPLE OF SOME SORT OF REAL STORY]. You need a concrete person with a concrete problem. Describe in completely unambiguous terms what that person does with your software to accomplish their problem.</p>
+<p>This accomplishes three key things:</p>
+<ol>
+<li><strong>It builds empathy</strong> by making you imagine vividly the world of your stakeholders</li>
+<li><strong>It forces you to disambiguate</strong> any unknown areas / workflows that you will run into building your product.</li>
+<li><strong>It's the outline of your first E2E test</strong>; you could theoretically take the story and turn it into either manual QA steps or an automated tests (more on automated testing later in the book).</li>
+</ol>
+<p>My personal style is to write these in the following way:</p>
+<blockquote>
+<p><code>$CUSTOMER</code> is a <code>$CUSTOMER_PROFILE</code>. <code>$CUSTOMER</code> has a problem where <code>$PROBLEM_STATEMENT</code>.</p>
+<p>Historically <code>$CUSTOMER</code> has solved this by <code>$PRIOR_WORKFLOWS_IF_ANY</code>.</p>
+<p>But instead, <code>$CUSTOMER</code> uses `$PRODUCT</p>
+<p>First, <code>$CUSTOMER</code> navigates to <code>$PRODUCT_URL</code></p>
+<p>[...enumeration of steps]</p>
+<p>Now, <code>$CUSTOMER</code> has achieved a solution that <code>$DESCRIBE_VALUE_PROP_OF_PRODUCT</code>.</p>
+</blockquote>
+<p>This works for me, but it doesn't have to be this way. <em>All that needs to be present is a main character, a problem, and how the main character uses your solution to solve the problem</em>.</p>
+<p>Science: Just like in Item 2 we said people are bad at imagining real-world scenarios, it turns out this same thing applies to when we try and build software. If we try and build for an abstract use case, there's a higher likelihood our product won't accomplish the goals of the concrete use-case, vs. if we try and build directly for the concrete use-case.</p>
+<p>If you've read other items, you've heard me mention this, but <em>don't worry if the solution you come up with to fulfill the use case is not yet &quot;scalable&quot;</em>. We will be addressing a lot of ways to overcome this later in the book.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-10-read-the-mom-test"><a class="header" href="#item-10-read-the-mom-test">Item 10: Read The Mom Test</a></h1>
+<p>This item is admittedly a bit of a cop-out, but I am including it because it has been one of the most helpful things
+I've done when it comes to understanding what potential stakeholders <em>actually</em> want:</p>
+<p><strong>Read the book <a href="http://momtestbook.com/">The Mom Test by Rob Fitzpatrick</a></strong>. It is a quick, easy, well-written read,
+and it gives precise, effective advice for <em>avoiding false positives when talking to customers</em>.</p>
+<p>For example, when I would demo features for stakeholders in the past, I used to say: &quot;is this something that's useful to you?&quot;, to which they would inevitably reply &quot;Yes!&quot; and then proceed to not use the feature ever. Now, what I say instead is &quot;tell me about the last time you were working on <code>X</code> and could've used this feature?&quot; Now, they have to come up with something concrete, and it'll be much easier to see whether or not it actually provides value. One of the many, many pearls of wisdom in this book.</p>
+<p>Science: Tribalism – People are complex creatures, they care about being part of the tribe, they want to make you feel good and help you (CITATION NEEDED)</p>
+<p>p.s. I am in no way affiliated with Rob Fitzpatrick or The Mom Test; I make no money off of this endorsement, so that's how you know I'm serious about how good it is 😁</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-11-stop-for-questions-frequently"><a class="header" href="#item-11-stop-for-questions-frequently">Item 11: Stop for Questions Frequently</a></h1>
+<p>The stuff we working on is complex. When you get started explaining something, it's hard not to go off
+on a tangent. However, it's likely that the longer you talk, the less people actually listen. They're trying
+to keep everything in their brain, and you're overloading them with information.</p>
+<p><strong>To combat information overload and zoning out, stop for questions frequently</strong>. Basically, whenever you finish
+a thought, stop and say &quot;was that clear?&quot; or &quot;any questions?&quot; or something like that.</p>
+<p>Doing this has two key advantages:</p>
+<ul>
+<li>It gives people the chance to make sure they're on the same page as you</li>
+<li>It brings the attention and energy back into the room.</li>
+</ul>
+<p>The science behind this is brains like to be engaged [CITATION NEEDED].</p>
+<p>Like a TED Talk, engage your audience. That's how you'll get the most out of those requirements meetings.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-12-use-the-pausesummaryexplanation-model-to-answer-questions"><a class="header" href="#item-12-use-the-pausesummaryexplanation-model-to-answer-questions">Item 12: Use the Pause/Summary/Explanation Model to Answer Questions</a></h1>
+<p>Usually when we get asked a question, we don't have an answer readily prepared.
+Instead, what happens is a <em>lot</em> of information about very complex and broad
+topics comes into our minds, and we have to – in real time – make sense of all
+of it and distill it into an aswer that everyone can understand. Many times in
+my career, I have seen (and done) the behavior of simply saying all of my
+thoughts as they come to mind in an attempt to answer the question. (ELABORATE
+WITH AN EXAMPLE HERE). While this may be comprehensive, it presents two main
+problems. First, because there is so much information being given to the other
+party, it's highly likely that the signal of the answer will get lost in the
+noise of all of the other information. Second, and worse, the fact that so much
+additional information is being conveyed increases the chances that the customer
+will latch onto something tangential or unimportant, and derail the
+conversation. Often it adds more confusion than clarity. However, it may also be
+necessary to convey background information to provide context for the answer. So
+how do you answer a question in a way that amplifies the signal but also conveys
+all of the necessary information?</p>
+<p><strong>First, pause after the question is asked to collect your thoughts. Second,
+state a one-sentence &quot;summary&quot; of the answer. Finally, follow up with the
+background explanation</strong>. Following this model of answering questions will
+ensure that the conversation stays centered around the right topic, the asker
+gets all the information they need, and you have time to organize your thoughts
+in order to clearly convey the information.</p>
+<p>I developed this method after reading Pitch Anything by Oren Klaff. It talked
+about putting the most important information first, and &quot;unraveling&quot; the rest of
+the story from there (CITATION NEEDED). It turns out that people have very short
+attention spans, even when they ask a question. Our brains are kind of like
+event loops. We wait for a short while to receive relevant information on one
+connection, and if we don't receive any, we tend to move onto other things, like
+what we'll eat for lunch, or how we'll respond to that email we just got
+notified of during the meeting. So even when you're answering a question, you
+have to fight to keep peoples' attention. What's more, the more confused people
+are, the harder their brains have to work. The harder their brains have to work,
+the less likely they are to do so. By starting with a summary, you accomplish
+two things: you &quot;hook&quot; them into the rest of the explanation, and you give them
+a clear &quot;compass&quot; as to what to look for within your explanation.</p>
+<p>The hardest part of this whole model might be the &quot;pause&quot; part. I know for me, I
+always feel compelled to respond straight away when someone asks me a question.
+One strategy for getting around this is to outright say: &quot;let me take 30 seconds
+and think about that for a second&quot;. Not only will this allow you to say
+something out of the gate, it will make your thought process clear, and
+potentially discourage others from jumping in.</p>
+<p>Giving a summary also tends to be pretty difficult. My personal strategy for
+this is to start explaining out the raw answer I would've given in my head, and
+then subtracting information bit by bit from that answer until I'm left with the
+important part. Much like a sculpter starts with a block of clay and creates a
+beautiful sculpture out of it, you can lay all of the information in your head
+out in front of you like a block of clay, and then start sculpting and refining
+from there. For example, say someone asks you a question around why your API
+cannot currently support pagination. You might be tempted to start out
+explaining how the API works. You might be working through the implementation in
+your head. At some point after that whole explanation, you might be able to go
+back and point to the part where you never got around to implementing DB
+cursoring and having an <code>ORDER BY</code> clause would be untenable given the amount of
+data you have to process, or whatever it may be. You can now start to identify
+the parts of the &quot;clay&quot; of information that matter: namely, the way the database
+calls are structured. Now that you have a waypoint, you can try and summarize it
+into a simple, one-sentence summary: &quot;the way we make DB calls doesn't allow for
+it currently&quot;. <em>Then</em>, you can start to explain how the DB calls are made, why
+they were built that way, and any other contextual information that might be
+relevant (e.g. whether or not there are plans to support it).</p>
+<p>What you'll realize after giving a summary, is that the explanation will follow
+naturally from sub-questions that will arise out of the summary. In the above
+example around API pagination, if you had said something like: &quot;the way we make
+DB calls doesn't allow for it currently&quot;, the next logical question I would have
+would be: &quot;why not?&quot; (or maybe more nicely: &quot;what about the way you make DB
+calls doesn't allow for it?&quot;). That would be a great place to start your
+explanation. And then further, &quot;is changing the architecture on the roadmap?&quot; or
+&quot;how much time would it take?&quot; Following the trail of sub-questions will help
+you provide a good explanation, while showing the customer that you care about
+what they think. However, be sure to look for clues that you're going too far
+down a rabbit hole. Leave space in between points (more on that soon), and – if
+in-person or over video – pay close attention to the facial expressions of the
+asker. If you see them start to lose focus (eyes diverting), or they seem to be
+working hard trying to understand what you're saying (squinting, tense
+shoulders, tightening lips), or they seem to want to say something (widening
+eyes, fidgeting, rapid open-and-shut of the mouth), <em>stop</em> and let them respond.</p>
+<p>There could also be times when you really just <em>can't</em> answer the question in a
+straightforward manner. Perhaps this is because the way they asked the question
+doesn't make sense. Perhaps it's because the answer deals with such a broad and
+complicated domain that a summary wouldn't make sense. If this is the case, <em>you
+should explicitly say so</em>. Mention that there's not a directly straightforward
+way to answer the question, but <em>be sure to explain why</em>. Then, offer some sort
+of alternative explanation to help guide them toward the right question (expand
+on this).</p>
+<p>Finally, it always helps to ask &quot;how well did that help answer your question?&quot;.
+Most of the time, people will lie to you (potentially themselves) and say well.
+But, sometimes, they'll ask another question, and that's a signal that you're on
+the right track helping them get the information they need. Which, after all,
+was the point of them asking the question in the first place.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-13-prefer-asking-for-feedback-vs-asking-for-advice"><a class="header" href="#item-13-prefer-asking-for-feedback-vs-asking-for-advice">Item 13: Prefer Asking for Feedback vs. Asking for Advice</a></h1>
+<p>I've been in a lot of meetings where people ask &quot;how would you like X&quot; or &quot;what could you do with Y?&quot; or &quot;what do you think is the most helpful way we could lay out this table?&quot; If you're like me what you've noticed is that it takes people a while to answer that...it tends to look like a &quot;tough&quot; question to answer. If you read <a href="pt1/./item-1-dunno.html">Item 1</a>, you know that this is partly because <em>people don't know what they want</em>, and you're trying to help them figure it out. But helping them figure it out by asking them what they want, it turns out, isn't that helpful. Instead, try this:</p>
+<p><strong>Take a very solid, very concrete stance, and then ask them what they think.</strong> Instead of asking &quot;what could you do with Y?&quot;, say, &quot;What it seems like you want to do with Y is $thing. What do you think?&quot;. Instead of asking, &quot;what do you think is the most helpful way we could lay out this table?&quot;, say: &quot;we're going to organize this table by widget priority with all of the inactive widgets pre-filtered so you can easily triage which widgets need your attention. What do you think?&quot;. What I've found is that people will be much more likely to respond to that question with feedback that actually gives you a sense of what's important to them.</p>
+<p>The science behind this is pure evolutionary biology. Brains are lazy; the harder they have to work, the sadder they are. When you ask someone an open-ended question, you're asking them to do a lot of work imagining the right way forward. When you <em>tell</em> them about the way the world is, you're asking them simply to <em>react</em> to that, which is much easier; a reaction is finite and discrete and closed; a world is open-ended.</p>
+<p>Just remember: <em>it's easier to edit than to write</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-14-allow-for-silence"><a class="header" href="#item-14-allow-for-silence">Item 14: Allow for Silence</a></h1>
+<p>I was in a meeting once, and we were chatting about a particularly complex
+implementation detail within a system. At one point, someone asked a question
+about the system. The person who was primarily doing the explaining paused for a
+few moments, and clearly looked like he was thinking. After only a few seconds,
+the person who asked the question followed up with more information. While this
+lead to additional conversation, the original question never got answered. It's
+unclear whether the asker ever got clarity on the answer to their question. And
+this means that understandings could be misaligned, which is bad.</p>
+<p><strong>Allow for silence when asking a question, proposing an idea, or awaiting a
+response.</strong> Silence is usually indicative of thinking, much like a loading
+screen, or a processor when it's doing work. Silence is <em>healthy</em>, because it
+allows for reflection.</p>
+<p>It is also okay to feel uncomfortable when there is silence, because sometimes
+it can be &quot;akward silence&quot;. A good way to distinguish between okay silence vs.
+&quot;akward&quot; silence is whether or not there's active thinking about something going
+on. If so, it means the silence allows for reflection and contemplation so that
+the question/problem can be best answered/addressed. However, if there's
+<em>nothing</em> being actively thought about, then it may be unclear how to proceed,
+or there could be some static, and that could be unhealthy or unproductive.</p>
+<p>Reflection and contemplation leads to effective distillation of thought.
+Allowing for silence will facilitate this.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-15-treat-debate-as-a-learning-experience"><a class="header" href="#item-15-treat-debate-as-a-learning-experience">Item 15: Treat Debate as a Learning Experience</a></h1>
+<p>Problem solving is <em>hard</em>. Problem-solving at the level of something like
+Fortune 500 enterprise software, or an app that scales to billions of users, or
+the next billion dollar company, or clean tech that will revolutionize climate
+change,or that Squarespace site for the hyper-particular (yet very wealthy)
+client, is painstaikingly difficult. It often takes many people (ideally with
+diverse life experiences) working together, in unison, towards a shared goal of
+solving it. That means that the group of people must develop a shared
+understanding of the problem, agree on a solution for it, scope out the work,
+and delegate and execute it. In the process of doing so, there will almost
+always be debate. Unfortunately, I've seen many circumstances where people have
+made the mistake of thinking that the &quot;debate&quot; is the time where one person
+proves their correctness over another. This is a misinterpretation.</p>
+<p><strong>The purposes of a debate is not to determine who is right and who is wrong,
+but to develop a more accurate understanding of the topic.</strong> Problem solving is
+an art form, and art is subjective; there is no &quot;right&quot; or &quot;wrong&quot;. There is
+only the views of everyone on how to undertake the problem, and the
+perspectives, wisdom, and experience they can add.</p>
+<p>[CITATION NEEDED] Unfortunately, the science behind this is Tribalism. If you're
+not with me, you're against me. Debates bring this out in human beings. And
+since we have egos (and performance reviews), it tends to trigger that &quot;fight or
+flight&quot; fear response that asserts that &quot;I MUST NOT BE WRONG&quot;.</p>
+<p>It takes some getting used to, but I've found that once I <em>stopped caring
+whether or not I was wrong, and started caring about whether or not we were
+building the right thing</em>, conversations became way more effective.
+Specifically, I started doing this thing where <em>if I thought someone was wrong,
+I assumed I didn't understand their perspective vs. assume they were incorrect</em>.
+I would then ask them clarifying questions to put myself in their shoes, and
+from there try and recreate their opinion. I would then reflect on what I had
+learned through doing this exercise. I learned this from one of the best
+managers I've ever had; he called it a &quot;hero story&quot;, and it is an extremely
+effective way to keep the conversation focused on successful outcomes vs.
+individual egos.</p>
+<p>Don't let the product suffer because you believe you have to be right.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-16-prefer-examples-to-suggestions"><a class="header" href="#item-16-prefer-examples-to-suggestions">Item 16: Prefer Examples to Suggestions</a></h1>
+<p>Stop saying &quot;I think you should do X&quot;.</p>
+<p>I'd like for you to pause for a moment and think about how that last sentence made you feel. Did you immediately say to yourself &quot;okay great!!&quot; with a big smile on your face? Based on my past experience with how I've seen people react to other people (myself, unfortunately, included) try to command them to do something. They usually get defensive blahblah describe how people get</p>
+<p>Instead, <em>use examples from your own experience showing how your idea could be valuable, rather than proposing your idea outright.</em> For example, instead of saying &quot;I think you should make this API call return asynchornously and then expose a method for polling for job completion, rather than having the client wait for the entirety of the request&quot;, you could say: &quot;I worked with a similar API to this once. What happened was we would make requests and they would frequently take too long / timeout because the job would take too long&quot;.</p>
+<p>This accomplishes two things:</p>
+<ol>
+<li>It gives the stakeholder/customer the opportunity to decide what to do, which is a signal of mutual respect.</li>
+<li>It gives the stakeholder/customer the opportunity to <em>ask you what to do</em>, which means that they're soliciting this information out of you and won't be turned off by suggestions.</li>
+</ol>
+<p>The science is that complex systems (BIBLIO ??? evolutionary biology?) behave in unpredictable ways. You instead have to give them information and see how they react to that information. Also arrow of knowledge.</p>
+<p>p.s. The irony of this book being one big &quot;I think you should do X&quot; is not lost on me.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-17-refactor-commonalities-to-find-general-problems"><a class="header" href="#item-17-refactor-commonalities-to-find-general-problems">Item 17: Refactor Commonalities to Find General Problems</a></h1>
+<p>Say that you've built your MVP for your product for an intial stakeholder, and
+they love it. Now, it's time for the product to expand. Your next customer, or
+group of customers, now are telling you that they need vastly different things. Who
+do you listen to? What do you do? How do you get everyone aligned on the same
+page? Your first inclination might be just to build all of those different
+things for them. This is at best an unmaintainable solution, at worst an
+incompatibility issue between different parts of your system. In order to serve
+your stakeholders well, and quickly and efficiently improve upon your system,
+you want a solid base to build upon. In Software, we do this by <em>refactoring</em>.
+Refactoring allows us to take code that we've already written, and change it such that
+we incorporate new code into the codebase, the overall codebase remains maintainable. It turns out you can do the same
+thing with product ideas.</p>
+<p><strong>When faced with new product requirements, try and &quot;refactor&quot; the ideas of the new requirements and old requirements such that you can find a commonality. Use that commonality as a base to frame both, or multiple, ideas upon.</strong></p>
+<p>Once you've found that commonality, you can align customers on that commonality.</p>
+<p>Science here is the scientific method: observations lead to theory.</p>
+<p>Solid foundations are as important for problems as they are for solutions.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-18-prototype-early-and-often"><a class="header" href="#item-18-prototype-early-and-often">Item 18: Prototype Early and Often</a></h1>
+<p>When we show sketches, mockups, slide decks, bulleted lists of features, etc, what we're trying to do is get something concrete in front of stakeholders <em>before</em> we have a product to show them. Ideally, we'd like to show them a product, except building a product takes time, and time is money. However, what costs <em>more</em> time and money is when you eventually build the product, and even though you've shown your stakeholder all those sketches, mockups, slide decks, and bulleted lists of features, it turns out that they wanted something completely different. In order to avoid this:</p>
+<p><strong>As soon as you have an idea of the simplest possible thing you could build in order to validate that you're thinking of the product in the right way as the customer, prototype it, put it in front of them, and ask for feedback</strong>.</p>
+<p>If you have &quot;user stories&quot; or &quot;customer journeys&quot;, or are practicing the techniques mentioned in <a href="pt1/./item-7-journeys.html">Item 7</a>, a great way to get started prototyping is to <em>take the most important journey and implement it as quickly as possible</em>. Note that because it's a prototype, just focus on bare functionality, and <em>do not focus at all on code quality</em>. You can then put this in front of stakeholders and gather feedback.</p>
+<p>The science here is pretty simple: all of those conceptual artifacts that are not the product are <em>models</em> that approximate an abstract version of the product. Like all models, &quot;the map is not the territory&quot; (BIBLIO: GREAT MENTAL MODELS), and like all models, they are subject to &quot;model error&quot; (BIBLIO: Black Swan). The problem is, as expressed in <a href="pt1/./item-1-dunno.html">Item 1</a>, <em>the stakeholders might not know what they want until they see the actual product</em>. Prototyping is a perfect way to dramatically reduce the turnaround time for demoing a product and putting it in front of the customer.</p>
+<p>Besides, who wants to make slide decks anyway?</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-19-keep-it-simple"><a class="header" href="#item-19-keep-it-simple">Item 19: Keep it Simple</a></h1>
+<p>I've read lots of Product Requirements Documents and explanations of code that use incredibly sophisticated, very technical language. While they sound very impressive, I always walk away feeling like I either:</p>
+<ol>
+<li>Did not learn as much as I could</li>
+<li>Needed to work extremely hard in order to truly understand what was being said.</li>
+</ol>
+<p>I feel like as developers we've been deluded into thinking that, since we're judged by our peers based on the complexity of the problems that we solve, we need to strive to convince others that what we're doing is complex, by using complex language, complex reasoning, and complex jargon and logic. However, this gets us into a lot of trouble when talking to stakeholders since <em>stakeholders do not care about how complex the problems you're solving are; they just want it solved</em>.</p>
+<p><strong>Communicate your ideas as simply as possible</strong></p>
+<p>Reddit's &quot;Explain Like I'm 5&quot; is a good litmus test to see how well you're communicating your ideas: <em>could somebody without any expert knowledge of programming or your product domain understand what you're saying or writing?</em>. For example:</p>
+<ul>
+<li><em>Do not use</em> programming jargon, unless your stakeholders are programmers.</li>
+<li>In fact, use the jargon within the field of your stakeholders, as that will make things easier tounderstand.</li>
+</ul>
+<p>The science here once again comes from the realm of evolutionary biology and behavioral economics (BIBLIO: Khaneman). It turns out that using your brain requires lots of effort, and humans – like all other animals – try to expend the least effort possible to accomplish a task. The simpler your communication is, the less effort people have to use when receiving it. The less effort people have to use when receiving it, the easier it will be to understand. The easier it is to understand, the higher the likelihood of things not being lost in the mix are.</p>
+<p>I think François de La Rochefoucauld sums it up nicely when he says (BIBLIO: Rochefoucauld)</p>
+<blockquote>
+<p>We should say things that are natural, simple, and more or less
+serious, depending on the temperaments and inclinations of the
+people with whom we are speaking––not pressing them to approve
+what we have said, or even to answer it. When we have thus satisfied
+the requirements of civility, we can voice our own feelings without
+any prejudice or stubbornness, while showing that we are trying to
+base them on the opinions of our listeners.</p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-20-paint-a-picture"><a class="header" href="#item-20-paint-a-picture">Item 20: Paint a Picture</a></h1>
+<p>At the end of the day, requirements gathering really comes down to <em>observing and explaining</em>. We observe when we listen to our stakeholders talk about their problems, and our partners talk about the capabilities of what their systems are able to produce. We explain when we work with our stakeholders to solve their problems, and work with our partners to identify how we might integrate with their systems. The problem here is that how we observe and how we explain is fundamentally more &quot;lossy&quot; than what the other person has in their heads, and what we have in our heads, respectively. Speech is a limited form of expression. Words, even more. Throw remote work – and the loss of body language – into the mix, and it's even harder to communicate. How do we overcome these limits so that we get the highest fidelity signal possible when observing and communicating? It turns out that writers figured it out long ago and have been using it for a long time:</p>
+<p><strong>Focus on creating a crystal clear image in people's heads of what you want them to see</strong>. Use techniques from writing in order to do this: metaphors, similes, vivid language, narratives, sensory details. The more the better. The more vivid your image is, the more it will appeal to peoples' emotions / &quot;animal senses&quot;, and it will be that much easier to grok.</p>
+<p>The science behind this comes from evolutionary biology (BIBLIO: ???). Humans are trained on narratives; that's how our brains work, always has been, always will be. You can exploit that narrative system in order to communicate ideas with a lot more accuracy than you could otherwise. Blah blah blah come up with a concrete example.</p>
+<p>As the saying goes, it might take you 1000 words to get to your picture. But those 1000 words will create a sum greater than its parts, and put you well on the way to building software your stakeholders will love and your team will feel proud of.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="part-ii-building-the-software"><a class="header" href="#part-ii-building-the-software">Part II: Building the Software</a></h1>
+<blockquote>
+<p>Implementation does not necessarily proceed from invention</p>
+</blockquote>
+<p>– Nassim Nicholas Taleb (BIBLIO: Antifragile)</p>
+<p>Once you've gathered all of the concrete requirements you need in order to
+implement a software program, the hope is that a picture of what the end product
+will look like, how it will behave, how it will respond and interact with people
+(and computers, in many cases), will start to become clear in your head. By the
+time you are done gathering requirements, it is likely you will have a solid
+fundamental grasp of the <em>idea</em> of what you are trying to build.</p>
+<p>But, there's a problem: you now have to take that idea and translate it into
+code. As [the author of crossing the chasm] might put it, there is a big, gaping
+chasm you now have to cross, a divide between the human world of ideas and the
+computer world of bits, compilers, memory management, data structures,
+algorithms, design patterns, and the like.</p>
+<p><strong>It is incredibly difficult to map abstract, messy human ideas into the
+concrete, definitive algorithms and patterns needed to execute computer
+programs. Part II of the book provides guidance on how to make this a bit
+easier.</strong> The entire goal of this section, all of its items, pertain to mapping
+the human world into the world of computers. By doing so, you are effectively
+&quot;communicating&quot; your solution to the requirements of humans into a form which
+computers can understand, and therefore execute. This is, in my opinion, the
+primary job of the software engineer: bridge this divide between the realm of
+human ideas and knowledge and the realm of computer programs, so that the
+solutions to your customers' problems can be realized.</p>
+<p>This section is mostly philosophical in nature, more than the rest of this book.
+In the last section, I tried to supplement every item with the &quot;science&quot; behind
+why that item may hold merit. That was pretty straightforward to do, because
+most of the items in the last section involved human behavior and social
+interaction do not. Most of the items in this section, however, deal with
+<em>self-reflection</em>, and because self-reflection is highly empirical and
+idiosyncratic, I feel like tryingt to justify the &quot;science&quot; behind what I'm
+saying here will at best be like trying to jam a square peg into a round hole,
+at worst be just plain wrong and detract from the main points of each item. If
+at any time any of these items don't work for you, or you find that it d oesn't
+work for you, feel free to skip.</p>
+<p>Furthermore, I'm specifically <em>not</em> going to talk about design patterns,
+architectural patterns, functional vs. oop vs. imperative, or anything else
+that's more implementation-specific. You choose which patterns work best for
+you. Instead, this is about <em>thinking about your code in a way that aligns with
+the product you're trying to build</em>. Once you do that, choose which coding
+techniques you'd like to use to make it so.</p>
+<p>Let's begin by debunking the sham that programming has anything to do with
+&quot;computer science&quot;.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-21-treat-software-engineering-as-an-art-not-a-science"><a class="header" href="#item-21-treat-software-engineering-as-an-art-not-a-science">Item 21: Treat Software Engineering as an Art, not a Science</a></h1>
+<p>The term &quot;computer science&quot; is literally the biggest crock of shit I have ever heard in my entire life.</p>
+<p>The above sentence is obviously a grotesque oversimplification at best, and completely debased at worse, but now that
+I have your attention, I'd like to introduce you to how I think about writing code. I feel this is important because it creates a context which underpins a lot of the ideas I'll be discussing here:</p>
+<p><strong>Software engineering is an art form, where you take an abstract idea and represent it concretely with code.</strong> The rest is literally an implementation detail.</p>
+<p>The gripe I have with people thinking about my job as &quot;computer science&quot; is that it just doesn't translate. Picasso was not a chemist, but a painter. Conversely, if you took a random sample of chemists and asked them to paint a Rembrandt, they would most likely fail miserably.</p>
+<p>At the end of the day, artists breathe reality into abstract ideas, just like software engineers.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-22-treat-code-as-a-concrete-representation-of-an-idea"><a class="header" href="#item-22-treat-code-as-a-concrete-representation-of-an-idea">Item 22: Treat Code as a Concrete Representation of an Idea</a></h1>
+<p>Think about the best technology product you've ever used. Why did it work so well? What made you love it so much.
+I would guess that there's a high likelihood that it solved some sort of problem you were having, whether that's
+keeping you organized, keeping you entertained, or keeping you in touch with the people you care the most about. All
+great products, all technology that wows you when you use it, comes from someone telling a computer how to go about
+performing a particular task. It came from the mind of a human being, and is being carried out by a computer. It is a
+thought, in someone's head, brought to life through technology. It is an <em>idea</em>.</p>
+<p><strong>All products are simply ideas, realized with software. And since code is what consitutes software, the code itself
+is a concrete representation the idea of a product</strong>. Facebook's idea was a way to meet people on college campuses,
+and thus its primary database and architecture consist of a graph. Google's idea was to make it effortless to
+retrieve relevant information in a mess of interrelated info (web pages with links), thus you have a whole ecosystem of technology invented for taming massive amounts of digital data – BigTable, MapReduce, et cetera.
+Amazon's idea was to use the fact that storage was cheap, and now thanks to the internet, easily distributable, to
+allow people to buy more books than from any other place. Thus, you have AWS – a solution to the problem of how to
+set up an internet equivalent of IKEA. All of that amazing code you hear about has a single source of commonality:
+that it was <em>the idea behind the implementation</em> that made it so powerful. As a Software Engineer, <em>if you truly
+understand the idea behind the solution you're trying to implement, and you communicate that idea within your code,
+your product and your codebase will flourish</em>.</p>
+<p>In <a href="pt2/./item-14-art.html">Item 14</a>, I talked about how I believed that software is an art form. It was after I realized
+this that I began to treat writing software the same way I used to treat writing music: I would <em>try and
+fundamentally understand the idea the stakeholder was trying to get across, and translate that into my
+medium</em>. Instead of a piece of music, that medium became a computer program. The treatment of software as an
+idea is the foundation behind which I structure all of the rest of my code, and it is how I find that <em>once you spend
+time understanding the idea, fully and truly, the architecture of the software reveals itself</em>, and it's much easier
+to write that clean code.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-23-personify-your-code"><a class="header" href="#item-23-personify-your-code">Item 23: Personify your Code</a></h1>
+<p>To personify is to give life to otherwise inanimate objects. When thinking about building complex codebases, it can
+be hard to know where to begin, even to know how to get started thinking about the solution you're setting out to ]
+build. One of the things I do to get around this is I ask myself <em>if people, not code, were carrying out the solution
+I'm coding up, how would I describe what they were doing</em>? I call this <em>personifying my code</em>.</p>
+<p><strong>When you initially write your code, think about how you yourself would solve the problem as a human being. Then, try
+and translate that solution into code, using the same abstractions you thought of in your head.</strong></p>
+<p>Here's an example: say you're building a UI for managing massive amounts of data, and your stakeholders have
+expressed that the reason why they are still exporting the data out of your app and into Excel is because they
+use a lot of custom formulas on the data, and can't figure out how to replicate that in your UI. Thus, your PM
+queues up a task to add excel-like formulas to your data processing product.</p>
+<p>Where do you even begin? Well, what you could do is start thinking about <em>how you understand an excel-like formula</em>
+when you see it. First, you'll obviously need an example, since as we saw in <a href="pt2/./pt1/item-2-concrete.html">Item 2</a>, the
+concrete is always easier to grasp then the abstract. So your PM gives you one:</p>
+<pre><code>COUNTIF(price, &quot;&gt;50&quot;) / COUNT(price)
+</code></pre>
+<p>Before writing any code, <em>think about how you as a human being understand what you are seeing here</em>. The first thing
+I notice is that I see my mind breaking that string of characters into a bunch of different components, namely:</p>
+<ul>
+<li><code>COUNTIF(price, &quot;&gt;50&quot;)</code></li>
+<li><code>/</code></li>
+<li><code>COUNT(price)</code></li>
+</ul>
+<p>Which I interpret in my head to mean, ...blah blah blah keep going with this.</p>
+<p>The key here is to <em>be systematic with your thinking</em>. You want to begin to <em>think structurally</em> about the messy
+ambiguous solution given to you, and start to form structure by <em>understanding the solution thoroughly and
+communicating that understanding through code</em></p>
+<p>Another key benefit of personifying your code is that it will help give you a common, easy-to-use language to discuss
+implementation with your teams and your stakeholders. Everybody can relate to narratives around humans, it's the most
+human thing.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-24-describe-your-system-in-two-sentences"><a class="header" href="#item-24-describe-your-system-in-two-sentences">Item 24: Describe Your System in Two Sentences</a></h1>
+<p>When I was in YCombinator, they would drill into our heads that we needed to be able to describe what our
+company does in two sentences. (BIBLIO: YCombinator...link to blog post or something). Two clear, simple, unambiguous
+sentences. Not some marketing fluff about how great our company is. Not some lofty mission statement or tagline. Just
+plain facts that immediately convey the heart of your company's value. They made us begin every weekly session by
+stating our companies' two-sentence descriptions, and giving critiques on them. This was incredibly useful to us
+because we really had to truly, deeply, and fundamentally understand what we were building in order to convey it in a
+way where the main value could be grasped by a stranger who's never heard of it (and probably doesn't care about it)
+in two sentences. Now, think of the software architecture of a current project you've been working on. Imagine someone
+new joins your team, and you need to bring them up to speed. Where would you begin? How would you describe <em>not the idea behind your solution, but the actual way it is implemented in terms of its architecture</em>.</p>
+<p><strong>You should be able to convey, in two clear, simple, unambiguous sentences, how your software system implements the
+idea which powers your product.</strong> Notice I used the word &quot;idea&quot;, not &quot;ideas&quot;, here. That's because you most likely
+won't be able to convey multiple ideas in two sentences. You'll need to simplify it down to the very soul of how your
+architecture operates. You also may be thinking that whatever you say will be a grotesque oversimplification of all
+the time, energy, and hard work of you and your team needed to realize such a complex product. That is <em>okay</em>.
+<em>Clarity is more important than accuracy here</em> (as I mentioned in a previous item, YC used to say to us to be &quot;80%
+accurate, 100% clear&quot;). What that clarity will give you and your team is a <em>foundational entry point to which the
+rest of your architecture can be understood</em>; it is your mental <code>main()</code> method of your codebase (more on that later)
+. By getting everyone aligned to the central cornerstone of your architecture, you will be able to:</p>
+<ul>
+<li>Move forward with tricky programming decisions</li>
+<li>Use it to drive future architectural discussion</li>
+<li>Gut-check yourself to align your understand of the idea with what's present in the code's architecture</li>
+</ul>
+<p>The philosophy behind this is: simple --&gt; complex --&gt; simple. Most ideas and solutions to them start out simple,
+usually stemming from a lack of understanding about the problem or the domain within the idea. As more information is
+acquired / requirements are gathered, the idea of a solution – and therefore the implementation of such – mushrooms
+in complexity. Most understandings of ideas, and therefore codebases, stop there. They remain infinitely complex with
+multiple jagged edges, weird edge-cases shoe-horned in, and dark spots that no engineer would dare ever touch,
+including the original author of such code. By distilling your architecture down into two clear, unambiguous, simple
+sentences, you make that third leap, from the complex back to the simple, something that only one with mastery over
+both the idea and how that idea is implemented within code can have. Note that, like most founders, you will most
+likely be evolving this two-sentence description frequently over the lifetime in which you develop the codebase.
+Embrace that change, for it means you have a better understanding of the problem today than you did yesterday.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-25-implement-from-the-top-down"><a class="header" href="#item-25-implement-from-the-top-down">Item 25: Implement from the Top Down</a></h1>
+<p>My absolute favorite feature of the Rust programming language is the <code>todo!()</code> macro. It works like this:</p>
+<pre><code>fn do_something() {
+  todo!()
+}
+
+fn main() {
+  println!(&quot;Doing something:...&quot;);
+  do_something();
+}
+</code></pre>
+<p>(OBVS CHECK THIS CODE)</p>
+<p>When you compile and run the program, you will get the following output:</p>
+<p>(PASTE THE OUTPUT)</p>
+<p>What I love about this macro is that it enables what in my experience has become the best way to start getting your
+ideas into code: implementing from the &quot;top down&quot;.</p>
+<p><strong>Write the most high-level part of your code first, before writing anything else, and simply use the functions and
+methods you would need in that high-level code as if you already had them. Recursively do this to fill in all of the
+needed parts of your code</strong>.</p>
+<p>For command-line programs and system binaries, this means you implement the main method <em>first</em>, using &quot;pretend&quot;
+abstractions/methods/etc you have not already written. For UIs, it means you start with the <em>interface first</em> and
+pretend that you have the data and APIs needed to render it. The point is that you start at the <em>highest possible
+level, that of the main idea, in order to implement your code</em>.</p>
+<p>I've found that this helps greatly with the issue of churning on &quot;the right abstraction&quot; when designing and writing
+new code. I was trained as an engineer to implement a system in a &quot;dependency-first&quot; way, but the problem is that
+until you get up to that highest-level, you're not quite sure exactly how you're going to use those dependencies,
+whereas if you start at the highest level, you know <em>exactly</em> how you're going to use those dependencies.</p>
+<p>The philosophy behind this is the fractal nature of ideas. Almost all sohpisticated ideas are built on hierarchies of
+knowledge...think how interdependent parts of a car all &quot;encapsulate&quot; the jobs they have to do into their own ways,
+or how communities and organizations get things done by having different people specialize in different domains and
+work together. For complex ideas, it's <em>too much</em> to think about everything all at once, so you want to start by
+thinking about your idea at the highest-level possible, which will help you code it as such. It probably won't be
+perfect, but it's a good start.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-26-code-hyper-specific-solutions-to-problems"><a class="header" href="#item-26-code-hyper-specific-solutions-to-problems">Item 26: Code Hyper-Specific Solutions to Problems</a></h1>
+<p>Have you ever encountered a programming problem that you couldn’t find an
+elegant general solution for, no matter how hard you tried? I’ve seen this often
+happen, especially when working on new codebases. You get stuck with the
+programmer version of “writer’s block”. That elegant architecture that you can
+ideally plug your problem into eludes you. So what do you do? If you’re like me,
+at some point, you throw your hands up in the air and write “bad” code (😱) that
+does nothing more than specifically solve exactly the instance of the problem
+you’re working on; no generalization at all. I submit that <em>this strategy</em> is
+the right way to approach an unfamiliar implementation.</p>
+<p><strong>Write a hyper-specific, un-generalizable solution to solve the single concrete
+instance of the problem you’re facing.</strong> Then, take a step back, figure out what
+you’ve learned about the problem, and rewrite it to be more general with your
+newfound knowledge.</p>
+<p>Coding hyper-specific solutions may feel unnatural (it did to me), but
+hyper-specificity is how we humans learn most things in life. You (probably) did
+not learn about the color &quot;blue&quot; by looking analyze the frequencies of light
+waves, identifying where on the spectrum it occurred, and then band-pass
+filtering light through a prism in a vacuum to display the pure distillation of
+the color. Instead, you saw the sky, and the water, and the Blue Man Group, and
+listened to that Eifel 65 song (I'm dating myself) and you figured it out from
+there. Only after you saw multiple examples of things that were blue did you
+learn that there is this general concept called &quot;color&quot; and the group of things
+you're looking at belong to the &quot;blue&quot; category. You learned by <em>starting small
+and concrete and then generalizing by working outwards from what you learned
+from your experience.</em></p>
+<p>Unfortunately, the way most institutions and literature teach coding (and most
+subjects, for that matter) is the polar opposite of how we learn to walk. First,
+they teach the general theory, the data structures, algorithms, tools,
+frameworks, etc. Then, they show how to pattern-match these concepts to
+real-world problems. This means that when practicing problem-solving outside of
+a professional setting, you learn to find the most accurate general theory your
+problem applies to and then apply that theory to the problem. I feel like this
+is what I did when I, for example, built an example HTTP server in a book
+demonstrating clean code. It implicitly teaches you <em>first</em> to learn the theory
+behind a problem and <em>then</em> apply it.</p>
+<p>The problem is that, in the real world, you often don’t understand the theory
+behind the problems you face. Worse, it may be challenging to <em>find</em> a theory
+behind the problem. Even worse, if there is a theory on it, you may not have the
+time or the resources to dive in and understand it enough to apply it to your
+problem elegantly. Out of every professional programming problem I have ever
+worked on, I have rarely worked on something that I readily knew the theory
+behind, let alone having a theory at all.</p>
+<p>So build your own theory instead. Solve the problem any way you can. Once you’ve
+done so, reflect on the solution and gain a better understanding of the problem.
+Then rinse and repeat. Your elegant architecture will emerge organically with
+time and reflection, and even if it doesn’t, that’s okay. You don’t need to
+study light waves to appreciate the beauty of the sky.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-27-avoid-trying-to-get-it-right-the-first-time"><a class="header" href="#item-27-avoid-trying-to-get-it-right-the-first-time">Item 27: Avoid Trying to Get It Right the First Time</a></h1>
+<p>There's a reason why people say &quot;Practice makes Perfect&quot;. There's also a reason why people say &quot;Perfect is the enemy of good&quot;.</p>
+<p><strong>Don't try to implement the code perfectly the first time.</strong> It's impossible. Instead, think of your first draft of code like a
+&quot;rough draft&quot;. You'll have to sit with the idea, edit it, refine it over time, before the fundamental meaning truly reveals itself
+to you.</p>
+<p>This might come as a shock to you if you're used to getting &quot;programming assignments&quot; from schools and bootcamps where the end
+solution is known. Unfortunately we don't have that luxury in the real-world; we're paid to implement <em>unsolved problems</em> (most of
+the time). Thus, you're doing what everyone who's ever solved an unsolve problem has done: trying, getting it wrong, learning from
+your mistakes, and trying again.</p>
+<p>The philosophy behind this is trial-and-error, arrow of knowledge, bricolage.</p>
+<p>Like anything else, the more you work with it, the deeper your understanding will be. That will be reflected in the code, but it
+takes time. Perfect is the enemy of good.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-28-write-your-code-in-the-style-of-its-programming-language"><a class="header" href="#item-28-write-your-code-in-the-style-of-its-programming-language">Item 28: Write Your Code in the Style of its Programming Language</a></h1>
+<p>An implementation of a problem in Python would look wildly different than its
+implementation in a language like JavaScript, or even moreso Scala or Haskell.
+This presents an issue if, for example, you're a Python developer working in a
+JavaScript codebase. Or, you're a Rust developer working in a Go codebase.
+Programming languages have a <em>massive</em> influence on the design and architecture
+of the codebases written using them, the same way that a spoken language has a
+massive influence on the culture of the people who speak it. Things that would
+work and be elegant in one language do not necessarily translate over to the
+others.</p>
+<p>Therefore, <strong>when writing code in a certain programming language, structure it
+in the same way the author's of the programming language would</strong>. This might
+mean using OOP vs. functional programming, it may mean doing <code>(void *)</code> casts,
+and it may mean using loops and list comprehension instead of more functional
+methods.</p>
+<p>The most effective way to do this is to <em>study a lot of coding examples from
+folks who are well-versed in the programming language, and try and get a sense
+of how they approach problems</em>. I've found Stack Overflow is a great way to do
+this, as is GitHub, where numerous examples of code in every programming
+language abound.</p>
+<p>Structuring the code in the style of its programming language will help avoid
+bugs and nasty surprises, make it easier to integrate libraries and 3rd-party
+code into the codebase, and increase maintainability and velocity by ensuring
+that you're using familiar patterns wihtin the language. It's an investment that
+pays off.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-29-optimize-for-idea-clarity-when-naming-variables"><a class="header" href="#item-29-optimize-for-idea-clarity-when-naming-variables">Item 29: Optimize for Idea Clarity when Naming Variables</a></h1>
+<p>They say that naming is one of the hardest problems in computer science. I
+believe that this is because when you name a variable, you're essentially
+implementing a compression algorithm. You have to pack a <em>lot</em> of information
+into a tiny bit of space. And people have to come and read that name and get a
+high-enough-fidelity version of that information back from just reading the
+name. Sometimes the information you are trying to convey is easy to compress
+(e.g. <code>numItems</code>), sometimes it's not (e.g.
+<code>shouldUseNonStandardFilteringStrategy</code>). But what it boils down to is that <em>the
+goal of a variable name is to aid future maintainers (including your future
+self) in understading the concept behind the variable, so that they can work
+withe the code correctly.</em> Therefore:</p>
+<p><strong>Name variables by optimizing for how clearly they represent their underlying
+information</strong>. The name is kind of like the title of a book, or the title of a
+speech, or the title of a song; you should be able to read it and maybe not have
+a <em>full</em> idea about all of the information behind it, but enough to understand
+its purpose and work with it within the code.</p>
+<p>The best variable names paint a picture in a maintainer's head, making it clear
+to them how this piece of data/system/code fits into the larger system. This is
+the high-quality compression algorithm at work; from just a name, you've
+transmitted a lot of information.</p>
+<p>The philosophy behind this is as old as human culture: storytelling. When you
+name variables, when you label a concept or a meaning, you are telling a story
+about it, ascribing meaning to it, and this is a very simple thing to do yet
+<em>extremely</em> difficult thing to get right, because compression is hard, and
+getting the right idea inside a person's head is hard.</p>
+<p>Here are some tips for helping you with your compression algorithm:</p>
+<ul>
+<li>&quot;Rubber-duck describe&quot; to yourself what the purpose of the variable is, like a
+short story. Then basically give your story a title, and that title becomes
+your variable.</li>
+<li>Look at all of the places where your variable will be used, and describe how
+that piece of code works. Pay careful attention to the way in which you're
+describing the information/concept where your variable will be used, and the
+name can emerge from that.</li>
+<li>Show a colleague the code/expression that's being assigned to the variable,
+and no other context, and ask them to explain what the code does.</li>
+</ul>
+<p>Basically, study the code. Develop a deep conceptual understanding of what it
+does. Meditate on its purpose. The deep meaning behind the code will arise from
+that reflection, and you will have your name. Not so hard after all!</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-30-treat-inline-comments-like-footnotes"><a class="header" href="#item-30-treat-inline-comments-like-footnotes">Item 30: Treat Inline Comments like Footnotes</a></h1>
+<p>One of the first rules you learn about writing &quot;clean code&quot; is the DRY principle
+<strong>D</strong>on't <strong>R</strong>epeat <strong>Y</strong>ourself. It basically says that if you are duplicating
+logic in more than one place, you should refactor it into a single place. This
+way, if you ever need to change the logic, you only have to do it in one place
+instead of many. Almost every developer adheres to this principle, except when
+they don't, when I've seen it broken in multiple circumstances: inline comments.</p>
+<pre><code>// Group items by product id
+const buckets = items.reduce((byProductId, item) =&gt; {
+  if (!(item.productId) in byProductId) {
+    byProductId[item.productId] = [];
+  }
+  byProductId[item.productId].push(item);
+  return byProductId;
+}, {});
+</code></pre>
+<p>Can you spot the repetition? It's in the inline comment! If the logic of the
+underlying code ever changes, the comment will go out of sync. This is an
+improper use of inline comments.</p>
+<p><strong>Inline comments should add additional information to the code it is located
+with, like footnotes do. They should never explain outright the logic of the
+code.</strong></p>
+<p>(Talk about how you can rewrite the above example to not need inline comments)</p>
+<p>The exception to the rule, of course, is performance-critical code, where you
+might need to sacrifice readability for performance.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-31-design-apis-using-the-bookends-method"><a class="header" href="#item-31-design-apis-using-the-bookends-method">Item 31: Design APIs Using the Bookends Method</a></h1>
+<p>(Need to rework to state the problem first: you need to design a new API but
+you're not sure where to start).</p>
+<p>(Describe what a bookend is). It starts at either side, and uses both sides to
+support a middle. APIs are very much like this. Often, you are motivated by a
+use-case within the calling code. However, once you start designing the API,
+there may be other implications or constraints depending on the implementation.
+For example, your method may have to be asynchronous, if some of the code it
+depends on is also asynchronous. Your client might not know or care about this,
+in fact it might complicate the client, but you need to do it anyway. So how do
+you go about designing APIs to minimize confusion and maximize useful? Use what
+I call the &quot;bookends&quot; method:</p>
+<p><strong>First, write your API within your client code, before writing the actual
+implementation. Then, go write the actual implementation without looking at the
+client code you just wrote. Then, look at both the client code and the
+implementation, and smooth out any inconsistencies</strong></p>
+<p>(Show an example of this).</p>
+<p>If it feels like you may have done this before, you're right: <em>this is
+essentially Test-Driven Development</em>. A unit test is essentially an isolated
+example of an API being used. If you write that first, then you have a clear
+idea of how your API will be used. Once you go and write your API, you smooth
+out any inconsistencies within the test. In other words, you first write what
+you want the code to do, then you write the code to make it do it, then you make
+the tests pass. The difference between TDD and the bookends method is simply
+that you don't have to write tests (unless you want to). Some people prefer not
+to write tests, some people do. I'm definitely <em>not</em> going to get into that
+discussion right now. But suffice to say that the bookends method will work
+whether your &quot;client code&quot; is a unit test, or a piece of production code you're
+working out an API for. Plus, if you're <em>not</em> into TDD, hopefully it gives an
+intuition into why TDD practicioners say that the practice leads to writing
+cleaner code.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-32-avoid-the-utils-file"><a class="header" href="#item-32-avoid-the-utils-file">Item 32: Avoid the &quot;Utils&quot; file</a></h1>
+<p>Every codebase I've ever worked on has had at least one &quot;Utils&quot; file;
+<code>StringUtils</code>, <code>DateUtils</code>, <code>CampaignManagementUtils</code>,
+<code>DataflowProxyRateLimiterUtils</code>, etc. These files, while varied in their
+approach, all usually have a recurring theme: they are a grab-bag of
+functionality that couldn't find a logical home anywhere else in the codebase;
+an &quot;Island of Misfit Methods&quot;, if you will. The problem with these &quot;Utils&quot; files
+is that they easily become a black hole of obscurity where you can basically
+just stick anything you want in there, given that the &quot;utils&quot; file itself is so
+vague. This leads to a lack of clarity around the purposes of these methods, and
+make things hard to maintain.</p>
+<p><strong>Avoid the &quot;Utils&quot; file; it is a symptom of a larger problem of a lack of
+clarity about how a certain piece of functionality fits into a larger system</strong>.
+If you are tempted to write a Utils file, think about <em>why you can't seem to
+find a place for the code you're writing</em>, and use that to follow up with
+stakeholders/team members/etc to try and get some more insight onto where this
+fits in. Here are some more concrete tips for avoiding the &quot;Utils&quot; file and
+figuring out where to place the code instead:</p>
+<ul>
+<li>Look at the primary callers of the method. Do they all have something in
+common? If so, try and &quot;name&quot; that commonality, and put the method in a
+class/module that reflects that name (show an example, e.g. a <code>DateFormatter</code>
+class vs. <code>DateUtils</code>)</li>
+<li>Writing operations over primitive structures like Lists or Maps? Instead, try
+taking a page out of Java's handbook and naming the module something like
+<code>Lists</code> or <code>Maps</code>. When a future maintainer looks at that file, it will be
+very clear to them that what the purpose of the methods within this file are.</li>
+<li>Is the method only being used in one place? Consider inlining it into the
+module in which it is used. This will help you avoid premature optimization.</li>
+<li>If you're really stuck and you can't figure out why and how a piece of code
+fits into the bigger picture, but you need to move on for the sake of time,
+<em>explicitly mark it as such</em> by naming the module something like <code>wtf</code> or
+<code>something</code> or <code>idkYet</code>. At least then the ambiguous parts of your codebase
+will be clearly delineated!</li>
+</ul>
+<p>By avoiding the &quot;Utils&quot; file, you avoid ambiguous language in your codebase. By
+avoiding ambiguous language, you ensure that you are letting the representation
+of the idea embodied in your implementatino shine through.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-33-use-the-same-language-in-your-code-as-your-customers"><a class="header" href="#item-33-use-the-same-language-in-your-code-as-your-customers">Item 33: Use the Same Language in your Code as your Customers</a></h1>
+<p>If you've read the book Domain Driven Design (which I highly recommend), this is
+essentially its theses:</p>
+<p><strong>The names of entities found throughout your codebase should map directly to
+the names of things that your customers use</strong>.</p>
+<p>A good litmus test to see if this is the case is to have an engineer that's less
+familiar with your project read over your code, then try to explain to someone
+who <em>is</em> familiar with the project from the business side of things what the
+portion of your code does, and see if the familiar person seems to be agreeing
+with what the less familiar person is saying. Using the same language as your
+customers in your code has a myriad of benefits, including:</p>
+<ul>
+<li><strong>Easier alignment</strong> – It's much easier to ensure that you're building the
+right thing when what you talk about what your building is in the same
+language as what the customer already understands.</li>
+<li><strong>Faster clarification on how certain business logic should work</strong> – The
+customer / stakeholder will be able to confirm or refute how something works
+if it sounds like something their used to working with in real life.</li>
+<li><strong>Mapping ideas to code becomes much easier</strong>, since the things the customer
+will be asking for, and what that entails, will be apparent in your code.</li>
+</ul>
+<p>Speaking the same language as your customer unifies your dev team and
+encapsulates knowledge and speeds up the SDLC.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-34-compile-comments-into-code-to-get-unstuck"><a class="header" href="#item-34-compile-comments-into-code-to-get-unstuck">Item 34: Compile Comments Into Code to Get Unstuck</a></h1>
+<blockquote>
+<p>TODO: Rearrange so this is the last one!</p>
+</blockquote>
+<p>Have you ever felt overwhelmed when trying to implement a piece of code where
+you just can’t get your thoughts straight? Maybe it’s a part of the codebase
+you’ve never worked on. Maybe it’s a brand new approach to a problem that you’re
+used to solving a different way. Maybe you’re working with an unfamiliar
+framework or programming language. In any case, if you feel like you know what
+you wanna do, but can’t seem to put it into syntax, try this:</p>
+<p><strong>Write out the routine line by line as inline comments. Once you’ve done that,
+go back to each line of comment, and rewrite it as code.</strong></p>
+<p>I have found this to be a simple, yet effective way of getting my ideas out of
+my head and into code. It’s effective because it allows you to make one less
+conceptual hop — you only have to write the idea in English, and not in code.
+Many times, it’s hard to write the code because you’re not sure how to express
+the idea in English. Once you know how to express the idea in English, you can
+then worry about translating it into your programming language.</p>
+<p>After all, any software is only as good as it’s representation of the underlying
+idea. By focusing on articulating the underlying idea in natural language, you
+will inevitably express it better in code. Once you have done so, you will step
+back and see that even if the code isn’t perfect, you have laid a solid
+foundation for the overall product, one that you can not only build upon, but
+maintain and scale as other engineers come into the codebase.</p>
+<p>More in that now, in part III.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-35-treat-line-breaks-like-paragraphs"><a class="header" href="#item-35-treat-line-breaks-like-paragraphs">Item 35: Treat Line Breaks like Paragraphs</a></h1>
+<p>A big part of how well an idea is represented in code is the code itself's
+readability. Here's a simple and easy way to enhance it:</p>
+<p><strong>Treat logical groupings of code like a paragraph by inserting a line break in
+between them</strong>.</p>
+<p>Doing this forces you to do two things that help with the readability of your
+code:</p>
+<ol>
+<li>Group related pieces together</li>
+<li>Create a logic narrative in your method body as to what is going on.</li>
+</ol>
+<p>This structure and organization goes a long way in aiding readability, but
+really also helping you clarify your idea. When you're putting ideas into code,
+you are spending a lot of time with the idea and getting used to its meaning,
+like most writing. The more you do so, the more you will understand your idea.</p>
+<p>This also has the added bonus of making it so people (your future self included)
+can go back and have an easier time figuring out what's going on. They can scan
+the page, see the logical groupings, and make sense of it with less brain power.</p>
+<p>Caveat that in some languages this can't work or breaks convention but for most
+cases you should be good.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="part-iii-maintaining-the-codebase"><a class="header" href="#part-iii-maintaining-the-codebase">Part III: Maintaining the Codebase</a></h1>
+<blockquote>
+<p>Writing a first draft is very much like watching a Polaroid develop. You can't
+– and, in fact, you're not supposed to – know exactly what the picture is
+going to look like until it has finished developing.</p>
+</blockquote>
+<p>– Anne Lamott Brown (BIBLIO: Bird by Bird)</p>
+<p>People think of building software like they think of building buildings or
+writing songs. But they are wrong.</p>
+<p><strong>Software represents ideas. Ideas are dynamic, and ever changing. And so the
+software must change with it. This is what it means to &quot;maintain&quot; a codebase:
+you must keep it up with the flow of ideas.</strong> Part III provides the strategies
+you need to do this in a cost-effective, harmonious way. This is the most
+overlooked aspect of Software Development, but it's the most important. Most
+code you work on will be in codebases that you originally did not author. Most
+of what you will be doing will consist of reading existing code vs. writing new
+code. Therefore, maintainability is paramount because it will enable others to
+do their jobs effectively.</p>
+<p>This section will give you strategies to help <em>deal with change</em>, that corrosive
+agent of entropy that affects every product and every codebase. Whether it's
+changing ideas, changing people, changing external dependencies, changing
+company missions, or changing frameworks, these tips will help ensure your
+codebase sees longevity.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-36-prioritize-robust-end-to-end-testing"><a class="header" href="#item-36-prioritize-robust-end-to-end-testing">Item 36: Prioritize Robust End to End Testing</a></h1>
+<p>Guillermo Rauch, CEO and founder of Vercel,
+<a href="https://twitter.com/rauchg/status/807626710350839808">says</a>:</p>
+<blockquote>
+<p>Write tests. Not too many. Mostly integration.</p>
+</blockquote>
+<p>Clearly there is power in this, and Kent Dodds probes in his <a href="https://kentcdodds.com/blog/write-tests">article on the
+tweet</a>. However, I might would argue
+that the best tests are the <em>end to end tests</em> that a system has. Yes, they are
+hard to write. Yes, they require you to be thoughtful about how you architect
+your software so you can facilitate them. But if your codebase has gotten to a
+point where it's relatively stable, and people are relying on it, end to end
+tests are invaluable.</p>
+<p><strong>End to end tests are living documentation-as-code describing how real-world
+users use your product. Therefore, it is important to prioritize them so that
+your code continues to work as intended for your customers, and new developers
+can read them to understand how your customers use your product.</strong></p>
+<p>(Talk more about this)</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-37-abstract-external-dependencies"><a class="header" href="#item-37-abstract-external-dependencies">Item 37: Abstract External Dependencies</a></h1>
+<p>There comes a point in every a software product's life where one of its major
+external dependencies has to be removed, replaced, upgraded, or changed in a
+certain way. A very old, very massive app I once worked on used to be built
+using a 2012 legacy JS framework. It was decided while I was there that this
+product had to be migrated onto the <em>new</em> version of this framework, which just
+happened to be a complete rewrite. The process was (is? it might be still
+ongoing?) extremely, <em>extremely</em> complicated. It turns out that the framework
+was woven into almost every single part of the codebase. Worse, it was shown in
+plain sight. There was no getting around it. What could have helped, is if, as
+far as the overall application was concerned, the framework could have been
+abstracted a bit more. The kicker is that the end customers using the product
+did not know nor care what the product was written using. They just new features
+weren't being shipped as fast as they like.</p>
+<p><strong>As much as possible, isolate and abstract external dependencies within your
+system</strong>. Using a canonical date library? Wrap it in your own <code>Date</code> class.
+Using a pub/sub mechanism to communicate between services? Write an abstraction
+layer over the actual dependency. etc. etc.</p>
+<p>Doing this will ensure two things:</p>
+<ol>
+<li>You can &quot;minimize the blast radius&quot; when you inevitably have to go back and
+change that dependency</li>
+<li>When users read your code, they are <em>focusing on the logical purposes of the
+component</em>, and not the implementation details of the depenency itself. This
+helps your code stay clean and readable, a tenet of maintainability.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-38-prefer-evolutions-to-deprecations"><a class="header" href="#item-38-prefer-evolutions-to-deprecations">Item 38: Prefer Evolutions to Deprecations</a></h1>
+<p>If you've worked on any software product that's been around longer than a year,
+you will have undoubtedly seen the word &quot;deprecated&quot; throughout the codebase. Oh
+that method? It's deprecated, use X instead. That system? Deprecated. That API?
+Deprecated. Oh actually we deprecated that the other week because of (obscure
+reason), but the new one isn't really ready for your use-case.</p>
+<p>The oxford dictionary actually has a special entry for the software-specific use
+of the word:</p>
+<blockquote>
+<p>(chiefly of a software feature) be usable but regarded as obsolete and best
+avoided, typically due to having been superseded.</p>
+</blockquote>
+<p>What's interesting, to me, is that last phrase: superseded. The software used to
+not be deprecated. It probably wasn't deprecated when the authors originally
+wrote the code. But then <em>something changed</em>, something about the environment,
+about the knowledge of the code, etc., which caused something else to come along
+and take its place. Now, that new thing that's taken its place is now a better
+fit than the old thing for the task at hand.</p>
+<p>Thing exists, something changes, new thing comes along that's a better fit given
+the changes, replaces old thing. Where have we heard this before? With
+evolution.</p>
+<p><strong>Software does not become deprecated. Software <em>evolves</em>. Thus, looking at
+something as being deprecated <em>is the wrong way to look at it</em>. Instead, the new
+thing should be looked at as an evolution</strong>. Deprecate, by nature of the word,
+promotes distrust, wrongness, obsolescence. It gives the user of the code the
+idea that they are doing something wrong by using it. This sows discord and
+makes it harder for everyone to develop.</p>
+<p>Evolutions, on the other hand, represent a catching up to changes in the system.
+If someone needs to adapt to that change, they use the evolved code. Otherwise,
+that code that's &quot;deprecated&quot; works just fine.</p>
+<p>Species, along with their evolved counterparts, coexist alongside one another
+for a long time (CITATION NEEDED). There is no reason why this can't be the same
+for software. Eventually the deprecated software gets phased out. Let it happen
+naturally, just like in nature.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-39-avoid-forcing-an-architecture"><a class="header" href="#item-39-avoid-forcing-an-architecture">Item 39: Avoid Forcing an Architecture</a></h1>
+<p>Instead, let it emerge naturally. Here's what I mean by this:</p>
+<p>When you launch a product, obviously it won't be perfect. Your customers will
+use it and tell you everything they hate about it, and then you'll have a better
+idea of the direction this will need to go. This will lead to <em>volatility</em>, lots
+of big changes at first. Eventually, that volatility will die down. Of course
+there will always still be changes, but, <em>assuming that the main idea behind the
+product stays relatively the same</em> (and, that is a big assumption), that
+volatility will die down.</p>
+<p>Now, if you try to determine that &quot;perfect architecture&quot; for your codebase up
+front, when your product has just launched, what will happen is you'll spend a
+lot of time crafting this perfect architecture to represent the idea, then
+you'll launch it, then the idea will radically lurch, and you will have to tell
+your stakeholders that it's going to take another quarter to launch &quot;v2&quot; of the
+product (plot twist: &quot;v2&quot; never happens).</p>
+<p>Instead, what you want to do is build a &quot;just good enough&quot; version to ship, and
+then <em>watch for stabilizations in behaviors while using the product, and watch
+for repeated ideas and patterns you see <strong>emerging</strong> through out the codebase</em>.
+You will then be able to start synthesizing an abstraction in your head that
+represents the repeatable patterns you're seeing across the codebase. Then,
+simply name that pattern, and reify it within your codebase, and there you have
+it: an architecture that you <em>know</em> works because it's already happening.</p>
+<p>When you do &quot;name&quot; the architecture, ensure that others have this same
+understanding. Otherwise, people will go off in all different directions. At the
+same time, this isn't necessarily a terrible thing, as <a href="pt3/???">ITEM XX</a> describes.</p>
+<p>Now that you have a strategy for emergent architectures, I want to revisit the
+assumption above: that the main idea behind the product stays relatively the
+same. This almost never happens. Reorgs happen. Changes in the environment
+happen. Changes in the customers' needs/sentiment happen. These are small,
+unpredictable &quot;butterfly-effect&quot; changes that set off a cascade of events that
+lead to some sort of radical rethinking of what your product is to customers and
+how it can provide value. Let's call these events &quot;black swan events&quot;.</p>
+<p><em>A major part of your job as a SWE maintaining a codebase is to know when these
+black swan events occur, and therefore know when to &quot;let go&quot; of your current
+architecture/approach</em>. If the world shifts and the fundamental idea behind your
+software changes, then it's highly likely that your architecture will have to
+change with it. It is now incumbent upon you to:</p>
+<ul>
+<li>Clarify to yourself, then to your team, then to your management chain /
+customers how the world has changed, from the view of your software.</li>
+<li>Delineate what specific changes have been made, assumptions have been
+invalidated, etc.</li>
+<li>Work with your team to estimate the effort required to evolve the software to
+accommodate those changes.</li>
+</ul>
+<p>Note that again this goes back to the idea of &quot;evolution&quot;. Ideas evolve,
+therefore codebases must evolve, therefore architectures underpinning a codebase
+must evolve. The only constant is change.</p>
+<p>As a very wise software engineer I worked with once told me: &quot;architecture
+happens&quot;. Best let it happen naturally.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-40-respect-conways-law"><a class="header" href="#item-40-respect-conways-law">Item 40: Respect Conway's Law</a></h1>
+<p>In April 1968, Melvin E. Conway, a ??? (FILL IN THE BACKSTORY ON CONWAY), wrote
+a paper called &quot;How do Committies Invent?&quot; It's central thesis was ???? (FILL
+IN). Within that paper, Conway said a pearl of wisdom that I have yet to seen
+disproven at any organization I have ever worked with, whether that's two people
+in a room or a massive tech company:</p>
+<blockquote>
+<p>Any organization that designs a system (defined broadly) will produce a design
+whose structure is a copy of the organization's communication structure.</p>
+</blockquote>
+<p>First, given that this is a book on communication, I would be remiss not to
+include a quote on communication. But really, what this means for you as a
+software engineer maintaining a codebase is the following:</p>
+<p><strong>Structure your teams like you structure your codebase. DO NOT try and force
+the other way around</strong></p>
+<p>If you have a codebase that is largely split into a massive backend layer and a
+massive UI layer, with an API contract in between, then split your teams into
+front-end and backend teams. <em>Just do it</em>. It doesn't matter if you want to
+promote interdisciplinary knowledge sharing in your org. It doesn't <em>matter</em> if
+the front-end people don't trust the back-end people or vice versa. Because your
+codebase is set up to divide the two disciplines, they will naturally gravitate
+toward one another.</p>
+<p>Meta, back when it was known as Facebook, created GraphQL. GraphQL is <em>perfect</em>
+for an org structure like this. Why? Because GraphQL <em>forces an explicit
+contract between a UI and a backend</em>. Everything must be defined, everything
+<em>must</em> be explicitly specified, and so the only way talhat happens is for those
+teams to work together. The UI team can't just go off and hit an internal API
+endpoint and mess up your SLAs. The backend team can't swap out the structure of
+their API return value and thus break your UI. This, IMO, is the true power of
+GraphQL, and why it works so well for orgs like this.</p>
+<p>Contrast this to a codebase that's largely a &quot;full-stack&quot; product. Front-end and
+back-end are very closely tied together. You have to go across the stack to
+surface UI changes. In this case, <em>structure your teams vertically</em>, with teams
+organized around the different logical sections of the codebase regardless of
+software discipline. <em>Just do it</em>. It doesn't matter if your one backend
+developer hates JavaScript and feels isolated. It doesn't <em>matter</em> if code
+reviews are being sluggish because the other front-end devs don't have context
+as to what your specific product is when they review it. Because you have to
+work across the stack to complete your tasks, the cross-functional communication
+will happen <em>naturally</em>.</p>
+<p>Now you may take umbridge with what I said above. Maybe you <em>want</em> to promote
+interdisciplinary knowledge sharing. Maybe there's not enough of a focus on the
+actual end customer experience, which looks at the front-end and back-end in the
+exact same way, and you do not see that empathy reflected in your org. Then,
+once again look to Conway: <strong>structure your codebase like you desire your teams
+to be structured</strong>. And I mean like the code lives in the same repo. In the same
+parent folder. There are tests which couple the UI code to the backend code.
+Now, these folks <em>must</em> communicate, because their code is linked.</p>
+<p>Of course, as Karl Popper showed us, &quot;laws&quot; only require one falsification in
+order for them to be null and void. Perhaps one day, I will see an example where
+the most harmonious org structure is not reflected in the codebase. But I've yet
+to see it.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-41-invest-in-idea-alignment"><a class="header" href="#item-41-invest-in-idea-alignment">Item 41: Invest in Idea Alignment</a></h1>
+<p>As more and more people work on your idea, and as that idea changes, there is an
+increased likelihood that the understanding of the idea will go out of sync.
+This is dangerous, because it means that for anyone reading the resulting code,
+the implementation will &quot;look different&quot; depending on who wrote it. These
+differences might seem subtle and benign at first, but they eventually compound,
+because since software is essentially a chain of dependencies, and software
+represents ideas, those divergent understandings get built upon, and eventually
+the divergence becomes very clear.</p>
+<p><strong>In order to avoid unnecessary confusion in your codebase, ensure those who are
+working on it all have the same understanding of the ideas behind the software.
+Do this relatively frequently to ensure that understanding stays in sync.</strong> This
+is basically internal product marketing to your team, and yes it can be grueling
+and you may get a lot of &quot;why are we doing this&quot; at first, but you will be
+amazed at how it makes design decisions much easier when peoples' assumptions
+are all the same (even if it may not all be correct :)).</p>
+<p>This isn't to say that those assumptions can't be <em>questioned</em>. They can and
+should. Top down rarely, if ever, works. Nature proves that to us. Plus, it's
+more likely that the boots-on-the-ground folks working on the code
+day-in/day-out have a more up-to-date understanding of the world, so when they
+bring you that understanding, you'd do well to listen carefully to it. It is
+then <em>on you</em> to factor in that understanding to the team and communicate it
+out.</p>
+<p>The &quot;daily stand-up&quot; is a great place to do this. If you work at a big tech
+company, or a team that does not practice agile, you probably have some sort of
+&quot;weekly sync&quot;. This is also a great place to do this.</p>
+<p>How do you actually get alignment on the ideas around the product? In YC, we
+started every batch meeting by reciting our company's two-sentence description.
+This kept us, as founders, anchored on the main ideas behind the company, and
+aligned on what we were doing, even in the volatile nebula of a fledgling
+accelerator.</p>
+<p>Another thing that helps is agreeing upon some sort of format for pull requests,
+where in the description, you put the underlying <em>idea</em> behind the code. This
+will help make sure everyone agrees upon it as they're reviewing the PR.</p>
+<p>Finally, this rule comes with a corollary: it's okay to make decisions which
+<em>actively go against</em> assumptions in the codebase. Say you have an engineer who
+feels very strongly that one of the assumptions is wrong. As long as the risk /
+exposure is minimal, it's okay for them to code it that way. For two reasons: 1)
+no one likes a dictatorship. 2) They might be right :) If not, you can simply
+change the code and it was a great learning experience. If so, that person just
+exposed some insight that you would have never found yourself, and thus you have
+benefitted from the divergence. Thus, <em>the thing that is usually bad for your
+codbase, in a small dose, massively benefits your codebase</em>. We will explore
+this idea much more deeply in the next item.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-42-allow-for-slack"><a class="header" href="#item-42-allow-for-slack">Item 42: Allow for Slack</a></h1>
+<p>We strive for perfection in codebases. Perfection, by definition, does not exist
+anywhere in nature, least of all ideas. Trying to make a codebase &quot;perfect&quot; is
+therefore a fool's errand.</p>
+<p><strong>Ideas aren't perfect, people aren't perfect, nothing is perfect. Therefore you
+should not only allow imperfection in your codebase, you should <em>embrace</em> it.
+That &quot;Slack&quot; is a necessary component of progress.</strong></p>
+<p>New design pattern a dev heard about at a conference? Have a go at it in a new
+file. Better date parsing library than the one we're currently using? Try it out
+in this module. Like BigQuery more than RedShift but you're an AWS shop? Go make
+that GCloud account.</p>
+<p>The reason why it is so important to allow for slack is because doing so
+<em>acknowledges that there are still unknowns that you have yet to figure out, and
+it will always be this way</em>. In every idea, every project, there are always dark
+spots. There are always pockets of knowledge that are limited, etc. Thus, it's
+impossible to just &quot;rationalize&quot; everything or put it into perfect little tiny
+boxes, as if they were sushi dishes at a nice Japanese restaurant (such as
+Hutsuhana, one of the only reasons I still go to midtown by choice).</p>
+<p>Also, trying to eliminate all slack fundamentally limits creativity. All of the
+best creative works come from tinkering, trial and error, <em>bricolage</em>. Devs need
+to be allowed the liberty to experiment and try out new things on real-world
+projects, even if they don't work out, and even if they seem &quot;suboptimal&quot;.</p>
+<p>The trick to making this work, is you need to <em>manage the slack</em>. A little slack
+is great. Too much and you have a mess of chaos and confusion. Warning signs you
+should look out for are:</p>
+<ul>
+<li>How many dependencies does this specific bit of code have? If many, be
+cautious of too much slack because the volatility might cause a chain reaction
+of failures.</li>
+<li>How often is this code read/modified? If a lot, be cautious of too much slack</li>
+</ul>
+<p>Also, you alre aso need to explicitly know where the slack is. It helps to call
+it out specifically in code via inline comments. Especially if it's a piece of
+code that would have used a familiar pattern but doesn't. It also helps to have
+acceptance/rejection criteria for the slack, and limit how long it exists.
+Reminders are a simple and easy way to do this. It will also mean that you can
+have tiny little pieces of slack that a are temporary, vs. large jagged blobs
+that stick around and begin to cause more harm than good.</p>
+<p>Now you may be reading this and thinking, &quot;you know what Travis, my product is
+simple, not a lot of unknowns. It's been around for a while and it's in a
+completely stagnant space. Nothing will ever, <em>ever</em>, <strong>EVER</strong> change about it.
+I don't need to deal with this mess, and the engineers just want to look at
+fixing something and go home. This slack seems like it'd rock the boat&quot;. To
+which I have two replies:</p>
+<p>One, hidden risks. Let's say that one day (REWRITE THIS FOR OPENSSL). You
+build that one single component that does everything. It can be adaptable in
+every part of the codebase. It is completely DRY. It files your expense reports,
+nay, it <em>intercepts your credit card swipes</em> and immediately logs and reimburses
+your expenses for you. After decades of searching, you have found what every
+programmer / &quot;computer scientist&quot; has been searching for: the perfect
+abstraction. You implement it everywhere in your codebase, you publish a
+research paper on it, and it catches on like wildfire. You are
+given the title of &quot;distinguished software engineer&quot;.</p>
+<p>Slack will allow for novelty where you can discover amazing patterns. (ANTIFRAGILITY SECTION)</p>
+<p>Perfect is the enemy of good. While the slack in your codebase might prevent you
+from achieving perfection, when managed properly, it will almost certainly lead
+to goodness.</p>
+<p>P.S. if you're interested in this idea of &quot;necessary slack&quot;, I cannot recommend
+enough reading the work of Nassim Nicholas Taleb, specifically his <em>Incerto</em>
+series. It is the progenitor to many of these ideas here.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-43-have-frequent-retrospectives"><a class="header" href="#item-43-have-frequent-retrospectives">Item 43: Have Frequent Retrospectives</a></h1>
+<p>I'm not one for buzzwords in tech, like &quot;Agile&quot;, &quot;Sprint Planning&quot;, &quot;Backlog Grooming&quot;, &quot;Scrum Master&quot;, etc.
+I also hate meetings. I <em>hate</em> them. I hate them more than literally anything. They are the single biggest productivity
+killer to my day. However, there is one meeting I encourage every team to have, regardless of their process, and regardless of the way they work: and that is the retrospective. If you've never done a retrospective before, it's basically where you get together and reflect on how your team works together. That's it. It's not about &quot;what went well and what could be improved&quot;, it's not about &quot;action items&quot;, it's not about three-column graphs or venting or anything else that people have you believed.</p>
+<p><strong>The retrospective is the one opportunity where you give your team not only the permission, but encouragement, to reflect on how the way in which you build products can be improved. Have them frequently.</strong> I like at least once every two weeks, but certainly more than once a quarter.</p>
+<p>Make sure you don't make excuses for the way things are at retros.</p>
+<p>And you need to <em>do something</em> with the information teams give you at retros.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-44-assume-your-software-will-fail"><a class="header" href="#item-44-assume-your-software-will-fail">Item 44: Assume Your Software Will Fail</a></h1>
+<p>In the military, specifically I believe in the Navy SEALs, there is a saying:</p>
+<blockquote>
+<p>Two is one, one is none.</p>
+</blockquote>
+<p>This is similar to the colloquial saying of &quot;hope for the best, and plan for the
+worst&quot;. Jocko Willink, an ex-SEAL commander turned business leader (and major
+influence on me), says that he always sets two alarm clocks: one digital, and
+one analog. That way, if his home town in California gets hit with an EMP, he'll
+still get up on time. Or, perhaps, if the digital clock fails for some reason.
+What do all of these things have in common? They all <em>assume failure</em>, and plan
+for it to happen. Usually, that planning happens with known mitigations or
+redundancies.</p>
+<p>When I think about the way most software is built, it is quite the opposite of
+this. Most algorithms assume success, what we call the &quot;happy path&quot;, which we
+mistake for the &quot;expected path&quot;. Happy path software treats failure as an edge
+case, relegating exception handling to generic try/catch blocks and using crude
+alerting to let someone know of an error (there are of course exceptions, such
+as in distributed systems design, where components are assumed to fail).
+Instead, software should be designed with the <em>expectation</em> that it will fail,
+and treat the happy path as what it truly is: a best-case scenario.</p>
+<p><strong>When you write code, assume that it will fail, and plan for those failures.
+Treat success as an edge case</strong>. This will help you mitigate potential negatives
+as the software and the environment around you changes.</p>
+<p>The truth of the matter is that based purely on probability, it is much much
+more likely tha tyour software will break vs. that it will always remain
+perfect. Consider that everything has to go right in order for your software to
+work as intended. But <em>only one thing</em> has to go wrong in order for it to break.</p>
+<p>Fortunately, there are tactics you can use to ensure you are building your
+software with failure in mind. One simple, yet not always easy, one is to
+prioritize error handling from the start, and incorporate it into every feature
+you build and every change you make. Engineers who work on compilers, an old and
+wise branch of software systems, understand this deeply. Bob Nystrom, who – at
+the time of this writing – works on the Dart programming language at Google,
+authored one of my all-time favorite books on software: Crafting Interpreters.
+It takes you through compiler design and execution by having you build an
+interpreter from scratch. I have learned more useful patterns and techniques
+from that book than almost anywhere else in my career, many of which I have put
+to use professionally since then (it is quite incredible how many tricky
+problems the pattern of &quot;recursive descent&quot; solves). If you follow along with
+the book, one of the very first things you do is build error-handling
+mechanisms; the interpreter knows when it errors out, and is able to report that
+to the user. As the interpreter becomes more advance, the error handling becomes
+more robust. When you begin to implement multi-expression parsing, the
+interpreter is extended such that it can <em>recover</em> from parse errors in a single
+expression and continue execution. This is how, in modern compilers, you are
+able to see multiple errors all at once, allowing you to prioritize what to fix.</p>
+<p>I used this technique of error-first development when working on a cloud console
+UI for an entireprise client. The API I was developing the UI against was
+largely untested, and I knew from experience that there was a high likelihood
+that things could go wrong. I also knew that my audience was developers, and
+developers need as much information as possible when dealing with errors. So, I
+spent a lot of time building a robust error-handling mechanism into my UI. When
+a page initially rendered data, if there was an error with that data, I would
+print the error, along with the stack trace, and make the whole thing copyable
+in a single click. I also made sure to include a link to automatically file a
+bug report, since this was an internal tool. Furthermore, I created a derivative
+&quot;error dialog&quot; that hooked <em>directly</em> into the API client, meaning that any API
+call that failed, and wasn't handled upstream, would always surface its error
+and provide users with the optimal amount of information. I also made sure that
+I had a robust suite of integration tests that tested every single error state
+in the application, to minimize hidden risks. When the UI launched, one of its
+first users messaged me saying something was wrong. They also said, in the same
+message, that they didn't even mind the failure because it was so easy to report
+and diagnose. They told me they knew exactly where the problem was coming from
+and were able to work directly with another engineer to fix it. Information
+empowers developers, and error information is no different.</p>
+<p>Google Chrome goes above and beyond just handling errors, and actually makes it
+fun. If you've ever used the mobile version of Google Chrome, you know that they
+show and ASCII dinosaur if you can't connect to the internet (show a picture).
+What you may not know is if you tap on that ASCII dinosaur, it will start a
+<em>game</em> where you have to jump over cactuses and such to collect points, ending
+when you collide with a cactus. This is very much turning lemons into lemonade;
+there have been multiple instances where I have continued playing the
+&quot;dino-jump&quot; (FIND THE NAME OF THIS) game well past when I could have connected
+back to the internet.</p>
+<p>Another tactic that is simple yet incredibly effective at dealing with errors is
+to use redundancies: the &quot;two is one, one is none&quot; rule. You've all probably
+heard of the phrase &quot;single point of failure&quot; at some point; the idea that there
+is an achilles heel in a software system that, if broken, will break the rest of
+the system. You want to try to avoid this as much as possible. It's as simple as
+reducing probabilities. Imagine a coin toss with one coin. The probability it
+lands on heads is 50%. Now for two coins, what is the probability, it is 50%
+<em>of</em> 50%. You've just multiple half by itself, <em>exponentially</em> reducing the
+probability of failure. These redundancies are incredibly helpful in minimizing
+the probably of a total software failure.</p>
+<p>There are many obvious places to introduce redundancies into your software, many
+of which you probably know and already are using. You most likely have more than
+one web server / container running your software. You most likely have more than
+one load balancer that you (or your cloud service provider, or your PaaS company
+which delegates to your cloud service provider) is using. You <em>hopefully</em> have
+more than one database, usually set up as a &quot;master/slave&quot; (FIND A BETTER
+PHRASE) replication strategy, or in some instances a peer-to-peer replication
+strategy. You probably make database backups. You probably use a &quot;content
+delivery network&quot; to serve your web/media assets, and while this is great for
+speed, it also increases a layer of redundancy.</p>
+<p>But you can go further. Is your software stack running in multiple regions?
+Under multiple cloud service providers? Do you rely on a single core library for
+your entire application's functionality? What happens if there's a bug or
+security risk in that library? What is your backup plan? Have you architected
+your software such that it would not be a colossal effort to swap out that
+library? Do you make videos of product demos before doing a live demo, just in
+case something goes wrong? That last one has saved me on multiple occasions.
+Once, I had to demo a proof of concept of my team's product to our org's VP.
+Having worked in software for a while and knowing things tend to fail usually at
+the exact wrong moment, I made a video of the demo. Sure enough, while in the
+meeting, a core system was taken offline, preventing any sort of access to the
+system, and my product. Thankfully, I had the demo video handy, and was able to
+still move forward with the meeting. The VP was impressed, and we got the green
+light to continue development. Since that day, I have always – <em>always</em> – made
+back-up videos of software I planned on demoing live.</p>
+<p>Software changes constantly, and in unpredictable ways. With that rapid change
+and unpredictability comes volatility, and with that volatility comes the
+fragility of your software system. Don't pretend that this isn't the case.
+Instead, accept it and plan for it. As Jocko Willink states: &quot;Discipline equals
+Freedom&quot;. A little bit of discipline up front with error handling will lead to a
+<em>lot</em> of freedom down the road when you can go home to your friends/family at
+6pm instead of staying up all night fighting fires.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-45-invest-in-your-onboarding-experience"><a class="header" href="#item-45-invest-in-your-onboarding-experience">Item 45: Invest in Your Onboarding Experience</a></h1>
+<p>One of the biggest bottlenecks you will run into as your codebase evolves is
+hiring. Not just because – at least at the time of this writing – the market for
+software engineers is extremely competitive, but because once you <em>do</em> hire that
+great person, you, and probably a few others on your team, will have to onboard
+them. You'll have to get them set up to develop within your codebase. You'll
+have to get them the right credentials and ACLs to work with your data. You'll
+have to educate them on any custom/proprietary frameworks or libraries your team
+uses. You'll have to acquaint them with your process. You'll have to build trust
+and rapport with other team members. You'll have to familiarize them with your
+style guide. Most of all, you'll have to answer a lot of &quot;why&quot; questions: why is
+the code structured like this? Why didn't we use this library to solve this
+problem? etc.</p>
+<p>Onboarding, and especially onboarding well, takes a <em>lot</em> of time and effort. I
+mention throughout this book how a codebase represents an idea, that can be
+executed by a computer. A mature codebase, one in which people are hired to work
+on, represents multiple ideas, and representations for one idea can vary based
+on who wrote the code and when it was written. Consider that the code for a web
+application responsible for booking flights from 1998 would look very different
+from that of 2008, and even more different from that of 2018. If you're American
+Airlines, and you've constantly updated and changed your site since 1998 (and
+probably before), this is all intermixed throughout the codebase. This is a
+<em>lot</em> for anyone to take in, and it's easy to make incorrect assumptions about
+ideas, which will cause unneeded churn and volatility. It's also <em>harder</em> for
+the new developer to provide fresh perspectives on the existing idea, because
+that would imply understanding of that idea.</p>
+<p>Furthermore, I have always personally found it very frustrating flying blind
+through a new codebase. Over the years, I've learned to not be afraid to ask
+(very) stupid questions when coming onto a codebase, because I know even the
+weirdest stuff has either been done for an explicit reason, <em>or</em> nobody knows
+why it was done that way because the original author left. something something
+Chesterton's Fence and whatnot and then transition into:</p>
+<p><strong>In order to keep your team as effective as possible while rapidly growing
+(WHICH I NEED TO FOCUS ON MORE), make sure that you are continually thinking
+about and investing in your onboarding experience</strong>.</p>
+<p>One metric I like to use here is how many questions team members get asked by
+newer team members per week. I will caveat this by saying that this only works
+if you ensure that you have created a psychologically safe working environment,
+and are actively and ongoingly encouraging question asking. If that's the case,
+I've found that the more someone understands something, the less frequent
+&quot;surface-level&quot; questions they will have.</p>
+<p>Another metric I look for is keeping an ear out for indicators of productivity
+(EXPAND UPON THIS).</p>
+<p>One of the absolutely best ways I've found to onboard is to pair program. I
+know, I know...some of your faces probably just contorted in disgust. Others are
+ready to close the book and put it away. But hear me out: Imagine an onboarding
+process that required you to write zero documentation, did not pull you out of
+your day-to-day work of coding, minimized the amount of time you had to going
+over pull requests / code reviews with new team members, and fostered trust with
+your new team member and made them feel like they've a part of the team for a
+while. That's pair programming. First, you can start off coding, with the new
+hire simply watching and asking questions. Then, you can switch roles and have
+them code something, and rather than them coming over to your desk or pinging
+you on Slack every 10 minutes about something, you are setting aside time to
+answer all of their questions. All the while, they are not getting confused
+reading outdated documentation that you were forced to write in the first place
+(either you forced yourself or someone else voluntold you to do it). Since
+you've been continuously &quot;reviewing&quot; their code throughout the entire time
+you've been pair programming, there's no need for you to do a code review. Now,
+you can still <em>do</em> a code review, but chances are it will be way less time
+consuming for the other reviewer since you, a seasoned engineer on the team, did
+essentially a first pass. Finally, something magical will happen: because you
+are communicating, you will learn about one another. Because you learn about one
+another, you will learn to either trust one another, or you will learn that the
+fit is not good, and that will have saved you a lot of headache down the line.
+There are (LINKS) many, many guides and resources on Pair Programming. I will
+not go into detail here, but I feel Pivotal Labs in particular has perfected it.
+I was lucky enough to work with them early on in my career, and am so glad I
+was.</p>
+<p>All that said, some teams – and people – hate pair programming. Some teams are
+distributed across different timezones, making it very difficult for them to do.
+Some teams primarily use outsourced/contract devs where pair programming doesn't
+make much sense. In these cases, I've found that a <em>living onboarding doc</em> is an
+effective and hassle-minimal way to get new team members up-to-speed quickly and
+correctly. I've usually done something like this: when it comes time to hire
+that first candidate, I create a doc called &quot;onboarding&quot; and I write down all of
+the steps I think I'll need to take in order to onboard them. When they join, I
+follow the doc. When something goes wrong, I fix it in the doc. At the end of
+the process, I ask the candidate about the onboarding experience, collect their
+feedback, and incorporate it into the doc. The next time someone new joins the
+team, I have that candidate I had previously onboarded onboard the next person
+using the doc, and have them repeat the process of changing it when things go
+out of date, and retrospecting. This means that everyone gets to onboard,
+everyone <em>contributes</em> to onboarding, and we only have to change things when
+it's time to onboard another candidate.</p>
+<p>When growing and hiring rapidly, it's important to remain fast and not slow down
+development. As they say in the SEALs: &quot;slow is fast, fast is smooth&quot;. Investing
+in a smooth onboarding experience will help you remain fast in the face of rapid
+growth.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-46-avoid-siloing-responsibilities"><a class="header" href="#item-46-avoid-siloing-responsibilities">Item 46: Avoid Siloing Responsibilities</a></h1>
+<p>One of the biggest anti-patterns I see in tech is the glorification of
+individual attribution. There seems to be this holdover from academia where we
+want to assign large components of software systems, “ownership”, to certain
+people, because that is how we delegate responsibility. I remember one time, I
+got passed up for a promotion, and while I definitely wasn’t ready, one piece of
+feedback I received was that the more junior engineers on the team did not have
+big enough projects with individual ownership to show that they made an impact.
+Since then, I have done a lot of self-reflection and interpret this to mean that
+if you provide too many padded walls (I introduced a LOT of process on the
+team), and don’t let the more junior folks help build those walls, they’ll never
+know how to operate in the chaos themselves. However, I still contend that
+assigning large swaths of a codebase to individuals — aka siloing
+responsibilities — is a naive approach to this. For two reasons:</p>
+<p>One, people quit their jobs. If I assign a major component of a system to an
+engineer, and that engineer leaves, we’re pretty much fucked, and we will have
+to spend a long time reverse engineering what that person did. This is called
+the “hit by a bus syndrome”, and it makes code based extremely brittle.</p>
+<p>Two, bottlenecks. Certain parts of the codebase may get more attention than
+others, and it’s not fair to the engineers that have to maintain them to have to
+bare that burden. It’s also not fair to the other engineers not to get to
+participate.</p>
+<p><strong>So, don’t silo responsibilities. Instead, treat the <em>team</em> as the smallest
+atomic unit, and assign responsibilities to teams.</strong> This will make your
+codebase extremely robust, and give your engineers a support system</p>
+<p>But there’s a problem here: how do you square this with the tech culture of
+focusing on individual impact? It’s a tricky question, but one thing I’ve found
+as a strategy to have the best of both worlds is to <em>have all the engineers
+focus on how helpful all the other engineers have been the more</em> helpful the
+engineer, the more impact they have had. It’s your job to make sure this shines
+through in their performance review.</p>
+<p>Hopefully though, we see a culture shift in the future that priorities the
+impact of teams vs the impact of individuals, and focuses on individual
+helpfulness vs big parts of the project they own. Until then, don’t let a
+vestigial culture fragiliize y your codebase.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-47-treat-development-as-a-loop-vs-a-line"><a class="header" href="#item-47-treat-development-as-a-loop-vs-a-line">Item 47: Treat Development as a Loop vs. a Line</a></h1>
+<p>It's easy to get lured into developing things like features, products, or even
+whole companies as a linear process: one with a beginning, a middle, and an end.
+And quite frankly, that's how this book lays it out. In the beginning, you
+develop a deep understanding of the requirements by absorbing information from
+customers and stakeholders and synthesizing a mental model in your head. In the
+middle, you implement the model you have come up with in code. And at the end,
+you present that solution to your customers, and await feedback. The reality
+though is that the process of doing this is so complex and so long that you need
+to break it up. What's more, once you get that feedback, it's pretty much the
+same as the beginning. The feedback is the requirements understanding for the
+next iteration.</p>
+<p><strong>Always look at development as a loop, where the end of one cycle is the
+beginning of the next</strong>.</p>
+<p>Structure your sprints such that you're always delivering value.</p>
+<p>Ensure that your customer feedback feeds into the next iteration.</p>
+<p>Don't assume that a feature you build will ever be &quot;done&quot;, instead factor it
+into the next iteration of the product.</p>
+<p>Treating development like a loop will help because it models the evolution of
+ideas: a continuous process.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-48-avoid-over-documenting-implementation-details"><a class="header" href="#item-48-avoid-over-documenting-implementation-details">Item 48: Avoid Over-documenting Implementation Details</a></h1>
+<p>When working on large, distributed teams, such as big open-source projects or
+organizations with remote workers spanning across different time zones, there is
+no substitute for good documentation. It can mean the difference between people
+being unblocked all week and one poor employee being the bottleneck that
+everyone has to keep asking things to.</p>
+<p>However, when documenting, it's easy to lower the signal-to-noise ratio by
+getting <em>too specific</em> about the details of what you're building. Maybe you go
+into the specifics of a certain algorithm you used. Maybe you talk about
+specific code paths or link to specific examples within the code. The problem,
+of course, is that <em>things change</em>. And when things change, those code paths
+become obsolete and those algorithms get superseded but superior
+implementations.</p>
+<p><strong>In order to avoid unneeded complexity and churn, and maintain trust in your
+documentation, keep it only as low-level as it needs to be in order to be
+effective, but not more</strong>.</p>
+<p>As Einstein said, &quot;Simple, but no simpler&quot;</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-49-check-maintainability-with-the-readability-test"><a class="header" href="#item-49-check-maintainability-with-the-readability-test">Item 49: Check Maintainability with the Readability Test</a></h1>
+<p>The &quot;readability test&quot; is a simple, yet powerful, heuristic that you can use to
+get a sense of how maintainable your codebase might be. It works like this:</p>
+<p><strong>Ask a brand new engineer to read a part of your codebase, without ever using
+the feature/product behind it. Then, ask the engineer what the product does. The
+more their answer sounds like a description someone familiar with the product
+would give, the more maintainable your codebase is.</strong> For example, if the answer
+sounds like something your PM would say about the product/feature, you're doing
+great. If they are confused or unsure or seem to be struggling to articulate it,
+or just flat out say the wrong thing, then that might raise a red flag.</p>
+<p>Why this works goes back to the pinnacle of this book: communication. If, in
+your code, you have clearly communicated what the product does and why, then it
+will be simple and straightforward for the engineer listening to the PM or
+stakeholder to find what they're talking about, assess the complexity/ambiguity
+of those changes, and then implement them.</p>
+<p>Conversely, if it's hard to understand how the code relates to the overall
+product, the engineer will have to spend a lot of time trying to deduce how
+exactly what they're seeing in code maps back to the overall product. This will
+lead to a decrease in efficiency and a lot more frustration and time spent
+trying to figure out how to do what the stakeholders want them to do.</p>
+<p>If you feel that outright asking an engineer to do this would be awkward, there
+are other ways you can gague it. Look at the descriptions they write in their
+pull request. Are they using the same lexicon that a person very familiar with
+the product would be using? Are they noting concepts that would be in line with
+the understanding of someone who expertly understands the product? These are
+clues that what the engineers are seeing in your code represent the idea of your
+product clearly.</p>
+<p>At the end of the day, you are constantly communicating with current and future
+maintainers throughout your codebase. The clearer that communication is, the
+more maintainable your codebase will be.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="item-50-embrace-the-chaos"><a class="header" href="#item-50-embrace-the-chaos">Item 50: Embrace the Chaos</a></h1>
+<p>Almost all of the items in this section dealt with change; changing of people
+working on the codebase, changing of the idea of the codebase itself, changes in
+dependencies that the codebase relies on, changes in the world that affect how
+the product is used. More specifically, though, it talks a lot about <em>dealing</em>
+with change. &quot;Handling&quot; change. Until this point, we've looked at the concept of
+&quot;change&quot;, of &quot;volatility&quot;, as a necessary <em>evil</em>, a bad thing that disrupts you
+and forces you to put mechanisms in place to cope with it.</p>
+<p>But there's another way to look at change: as a <em>good</em> thing. Imagine that you
+have a codebase for a product that's gotten <em>some</em> traction, but not much. That
+said, you've architected it to deal with constant change. You've written robust
+E2E tests. You've abstracted away all of your dependencies. You've ensured that
+the major ideas of the product shine through in the code. You've invested in
+making sure your team has the knowledge and the empowerment to feel like the
+idea representation in that codebase is theirs. Suddenly, the world shifts. The
+company you work for is pivoting in a brand new direction and all of a sudden,
+<em>your</em> product is now at the forefront of next year's objectives. You have to
+quickly scale to meet the demands of all of the new anticipated users. You have
+to add a very complex set of powerful features for Fortune 500 customers. You
+have to quickly hire and onboard 10 new engineers by end of Q1, almost 3x the
+current size of your team. Look at what happens here. Because you have planned
+for change, you have <em>anticipated</em> it, <em>embraced</em> it, you have fortified
+yourself against many of the negative aspects of it. Because you have fortified
+yourself against the negative aspects of it, something amazing happens: you are
+able to accommodate it, and allow it to be used to your <em>advantage</em>. You quickly
+onboard your new team (thank goodness for your excellent recruiting partners!),
+they scale up quickly, and the codebase gets worked on without minimal friction,
+far exceeding the expectations of your leadership chain. Tasks are delivered in
+a reasonable time-frame. Pre-existing functionality is preserved for current key
+customers, so retention remains strong. That one crazy algorithm a very
+passionate dev on your team wrote that was only used in a few places now starts
+to power critical components of your system. Congratulations: you have hacked
+change.</p>
+<p><strong>If you plan for change, and minimize harm when it occurs, then the only thing
+that can happen is that you benefit from it.</strong> <em>That</em> is the beauty of embracing
+change, and that is what effective communication can give you. The world is
+constantly moving and shifting and sending you signals, things are constantly
+smashing against one another causing chain reactions and paradigm shifts and
+ecosystemic disruption, and it's all happening at a mile a minute. By sharpening
+your communication skills, you will be able to quickly and accurately process
+that information coming at you. You will then be able to adapt to that
+information by using the techniques you've picked up in this book. But also, you
+will be ready, when that fateful day comes, when you and your team are called
+upon for that P0 mission fulfillment, for that all-or-nothing project, to
+deliver. You embrace the chaos, and then let the chaos work <em>for</em> you, not
+against you.</p>
+<p>I became a software engineer because I wanted to help people, plain and simple.
+I hope that, if nothing else, this book has helped you to do just that.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="appendix-solving-the-coding-interview"><a class="header" href="#appendix-solving-the-coding-interview">Appendix: Solving the coding interview</a></h1>
+<p>Those fancy &quot;coding interviews&quot; are definitely about coding, but they key is <em>framing the problem they give you in a way that can be coded</em>. That usually means an algorithm. And <strong>the key to developing an algorithm to solve a problem is thoroughly understanding the problem</strong>.</p>
+<p>Focus on formulating a solution, in words to the problem. Then take those words, take what you learned in this book,
+and translate that shit into an algorithm. <em>Then</em> worry about the run-time and space complexity. At the very worst,
+this will show them that you are skilled at idea comprehension, and will be enough signal to paint a picture in their
+head as to what you would do. As long as you write <em>some</em> code, that provides good signal. (BIBLIO: CRACKING THE CODING INTERVIEW) [provide the reference].</p>
+<hr />
+<h2 id="old-notion-draft"><a class="header" href="#old-notion-draft">OLD NOTION DRAFT</a></h2>
+<p>The FAANG interviews are expecting you to know, very well, the basic building blocks of computer science.</p>
+<p>What they do is disguise these building blocks in the form of real-world scenarios, and expect you to discover the hidden building blocks behind these real-world scenarios. This is the heart of computer programming…to understand the models and operations that map our world into that of a computer.</p>
+<p>You must understand two things really well:</p>
+<h2 id="the-fundamentals"><a class="header" href="#the-fundamentals">The fundamentals</a></h2>
+<ul>
+<li>Every data structure, algorithm, etc, you must know it cold. That is the most important thing. You must study it thoroughly, understand how it works, what it looks like, and what it can be used for.</li>
+</ul>
+<h2 id="pattern-matching"><a class="header" href="#pattern-matching">Pattern matching</a></h2>
+<ul>
+<li>You must take real-world scenarios, and map them to the fundamental data structures and algorithms.</li>
+</ul>
+<h2 id="how-problem-difficulty-is-established"><a class="header" href="#how-problem-difficulty-is-established">How problem difficulty is established</a></h2>
+<p>Problem difficulty seems to be dependent on two primary factors:</p>
+<ul>
+<li>The number of different fundamentals the problem contains, or <strong>breadth</strong></li>
+<li>The amount of digging you have to do in order to uncover the fundamental and fit all of the pieces together, or <strong>depth</strong></li>
+</ul>
+<h2 id="how-to-go-about-solving-them"><a class="header" href="#how-to-go-about-solving-them">How to go about solving them</a></h2>
+<p>Yes, ask the clarifying questions and write the test phases and communicate your thought processes, solve it naively, etc. here’s how you could think about it:</p>
+<ol>
+<li>Ensure that you fully understand the structure and the properties / examples of the problem</li>
+<li>Pattern match the structure and properties to the fundamentals, and then deploy those fundamentals.</li>
+</ol>
+<p>So here’s what you do:</p>
+<h2 id="study-the-fundamentals"><a class="header" href="#study-the-fundamentals">Study the fundamentals</a></h2>
+<p>Like, really study them. Study the shit out of them. Study everything about them.</p>
+<h2 id="practice-pattern-matching"><a class="header" href="#practice-pattern-matching">Practice Pattern-Matching</a></h2>
+<p>Do as many problem-solving interviews as possible, and try to match them to the fundamentals.</p>
+<h2 id="why-this-is-actually-a-valid-approach"><a class="header" href="#why-this-is-actually-a-valid-approach">Why this is actually a valid approach</a></h2>
+<p>When you code, you need to look at real-world problems, and match them to domain knowledge. That could be react, that could be databases, that could be anything. But in order to code really well, you need to understand the tools, and you need to be able to deploy the tools where necessary. The fundamentals are the lowest common denominator, and although you don’t use them all the time, the one constant in tech is change and you must be able to learn and adapt very quickly. So focus primarily on <strong>learning the fundamentals</strong>, and then practice <strong>applying the fundamentals</strong>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+    </body>
+</html>
